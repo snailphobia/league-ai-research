@@ -1,0 +1,30 @@
+{
+  "source_run": "https://github.com/snailphobia/league-ai-research/actions/runs/38613188095",
+  "code_revision": "70d8067",
+  "test_counts": {
+    "passed": 41,
+    "failed": 0,
+    "skipped": 0
+  },
+  "windows": "Windows-2025Server-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "library": "2.1.3.1",
+  "geometry": {
+    "left": 0,
+    "top": 0,
+    "width": 1024,
+    "height": 768
+  },
+  "named_keys": 137,
+  "modifier_chords": 92,
+  "long_chord_keys": 14,
+  "observations": 253,
+  "evidence_sha256": "ad61cccac06a8bec11f905426dc0220cc2b3122f91cf46d98dee7d6c388e153e",
+  "limits": [
+    "single monitor topology",
+    "keyboard catalog and chords observed with injected key forwarding suppressed to avoid shell shortcuts",
+    "Unicode and mouse buttons additionally verified by the real EDIT control",
+    "Windows 11 client VM acceptance pending",
+    "application-specific input acceptance remains separate"
+  ]
+}
