@@ -41,6 +41,18 @@ league-input examples/input.jsonl
 
 Use [the API reference](docs/api.md), [input contract](docs/input-contract.md), [backend decision](docs/backend-selection.md), and [Windows validation procedure](docs/windows-validation.md) for details and acceptance status.
 
+## Screen observations
+
+The optional capture layer provides immutable RGB frames, physical desktop coordinates, resized views, a bounded recent-frame stream, and observation/action trajectory recording. It follows the visual-control interface discussed in the [VPT research notes](docs/research-notes.md).
+
+```powershell
+python -m pip install -e ".[capture]"
+league-capture grab --output observation.png
+league-capture benchmark --fps 20 --seconds 5
+```
+
+See [the capture API and recording examples](docs/capture.md). Native capture acceptance uses a synthetic Windows scene and checks screenshot -> visual target -> adapter click -> changed screenshot. Capture performance and model inference performance are measured separately.
+
 For development:
 
 ```powershell

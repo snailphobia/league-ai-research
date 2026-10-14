@@ -1,4 +1,4 @@
-name: Windows input adapter
+name: Windows input and capture
 
 on:
   push:
@@ -26,6 +26,7 @@ jobs:
     env:
       LEAGUE_INPUT_NATIVE_TESTS: '1'
       LEAGUE_INPUT_EVIDENCE: artifacts/windows-input.json
+      LEAGUE_CAPTURE_EVIDENCE: artifacts/capture
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -40,3 +41,4 @@ jobs:
           path: |
             artifacts/windows-input.json
             artifacts/windows-junit.xml
+            artifacts/capture/
