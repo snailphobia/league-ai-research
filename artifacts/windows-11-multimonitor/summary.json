@@ -33,7 +33,7 @@
   "modifier_chords": 92,
   "long_chord_keys": 14,
   "observations": 265,
-  "evidence_sha256": "d6478206928741bc2dc982bdb96ba1b39162d67936b8def9b94d692f589f831b",
+  "evidence_sha256": "65ba5ad275b48feef09e6779b02cdfdd14daaa57c15f9cc245bbf1668711f891",
   "vm": {
     "cpu": "KVM host CPU, 4 virtual CPUs",
     "memory_mib": 6144,
@@ -54,5 +54,7 @@
   "gap_rejections": [
     "monitor_gap_rejected:(1279, -100)",
     "monitor_gap_rejected:(-1024, 799)"
-  ]
+  ],
+  "source_evidence_sha256": "d6478206928741bc2dc982bdb96ba1b39162d67936b8def9b94d692f589f831b",
+  "evidence_encoding": "UTF-8 with LF line endings; event content preserved"
 }

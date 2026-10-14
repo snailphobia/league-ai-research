@@ -20,6 +20,8 @@ The keyboard catalog and large modifier matrix are logged by low-level Windows h
 
 See the [machine-readable summary](../artifacts/windows-server-2025/summary.json) and [generated native event evidence](../artifacts/windows-server-2025/native-input.json). These artifacts contain the synthetic test input, not personal keyboard recordings.
 
+Published native JSON uses LF line endings. Each summary records both the original source byte hash and the published file hash; the observed events are unchanged.
+
 ## Reproduce on Windows
 
 Run on a disposable interactive desktop: the receiver temporarily covers the virtual desktop with a topmost window.

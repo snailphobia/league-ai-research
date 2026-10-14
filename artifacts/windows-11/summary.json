@@ -19,7 +19,7 @@
   "modifier_chords": 92,
   "long_chord_keys": 14,
   "observations": 258,
-  "evidence_sha256": "dd38a8097eb4b5fea9d0cb59b7c31835e15b44367266ed316fb73df58fd42240",
+  "evidence_sha256": "92eb3bd57d05b51970c0c778700e2e17b335f2701b8df7a2161517b28a4e8fa2",
   "vm": {
     "cpu": "KVM host CPU, 4 virtual CPUs",
     "memory_mib": 6144,
@@ -33,5 +33,7 @@
     "keyboard catalog and chords recorded with injected key forwarding suppressed",
     "Unicode, application modifier state and mouse buttons also observed by a real EDIT control",
     "evaluation media; no gaming GPU or application-specific input acceptance measured"
-  ]
+  ],
+  "source_evidence_sha256": "dd38a8097eb4b5fea9d0cb59b7c31835e15b44367266ed316fb73df58fd42240",
+  "evidence_encoding": "UTF-8 with LF line endings; event content preserved"
 }

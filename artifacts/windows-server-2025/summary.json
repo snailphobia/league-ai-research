@@ -27,11 +27,13 @@
   "modifier_chords": 92,
   "long_chord_keys": 14,
   "observations": 258,
-  "evidence_sha256": "9941e55fef1af219681914b2ee2d094642f0fb2e53afb83ad118033e2bec08de",
+  "evidence_sha256": "0a10ec9b9ffea0fff71e2c380f79c6d36b32279285675ec1ec64e4f423e287a1",
   "limits": [
     "single monitor topology",
     "keyboard catalog and chords observed with injected key forwarding suppressed to avoid shell shortcuts",
     "Unicode, modifier state and mouse buttons additionally verified by the real EDIT control",
     "application-specific input acceptance remains separate"
-  ]
+  ],
+  "source_evidence_sha256": "9941e55fef1af219681914b2ee2d094642f0fb2e53afb83ad118033e2bec08de",
+  "evidence_encoding": "UTF-8 with LF line endings; event content preserved"
 }
