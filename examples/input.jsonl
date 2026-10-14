@@ -1,0 +1,8 @@
+{"action":"desktop"}
+{"action":"position"}
+{"action":"hotkey","keys":["ctrl","shift","a"]}
+{"action":"press","key":{"kind":"vk","code":135}}
+{"action":"move_to","x":300,"y":200}
+{"action":"click","button":"left"}
+{"action":"scroll","ticks":-2}
+{"action":"scroll","ticks":1,"horizontal":true}
