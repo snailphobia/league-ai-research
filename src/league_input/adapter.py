@@ -5,7 +5,7 @@ from contextlib import contextmanager
 from threading import RLock
 
 from .backend import Backend
-from .types import Button, InputError, Key, integer, seconds
+from .types import Button, InputError, Key, integer, seconds, signed_long
 
 
 class InputAdapter:
@@ -166,8 +166,8 @@ class InputAdapter:
             return self._backend.desktop()
 
     def _point(self, x, y):
-        integer(x, "x")
-        integer(y, "y")
+        signed_long(x, "x")
+        signed_long(y, "y")
         if not self._backend.contains(x, y):
             raise ValueError(f"({x}, {y}) is not on an attached monitor")
 
@@ -179,15 +179,15 @@ class InputAdapter:
             self._backend.move_to(x, y, duration)
 
     def move_by(self, dx: int, dy: int, *, duration=0.0):
-        integer(dx, "dx")
-        integer(dy, "dy")
+        signed_long(dx, "dx")
+        signed_long(dy, "dy")
         with self._lock:
             x, y = self.position()
             self.move_to(x + dx, y + dy, duration=duration)
 
     def move_relative(self, dx: int, dy: int):
-        integer(dx, "dx")
-        integer(dy, "dy")
+        signed_long(dx, "dx")
+        signed_long(dy, "dy")
         with self._lock:
             self._open()
             self._backend.move_relative(dx, dy)

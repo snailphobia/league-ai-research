@@ -20,7 +20,7 @@ Importing league_input is safe on another platform. Constructing the default Inp
 | scroll(ticks, horizontal=False) | Signed wheel ticks; one tick is 120 Windows wheel units |
 | release_all(), close() | Release only owned input; close makes the adapter unusable |
 
-All timing values are seconds. Coordinates and wheel ticks are integers. Validate a full chord before emitting its first key. Negative coordinates are valid when a monitor occupies that part of the virtual desktop; gaps between monitors are not target pixels. Invalid points are rejected before a drag or click starts.
+All timing values are seconds. Coordinates and wheel ticks are integers. Coordinates and native relative counts must fit signed 32-bit Windows fields. Large wheel totals are split into packets that preserve the signed 16-bit delta delivered in wheel messages. Validate a full chord before emitting its first key. Negative coordinates are valid when a monitor occupies that part of the virtual desktop; gaps between monitors are not target pixels. Invalid points are rejected before a drag or click starts.
 
 Keys may be named strings, Key.scan(code, extended=False), or Key.vk(code, extended=False). Scan codes are 1..255, with the extended flag for E0-prefixed keys. Windows virtual-key codes are 1..254; unassigned codes do not create nonexistent hardware functionality. Uppercase letters identify the same physical key as lowercase letters. Use explicit modifiers for key combinations and type_text for Unicode text.
 

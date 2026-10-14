@@ -139,11 +139,16 @@ class WindowsBackend:
     def scroll(self, ticks, horizontal):
         if ticks:
             with self._context():
-                self.lib._send_input(
-                    self.lib._create_mouse_input(
-                        mouseData=ticks * 120, dwFlags=0x1000 if horizontal else 0x800
+                # WM_MOUSEWHEEL/WM_MOUSEHWHEEL expose a signed 16-bit delta.
+                # Preserve large requested totals with bounded native packets.
+                while ticks:
+                    chunk = max(-273, min(273, ticks))
+                    self.lib._send_input(
+                        self.lib._create_mouse_input(
+                            mouseData=chunk * 120, dwFlags=0x1000 if horizontal else 0x800
+                        )
                     )
-                )
+                    ticks -= chunk
 
     def position(self):
         with self._context():

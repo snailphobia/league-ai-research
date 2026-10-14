@@ -241,6 +241,15 @@ def test_exact_pixel_delta_and_raw_motion(native, receiver):
     record(receiver, "relative_motion")
 
 
+def test_native_coordinate_overflow_is_rejected_before_input(native, receiver):
+    with pytest.raises(ValueError):
+        native.click(2**32 + 100, 100)
+    with pytest.raises(ValueError):
+        native.move_relative(2**31, 0)
+    assert receiver.events == []
+    record(receiver, "native_coordinate_overflow_rejected")
+
+
 @pytest.mark.parametrize(
     "button,down,up",
     [
@@ -278,6 +287,21 @@ def test_both_scroll_axes_and_directions(native, receiver):
                 delta -= 65536
             assert delta == ticks * 120
             record(receiver, f"wheel:{horizontal}:{ticks}")
+
+
+@pytest.mark.parametrize("horizontal,ticks", [(False, 1000), (True, -1000)])
+def test_large_wheel_delta_keeps_its_sign_and_total(native, receiver, horizontal, ticks):
+    message = 0x20E if horizontal else 0x20A
+    native.scroll(ticks, horizontal=horizontal)
+    receiver.wait(lambda: len([e for e in receiver.events if e["message"] == message]) == 4)
+    deltas = []
+    for e in receiver.events:
+        if e["message"] == message:
+            raw = (e["data"] >> 16) & 0xFFFF
+            deltas.append(raw - 65536 if raw >= 32768 else raw)
+    assert sum(deltas) == ticks * 120
+    assert all(delta * ticks > 0 for delta in deltas)
+    record(receiver, f"large_wheel:{horizontal}:{ticks}")
 
 
 def test_drag_and_exception_cleanup(native, receiver):

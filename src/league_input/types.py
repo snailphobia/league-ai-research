@@ -76,6 +76,13 @@ def integer(value, name):
     return value
 
 
+def signed_long(value, name):
+    integer(value, name)
+    if not -(2**31) <= value < 2**31:
+        raise ValueError(f"{name} exceeds Windows' signed 32-bit coordinate range")
+    return value
+
+
 def seconds(value, name):
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         raise ValueError(f"{name} must be a finite non-negative number")

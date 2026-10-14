@@ -195,6 +195,14 @@ def test_invalid_target_does_not_press_drag_button(pair):
     assert backend.events == []
 
 
+@pytest.mark.parametrize("value", [-(2**31) - 1, 2**31, 2**32 + 100])
+def test_relative_values_cannot_silently_wrap_native_coordinates(pair, value):
+    adapter, backend = pair
+    with pytest.raises(ValueError):
+        adapter.move_relative(value, 0)
+    assert backend.events == []
+
+
 def test_pixel_delta_and_raw_relative_input_have_distinct_contracts(pair):
     adapter, backend = pair
     adapter.move_by(-60, 20)
