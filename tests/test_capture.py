@@ -196,3 +196,31 @@ def test_default_capture_is_lazy_and_windows_only():
     if sys.platform != "win32":
         with pytest.raises(CaptureError, match="Windows"):
             ScreenCapture()
+
+
+def test_cli_screenshot_writes_pixels_and_coordinate_metadata(tmp_path, monkeypatch):
+    from league_capture import cli
+
+    output = tmp_path / "observation.png"
+    monkeypatch.setattr(cli, "ScreenCapture", lambda: ScreenCapture(Pixels()))
+    monkeypatch.setattr(sys, "argv", ["league-capture", "grab", "--output", str(output)])
+    assert cli.main() == 0
+    assert Image.open(output).getpixel((0, 0)) == (11, 22, 33)
+    metadata = json.loads(output.with_suffix(".json").read_text())
+    assert metadata["region"] == {"left": -4, "top": -2, "width": 4, "height": 4}
+
+
+def test_cli_short_benchmark_reports_observations_without_model_inference(monkeypatch, capsys):
+    from league_capture import cli
+
+    monkeypatch.setattr(
+        cli, "FrameStream", lambda **kw: FrameStream(factory=lambda: ScreenCapture(Pixels()), **kw)
+    )
+    monkeypatch.setattr(
+        sys, "argv", ["league-capture", "benchmark", "--fps", "100", "--seconds", "0.001"]
+    )
+    assert cli.main() == 0
+    result = json.loads(capsys.readouterr().out)
+    assert result["observations"] >= 1
+    assert result["includes_model_inference"] is False
+    assert result["last_observation"]["pixel_format"] == "RGB"

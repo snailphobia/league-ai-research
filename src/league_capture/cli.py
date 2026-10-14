@@ -4,7 +4,6 @@ import argparse
 import json
 import time
 from pathlib import Path
-from statistics import mean
 
 from . import FrameStream, Region, ScreenCapture
 from .recording import TrajectoryRecorder
@@ -32,6 +31,8 @@ def main():
     if args.max_width < 1 or args.max_height < 1:
         parser.error("image size limits must be positive")
     if args.command == "grab":
+        if args.output.suffix.lower() != ".png":
+            parser.error("grab output must use a .png extension")
         with ScreenCapture() as capture:
             frame = capture.grab(monitor=args.monitor, region=region)
         view = frame.resize(args.max_width, args.max_height)
@@ -45,32 +46,37 @@ def main():
     if seconds == 0:
         parser.error("seconds must be positive")
     recorder = TrajectoryRecorder(args.directory) if args.command == "record" else None
-    samples, processing_ms, skipped = [], [], 0
+    count, capture_ms, resize_ms, skipped = 0, 0.0, 0.0, 0
+    first_finished, last_finished = None, None
     try:
         with FrameStream(fps=args.fps, monitor=args.monitor, region=region) as stream:
             deadline = time.perf_counter() + seconds
             previous = -1
-            while not samples or time.perf_counter() < deadline:
+            while not count or time.perf_counter() < deadline:
                 frame = stream.next(after_sequence=previous)
                 skipped += max(0, frame.sequence - previous - 1)
                 previous = frame.sequence
                 start = time.perf_counter_ns()
                 view = frame.resize(args.max_width, args.max_height)
-                processing_ms.append((time.perf_counter_ns() - start) / 1e6)
+                resize_ms += (time.perf_counter_ns() - start) / 1e6
                 if recorder:
                     recorder.record_frame(view)
-                samples.append(frame)
+                count += 1
+                capture_ms += (frame.finished_ns - frame.started_ns) / 1e6
+                if first_finished is None:
+                    first_finished = frame.finished_ns
+                last_finished = frame.finished_ns
     finally:
         if recorder:
             recorder.close()
-    elapsed = (samples[-1].finished_ns - samples[0].finished_ns) / 1e9 if len(samples) > 1 else 0
+    elapsed = (last_finished - first_finished) / 1e9 if count > 1 else 0
     result = {
         "target_hz": args.fps,
-        "observations": len(samples),
-        "observed_hz": (len(samples) - 1) / elapsed if elapsed else 0,
+        "observations": count,
+        "observed_hz": (count - 1) / elapsed if elapsed else 0,
         "skipped_by_consumer": skipped,
-        "mean_capture_ms": mean((f.finished_ns - f.started_ns) / 1e6 for f in samples),
-        "mean_resize_ms": mean(processing_ms),
+        "mean_capture_ms": capture_ms / count,
+        "mean_resize_ms": resize_ms / count,
         "last_observation": view.metadata(),
         "includes_model_inference": False,
     }
