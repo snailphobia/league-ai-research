@@ -180,6 +180,18 @@ def test_unicode_is_received_by_real_edit_control(native, receiver):
     record(receiver, "unicode_application_effect")
 
 
+def test_application_receives_a_key_with_both_modifiers_held(native, receiver):
+    receiver.block_keys = False
+    native.hotkey("ctrl", "shift", "a", duration=0.01)
+    receiver.wait(
+        lambda: any(
+            e["message"] == 0x100 and e["wparam"] == 0x41 and e["ctrl"] and e["shift"]
+            for e in receiver.window_events
+        )
+    )
+    record(receiver, "application_modifier_state")
+
+
 def test_absolute_movement_all_desktop_corners(native, receiver):
     d = native.desktop()
     for point in (

@@ -76,6 +76,7 @@ signature(U, "SetWindowLongPtrW", [W.HWND, C.c_int, C.c_void_p], C.c_void_p)
 signature(U, "CallWindowProcW", [C.c_void_p, W.HWND, W.UINT, W.WPARAM, W.LPARAM], LRESULT)
 signature(U, "SetForegroundWindow", [W.HWND], W.BOOL)
 signature(U, "SetFocus", [W.HWND], W.HWND)
+signature(U, "GetKeyState", [C.c_int], W.SHORT)
 signature(U, "GetWindowTextW", [W.HWND, W.LPWSTR, C.c_int], C.c_int)
 signature(U, "SetWindowTextW", [W.HWND, W.LPCWSTR], W.BOOL)
 signature(U, "DestroyWindow", [W.HWND], W.BOOL)
@@ -145,7 +146,15 @@ class Receiver:
                     0x20B,
                     0x20C,
                 }:
-                    self.window_events.append(dict(message=message, wparam=int(wparam)))
+                    self.window_events.append(
+                        dict(
+                            message=message,
+                            wparam=int(wparam),
+                            ctrl=bool(U.GetKeyState(0x11) & 0x8000),
+                            shift=bool(U.GetKeyState(0x10) & 0x8000),
+                            alt=bool(U.GetKeyState(0x12) & 0x8000),
+                        )
+                    )
                 if message == 0x7B:  # Suppress the EDIT context menu, not button delivery.
                     return 0
                 return U.CallWindowProcW(original_proc, hwnd, message, wparam, lparam)
