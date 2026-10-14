@@ -35,7 +35,7 @@ class MSSBackend:
         ]
         self.user32.EnumDisplayMonitors.restype = W.BOOL
         with self._dpi():
-            self._capture = MSS(backend="gdi", with_cursor=False)
+            self._capture = MSS(backend="gdi")
 
     @contextmanager
     def _dpi(self):
@@ -77,7 +77,7 @@ class MSSBackend:
             )
             # Ignore the unused GDI alpha byte. Copy before the native DIB is reused.
             return Image.frombytes(
-                "RGB", (region.width, region.height), shot.bgra, "raw", "BGRX"
+                "RGB", (region.width, region.height), shot.raw, "raw", "BGRX"
             ).tobytes()
 
     def close(self):

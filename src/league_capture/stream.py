@@ -41,11 +41,10 @@ class FrameStream:
                     with self._condition:
                         self._frames.append(frame)
                         self._condition.notify_all()
-                    deadline += self._period
                     now = time.perf_counter()
-                    if deadline < now:
-                        # Skip missed scheduling slots instead of trying to catch up in a burst.
-                        deadline += (int((now - deadline) / self._period) + 1) * self._period
+                    # A late capture resets the schedule to now. Do not add an
+                    # extra idle period, or replay the missed slots in a burst.
+                    deadline = max(deadline + self._period, now)
                     self._stop.wait(max(0, deadline - now))
         except Exception as error:
             with self._condition:

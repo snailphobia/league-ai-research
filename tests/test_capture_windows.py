@@ -40,7 +40,7 @@ def locate(frame, color):
     image = Image.frombytes("RGB", (frame.width, frame.height), frame.rgb)
     found = [
         (i % frame.width, i // frame.width)
-        for i, pixel in enumerate(image.getdata())
+        for i, pixel in enumerate(image.get_flattened_data())
         if pixel == color
     ]
     if not found:
