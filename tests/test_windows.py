@@ -127,6 +127,32 @@ def test_modifier_combinations_reach_windows_in_order(native, receiver):
             record(receiver, f"chord:{'+'.join(combination)}+a")
 
 
+def test_long_chord_has_no_two_key_or_six_key_limit(native, receiver):
+    keys = (
+        "ctrlleft",
+        "ctrlright",
+        "shiftleft",
+        "shiftright",
+        "altleft",
+        "altright",
+        "winleft",
+        "winright",
+        "q",
+        "w",
+        "e",
+        "r",
+        "t",
+        "y",
+    )
+    native.hotkey(*keys)
+    receiver.wait(lambda: len(key_events(receiver)) == len(keys) * 2)
+    events = key_events(receiver)
+    assert [e["scan"] for e in events[len(keys) :]] == list(
+        reversed([e["scan"] for e in events[: len(keys)]])
+    )
+    record(receiver, "long_chord_14_keys")
+
+
 @pytest.mark.parametrize(
     "key,vk",
     [
@@ -166,6 +192,14 @@ def test_absolute_movement_all_desktop_corners(native, receiver):
         native.move_to(*point)
         receiver.wait(lambda point=point: native.position() == point)
         assert native.position() == point
+        receiver.clear()
+        native.click(*point)
+        receiver.wait(
+            lambda: any(e["kind"] == "mouse" and e["message"] == 0x202 for e in receiver.events)
+        )
+        click = next(e for e in receiver.events if e["message"] == 0x201)
+        assert (click["x"], click["y"]) == point
+        record(receiver, f"corner_click:{point}")
     record(receiver, "absolute_corners")
 
 
