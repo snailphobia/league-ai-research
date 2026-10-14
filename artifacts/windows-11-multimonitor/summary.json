@@ -1,0 +1,58 @@
+{
+  "source": "local QEMU/KVM evaluation VM",
+  "code_revision": "dbc8992",
+  "test_counts": {
+    "passed": 50,
+    "failed": 0,
+    "skipped": 0
+  },
+  "windows": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "library": "2.1.3.1",
+  "geometry": {
+    "left": -1024,
+    "top": -100,
+    "width": 2304,
+    "height": 900,
+    "monitors": [
+      {
+        "left": 0,
+        "top": 0,
+        "right": 1280,
+        "bottom": 800
+      },
+      {
+        "left": -1024,
+        "top": -100,
+        "right": 0,
+        "bottom": 668
+      }
+    ]
+  },
+  "named_keys": 137,
+  "modifier_chords": 92,
+  "long_chord_keys": 14,
+  "observations": 265,
+  "evidence_sha256": "d6478206928741bc2dc982bdb96ba1b39162d67936b8def9b94d692f589f831b",
+  "vm": {
+    "cpu": "KVM host CPU, 4 virtual CPUs",
+    "memory_mib": 6144,
+    "display": "QEMU standard VGA plus signed Virtual Display Driver 25.7.23",
+    "media": "official Microsoft Windows 11 Enterprise LTSC Evaluation, build 26100",
+    "firmware": "OVMF UEFI Secure Boot and software TPM 2.0",
+    "installation": "Unattended installer compatibility checks overridden for evaluation VM",
+    "display_driver_source": "https://github.com/VirtualDrivers/Virtual-Display-Driver/releases/tag/25.7.23"
+  },
+  "limits": [
+    "keyboard catalog and chords recorded with injected key forwarding suppressed",
+    "Unicode, application modifier state and mouse buttons also observed by a real EDIT control",
+    "evaluation media; no gaming GPU or application-specific input acceptance measured",
+    "both monitors tested at default DPI; mixed-DPI topology not tested"
+  ],
+  "monitor_count": 2,
+  "corner_clicks": 10,
+  "gap_rejections": [
+    "monitor_gap_rejected:(1279, -100)",
+    "monitor_gap_rejected:(-1024, 799)"
+  ]
+}

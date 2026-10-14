@@ -1,0 +1,9578 @@
+{
+  "windows": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "library": "2.1.3.1",
+  "geometry": {
+    "left": -1024,
+    "top": -100,
+    "width": 2304,
+    "height": 900,
+    "monitors": [
+      {
+        "left": 0,
+        "top": 0,
+        "right": 1280,
+        "bottom": 800
+      },
+      {
+        "left": -1024,
+        "top": -100,
+        "right": 0,
+        "bottom": 668
+      }
+    ]
+  },
+  "observations": [
+    {
+      "test": "named_key:\b",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 8,
+          "scan": 14,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 8,
+          "scan": 14,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:\t",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 9,
+          "scan": 15,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 9,
+          "scan": 15,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:\n",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 13,
+          "scan": 28,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 13,
+          "scan": 28,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key: ",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 32,
+          "scan": 57,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 32,
+          "scan": 57,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:'",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 222,
+          "scan": 40,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 222,
+          "scan": 40,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:,",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 188,
+          "scan": 51,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 188,
+          "scan": 51,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:-",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 189,
+          "scan": 12,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 189,
+          "scan": 12,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:.",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 190,
+          "scan": 52,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 190,
+          "scan": 52,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:/",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 191,
+          "scan": 53,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 191,
+          "scan": 53,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:0",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 48,
+          "scan": 11,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 48,
+          "scan": 11,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:1",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 49,
+          "scan": 2,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 49,
+          "scan": 2,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:2",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 50,
+          "scan": 3,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 50,
+          "scan": 3,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:3",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 51,
+          "scan": 4,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 51,
+          "scan": 4,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:4",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 52,
+          "scan": 5,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 52,
+          "scan": 5,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:5",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 53,
+          "scan": 6,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 53,
+          "scan": 6,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:6",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 54,
+          "scan": 7,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 54,
+          "scan": 7,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:7",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 55,
+          "scan": 8,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 55,
+          "scan": 8,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:8",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 56,
+          "scan": 9,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 56,
+          "scan": 9,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:9",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 57,
+          "scan": 10,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 57,
+          "scan": 10,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:;",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 186,
+          "scan": 39,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 186,
+          "scan": 39,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:=",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 187,
+          "scan": 13,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 187,
+          "scan": 13,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:[",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 219,
+          "scan": 26,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 219,
+          "scan": 26,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:\\",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 220,
+          "scan": 43,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 220,
+          "scan": 43,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:]",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 221,
+          "scan": 27,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 221,
+          "scan": 27,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:`",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 192,
+          "scan": 41,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 192,
+          "scan": 41,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:add",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 107,
+          "scan": 78,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 107,
+          "scan": 78,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:alt",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:altgr",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:apps",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 93,
+          "scan": 93,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 93,
+          "scan": 93,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:b",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 66,
+          "scan": 48,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 66,
+          "scan": 48,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:browserback",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 166,
+          "scan": 106,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 166,
+          "scan": 106,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:browserfavorites",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 171,
+          "scan": 102,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 171,
+          "scan": 102,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:browserforward",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 167,
+          "scan": 105,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 167,
+          "scan": 105,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:browserhome",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 172,
+          "scan": 50,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 172,
+          "scan": 50,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:browserrefresh",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 168,
+          "scan": 103,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 168,
+          "scan": 103,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:browsersearch",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 170,
+          "scan": 101,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 170,
+          "scan": 101,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:browserstop",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 169,
+          "scan": 104,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 169,
+          "scan": 104,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:c",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 67,
+          "scan": 46,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 67,
+          "scan": 46,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:calc",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 183,
+          "scan": 33,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 183,
+          "scan": 33,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:capslock",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 20,
+          "scan": 58,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 20,
+          "scan": 58,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:clear",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 12,
+          "scan": 76,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 12,
+          "scan": 76,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:control",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:ctrlbreak",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 3,
+          "scan": 70,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 3,
+          "scan": 70,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:ctrlright",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:d",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 68,
+          "scan": 32,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 68,
+          "scan": 32,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:decimal",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 46,
+          "scan": 83,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 46,
+          "scan": 83,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:del",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 46,
+          "scan": 83,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 46,
+          "scan": 83,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:divide",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 111,
+          "scan": 53,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 111,
+          "scan": 53,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:down",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 40,
+          "scan": 80,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 40,
+          "scan": 80,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:e",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 69,
+          "scan": 18,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 69,
+          "scan": 18,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:email",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 180,
+          "scan": 108,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 180,
+          "scan": 108,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:end",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 35,
+          "scan": 79,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 35,
+          "scan": 79,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:esc",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 27,
+          "scan": 1,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 27,
+          "scan": 1,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 70,
+          "scan": 33,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 70,
+          "scan": 33,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f1",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 112,
+          "scan": 59,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 112,
+          "scan": 59,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f10",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 121,
+          "scan": 68,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 121,
+          "scan": 68,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f11",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 122,
+          "scan": 87,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 122,
+          "scan": 87,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f12",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 123,
+          "scan": 88,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 123,
+          "scan": 88,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f13",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 124,
+          "scan": 100,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 124,
+          "scan": 100,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f14",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 125,
+          "scan": 101,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 125,
+          "scan": 101,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f15",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 126,
+          "scan": 102,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 126,
+          "scan": 102,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f16",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 127,
+          "scan": 103,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 127,
+          "scan": 103,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f17",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 128,
+          "scan": 104,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 128,
+          "scan": 104,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f18",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 129,
+          "scan": 105,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 129,
+          "scan": 105,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f19",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 130,
+          "scan": 106,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 130,
+          "scan": 106,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f2",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 113,
+          "scan": 60,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 113,
+          "scan": 60,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f20",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 131,
+          "scan": 107,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 131,
+          "scan": 107,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f21",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 132,
+          "scan": 108,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 132,
+          "scan": 108,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f22",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 133,
+          "scan": 109,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 133,
+          "scan": 109,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f23",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 134,
+          "scan": 110,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 134,
+          "scan": 110,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f24",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 135,
+          "scan": 118,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 135,
+          "scan": 118,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f3",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 114,
+          "scan": 61,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 114,
+          "scan": 61,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f4",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 115,
+          "scan": 62,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 115,
+          "scan": 62,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f5",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 116,
+          "scan": 63,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 116,
+          "scan": 63,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f6",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 117,
+          "scan": 64,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 117,
+          "scan": 64,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f7",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 118,
+          "scan": 65,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 118,
+          "scan": 65,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f8",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 119,
+          "scan": 66,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 119,
+          "scan": 66,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:f9",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 120,
+          "scan": 67,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 120,
+          "scan": 67,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:g",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 71,
+          "scan": 34,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 71,
+          "scan": 34,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:h",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 72,
+          "scan": 35,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 72,
+          "scan": 35,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:help",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 47,
+          "scan": 99,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 47,
+          "scan": 99,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:home",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 36,
+          "scan": 71,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 36,
+          "scan": 71,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:i",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 73,
+          "scan": 23,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 73,
+          "scan": 23,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:insert",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 45,
+          "scan": 82,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 45,
+          "scan": 82,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:j",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 74,
+          "scan": 36,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 74,
+          "scan": 36,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:k",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 75,
+          "scan": 37,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 75,
+          "scan": 37,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:l",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 76,
+          "scan": 38,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 76,
+          "scan": 38,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:launch1",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 182,
+          "scan": 107,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 182,
+          "scan": 107,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:launchmediaselect",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 181,
+          "scan": 109,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 181,
+          "scan": 109,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:left",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 37,
+          "scan": 75,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 37,
+          "scan": 75,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:lshift",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:lwin",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:m",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 77,
+          "scan": 50,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 77,
+          "scan": 50,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:medianext",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 176,
+          "scan": 25,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 176,
+          "scan": 25,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:mediapause",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 179,
+          "scan": 34,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 179,
+          "scan": 34,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:mediaprevious",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 177,
+          "scan": 16,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 177,
+          "scan": 16,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:mediastop",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 178,
+          "scan": 36,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 178,
+          "scan": 36,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:multiply",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 106,
+          "scan": 55,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 106,
+          "scan": 55,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:mute",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 173,
+          "scan": 32,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 173,
+          "scan": 32,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:n",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 78,
+          "scan": 49,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 78,
+          "scan": 49,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num0",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 45,
+          "scan": 82,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 45,
+          "scan": 82,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num1",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 35,
+          "scan": 79,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 35,
+          "scan": 79,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num2",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 40,
+          "scan": 80,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 40,
+          "scan": 80,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num3",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 34,
+          "scan": 81,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 34,
+          "scan": 81,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num4",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 37,
+          "scan": 75,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 37,
+          "scan": 75,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num6",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 39,
+          "scan": 77,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 39,
+          "scan": 77,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num7",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 36,
+          "scan": 71,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 36,
+          "scan": 71,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num8",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 38,
+          "scan": 72,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 38,
+          "scan": 72,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:num9",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 33,
+          "scan": 73,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 33,
+          "scan": 73,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:numlock",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 144,
+          "scan": 69,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 144,
+          "scan": 69,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:numpadenter",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 13,
+          "scan": 28,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 13,
+          "scan": 28,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:numsubtract",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 109,
+          "scan": 74,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 109,
+          "scan": 74,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:o",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 79,
+          "scan": 24,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 79,
+          "scan": 24,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:p",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 80,
+          "scan": 25,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 80,
+          "scan": 25,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:pagedown",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 34,
+          "scan": 81,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 34,
+          "scan": 81,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:pageup",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 33,
+          "scan": 73,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 33,
+          "scan": 73,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:pause",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 19,
+          "scan": 0,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 19,
+          "scan": 0,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:printscreen",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 44,
+          "scan": 0,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 44,
+          "scan": 0,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:q",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 81,
+          "scan": 16,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 81,
+          "scan": 16,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:r",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 82,
+          "scan": 19,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 82,
+          "scan": 19,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:right",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 39,
+          "scan": 77,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 39,
+          "scan": 77,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:rshift",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:rwin",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:s",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 83,
+          "scan": 31,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 83,
+          "scan": 31,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:scrolllock",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 145,
+          "scan": 70,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 145,
+          "scan": 70,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:sleep",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 95,
+          "scan": 95,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 95,
+          "scan": 95,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:t",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 84,
+          "scan": 20,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 84,
+          "scan": 20,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:u",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 85,
+          "scan": 22,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 85,
+          "scan": 22,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:up",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 38,
+          "scan": 72,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 38,
+          "scan": 72,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:v",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 86,
+          "scan": 47,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 86,
+          "scan": 47,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:voldown",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 174,
+          "scan": 46,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 174,
+          "scan": 46,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:volumeup",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 175,
+          "scan": 48,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 175,
+          "scan": 48,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:w",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 87,
+          "scan": 17,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 87,
+          "scan": 17,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:x",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 88,
+          "scan": 45,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 88,
+          "scan": 45,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:y",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 89,
+          "scan": 21,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 89,
+          "scan": 21,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "named_key:z",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 90,
+          "scan": 44,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 90,
+          "scan": 44,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+ctrlright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+shiftright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:winleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+ctrlright+shiftleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+ctrlright+shiftright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+ctrlright+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+ctrlright+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+ctrlright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+ctrlright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftleft+shiftright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftleft+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftright+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftright+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+shiftright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+altleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+altleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+altleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+altright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+altright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlleft+winleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftleft+shiftright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftleft+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftright+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftright+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+shiftright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+altleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+altleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+altleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+altright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+altright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:ctrlright+winleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+shiftright+altleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+shiftright+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+shiftright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+shiftright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+altleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+altleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+altleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+altright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+altright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftleft+winleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+altleft+altright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+altleft+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+altleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+altright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+altright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:shiftright+winleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altleft+altright+winleft+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altleft+altright+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altleft+winleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 164,
+          "scan": 56,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "chord:altright+winleft+winright+a",
+      "events": [
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 165,
+          "scan": 56,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 91,
+          "scan": 91,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 92,
+          "scan": 92,
+          "flags": 49
+        },
+        {
+          "kind": "key",
+          "message": 260,
+          "vk": 65,
+          "scan": 30,
+          "flags": 48
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 65,
+          "scan": 30,
+          "flags": 176
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 92,
+          "scan": 92,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 261,
+          "vk": 91,
+          "scan": 91,
+          "flags": 177
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "long_chord_14_keys",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 161,
+          "scan": 54,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 164,
+          "scan": 56,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 165,
+          "scan": 56,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 91,
+          "scan": 91,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 92,
+          "scan": 92,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 81,
+          "scan": 16,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 87,
+          "scan": 17,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 69,
+          "scan": 18,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 82,
+          "scan": 19,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 84,
+          "scan": 20,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 89,
+          "scan": 21,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 89,
+          "scan": 21,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 84,
+          "scan": 20,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 82,
+          "scan": 19,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 69,
+          "scan": 18,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 87,
+          "scan": 17,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 81,
+          "scan": 16,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 92,
+          "scan": 92,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 91,
+          "scan": 91,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 165,
+          "scan": 56,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 164,
+          "scan": 56,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 161,
+          "scan": 54,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "raw:Key(kind='vk', code=65, extended=False)",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 0,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 0,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "raw:Key(kind='vk', code=123, extended=False)",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 123,
+          "scan": 0,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 123,
+          "scan": 0,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "raw:Key(kind='vk', code=135, extended=False)",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 135,
+          "scan": 0,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 135,
+          "scan": 0,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "raw:Key(kind='vk', code=173, extended=False)",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 173,
+          "scan": 0,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 173,
+          "scan": 0,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "raw:Key(kind='scan', code=29, extended=True)",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 163,
+          "scan": 29,
+          "flags": 17
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 163,
+          "scan": 29,
+          "flags": 145
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "unicode_application_effect",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 65,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 65,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 83,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 83,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 67,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 67,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 73,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 73,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 73,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 73,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 32,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 32,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 536,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 536,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 539,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 539,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 28450,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 28450,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 23383,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 23383,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 32,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 32,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 55357,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 231,
+          "scan": 56832,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 56832,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 231,
+          "scan": 55357,
+          "flags": 144
+        }
+      ],
+      "application_events": [
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 65,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 83,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 67,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 73,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 73,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 32,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 536,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 539,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 28450,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 23383,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 32,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 55357,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 56832,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "application_modifier_state",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": [
+        {
+          "message": 256,
+          "wparam": 17,
+          "ctrl": true,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 16,
+          "ctrl": true,
+          "shift": true,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 65,
+          "ctrl": true,
+          "shift": true,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 1,
+          "ctrl": true,
+          "shift": true,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 65,
+          "ctrl": true,
+          "shift": true,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 16,
+          "ctrl": true,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "mixed_raw_named_modifier_ownership",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 0,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 66,
+          "scan": 48,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 66,
+          "scan": 48,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 0,
+          "flags": 144
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "corner_click:(0, 0)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 0,
+          "y": 0,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": 0,
+          "y": 0,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": 0,
+          "y": 0,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(1279, 0)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 1279,
+          "y": 0,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": 1279,
+          "y": 0,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": 1279,
+          "y": 0,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(0, 799)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 0,
+          "y": 799,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": 0,
+          "y": 799,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": 0,
+          "y": 799,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(1279, 799)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 1279,
+          "y": 799,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": 1279,
+          "y": 799,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": 1279,
+          "y": 799,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(639, 399)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 639,
+          "y": 399,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": 639,
+          "y": 399,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": 639,
+          "y": 399,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(-1024, -100)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": -1024,
+          "y": -100,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": -1024,
+          "y": -100,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": -1024,
+          "y": -100,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(-1, -100)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": -1,
+          "y": -100,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": -1,
+          "y": -100,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": -1,
+          "y": -100,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(-1024, 667)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": -1024,
+          "y": 667,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": -1024,
+          "y": 667,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": -1024,
+          "y": 667,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(-1, 667)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": -1,
+          "y": 667,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": -1,
+          "y": 667,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": -1,
+          "y": 667,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "corner_click:(-513, 283)",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": -513,
+          "y": 283,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": -513,
+          "y": 283,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": -513,
+          "y": 283,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "absolute_corners",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": -513,
+          "y": 283,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": -513,
+          "y": 283,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": -513,
+          "y": 283,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "monitor_gap_rejected:(1279, -100)",
+      "events": [],
+      "application_events": []
+    },
+    {
+      "test": "monitor_gap_rejected:(-1024, 799)",
+      "events": [],
+      "application_events": []
+    },
+    {
+      "test": "relative_motion",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 140,
+          "y": 122,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "native_coordinate_overflow_rejected",
+      "events": [],
+      "application_events": []
+    },
+    {
+      "test": "button:left",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 514,
+          "wparam": 0,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "button:right",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 516,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 517,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 516,
+          "wparam": 2,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "button:middle",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 519,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 520,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 519,
+          "wparam": 16,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 520,
+          "wparam": 0,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "button:x1",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 523,
+          "x": 200,
+          "y": 200,
+          "data": 65536,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 524,
+          "x": 200,
+          "y": 200,
+          "data": 65536,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 523,
+          "wparam": 65568,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "button:x2",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 512,
+          "x": 200,
+          "y": 200,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 523,
+          "x": 200,
+          "y": 200,
+          "data": 131072,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 524,
+          "x": 200,
+          "y": 200,
+          "data": 131072,
+          "flags": 1
+        }
+      ],
+      "application_events": [
+        {
+          "message": 523,
+          "wparam": 131136,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "wheel:False:3",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 23592960,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "wheel:False:-2",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 4279238656,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "wheel:True:3",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 23592960,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "wheel:True:-2",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 4279238656,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "large_wheel:False:1000",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 2146959360,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 2146959360,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 2146959360,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 1423441920,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "large_wheel:True:-1000",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 2148007936,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 2148007936,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 2148007936,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 2871525376,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "drag_and_cleanup",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "mouse",
+          "message": 513,
+          "x": 350,
+          "y": 300,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 514,
+          "x": 350,
+          "y": 300,
+          "data": 0,
+          "flags": 1
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": [
+        {
+          "message": 513,
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 514,
+          "wparam": 0,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    }
+  ]
+}

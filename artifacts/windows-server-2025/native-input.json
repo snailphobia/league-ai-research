@@ -6,7 +6,15 @@
     "left": 0,
     "top": 0,
     "width": 1024,
-    "height": 768
+    "height": 768,
+    "monitors": [
+      {
+        "left": 0,
+        "top": 0,
+        "right": 1024,
+        "bottom": 768
+      }
+    ]
   },
   "observations": [
     {
@@ -8872,29 +8880,29 @@
       ]
     },
     {
-      "test": "corner_click:(512, 384)",
+      "test": "corner_click:(511, 383)",
       "events": [
         {
           "kind": "mouse",
           "message": 512,
-          "x": 512,
-          "y": 384,
+          "x": 511,
+          "y": 383,
           "data": 0,
           "flags": 1
         },
         {
           "kind": "mouse",
           "message": 513,
-          "x": 512,
-          "y": 384,
+          "x": 511,
+          "y": 383,
           "data": 0,
           "flags": 1
         },
         {
           "kind": "mouse",
           "message": 514,
-          "x": 512,
-          "y": 384,
+          "x": 511,
+          "y": 383,
           "data": 0,
           "flags": 1
         }
@@ -8915,24 +8923,24 @@
         {
           "kind": "mouse",
           "message": 512,
-          "x": 512,
-          "y": 384,
+          "x": 511,
+          "y": 383,
           "data": 0,
           "flags": 1
         },
         {
           "kind": "mouse",
           "message": 513,
-          "x": 512,
-          "y": 384,
+          "x": 511,
+          "y": 383,
           "data": 0,
           "flags": 1
         },
         {
           "kind": "mouse",
           "message": 514,
-          "x": 512,
-          "y": 384,
+          "x": 511,
+          "y": 383,
           "data": 0,
           "flags": 1
         }

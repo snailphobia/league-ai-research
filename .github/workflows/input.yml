@@ -37,4 +37,6 @@ jobs:
         if: always()
         with:
           name: windows-input-evidence
-          path: artifacts/
+          path: |
+            artifacts/windows-input.json
+            artifacts/windows-junit.xml

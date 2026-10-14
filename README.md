@@ -4,7 +4,7 @@ Research tooling for a visual agent that can cooperate with human players. The f
 
 The Python API and JSON Lines CLI provide named keys, arbitrary chords, physical scan codes, virtual keys, Unicode text, pointer movement, all mouse buttons, dragging, and both wheel axes. Windows tests observe input received by independent native hooks and a real EDIT control rather than treating an API call as proof of delivery.
 
-The input adapter passed all 50 tests on Windows 11 and Windows Server 2025, including 137 distinct named keys, 92 modifier chords, a 14-key chord, all five mouse buttons, and desktop corner clicks. Recorded evidence and platform coverage are in [Windows validation](docs/windows-validation.md).
+The input adapter passed all 50 tests on Windows 11 and Windows Server 2025, including 137 distinct named keys, 92 modifier chords, a 14-key chord, all five mouse buttons, and desktop corner clicks. Windows 11 also passed the full suite with a second monitor at negative coordinates and gaps between displays. Recorded evidence and platform coverage are in [Windows validation](docs/windows-validation.md).
 
 ## Development
 

@@ -1,6 +1,6 @@
 {
-  "source_run": "https://github.com/snailphobia/league-ai-research/actions/runs/38620467658",
-  "code_revision": "f4b9e9c",
+  "source_run": "https://github.com/snailphobia/league-ai-research/actions/runs/38624263854",
+  "code_revision": "dbc8992",
   "test_counts": {
     "passed": 50,
     "failed": 0,
@@ -13,13 +13,21 @@
     "left": 0,
     "top": 0,
     "width": 1024,
-    "height": 768
+    "height": 768,
+    "monitors": [
+      {
+        "left": 0,
+        "top": 0,
+        "right": 1024,
+        "bottom": 768
+      }
+    ]
   },
   "named_keys": 137,
   "modifier_chords": 92,
   "long_chord_keys": 14,
   "observations": 258,
-  "evidence_sha256": "2cba0dd0c64f34e5559173ecf8a5c6df71a4364cec39589439ae501bbf29a865",
+  "evidence_sha256": "9941e55fef1af219681914b2ee2d094642f0fb2e53afb83ad118033e2bec08de",
   "limits": [
     "single monitor topology",
     "keyboard catalog and chords observed with injected key forwarding suppressed to avoid shell shortcuts",
