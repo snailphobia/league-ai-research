@@ -1,10 +1,10 @@
 # League AI Research
 
-Research tooling for a visual agent that can cooperate with human players. The first component is a Windows keyboard and mouse adapter, independent of any game or model.
+Research tooling for a visual agent that can cooperate with human players: Windows keyboard/mouse input, screen observations, and trajectory recording. The components remain independent of any game or model provider.
 
 The Python API and JSON Lines CLI provide named keys, arbitrary chords, physical scan codes, virtual keys, Unicode text, pointer movement, all mouse buttons, dragging, and both wheel axes. Windows tests observe input received by independent native hooks and a real EDIT control rather than treating an API call as proof of delivery.
 
-The input adapter passed all 50 tests on Windows 11 and Windows Server 2025, including 137 distinct named keys, 92 modifier chords, a 14-key chord, all five mouse buttons, and desktop corner clicks. Windows 11 also passed the full suite with a second monitor at negative coordinates and gaps between displays. Recorded evidence and platform coverage are in [Windows validation](docs/windows-validation.md).
+The combined suite passes all 74 tests on Windows 11 and Windows Server 2025. Input coverage includes 137 distinct named keys, 92 modifier chords, a 14-key chord, all five mouse buttons, and multi-monitor coordinates. Capture tests verify pixels -> visual target -> adapter click -> changed pixels, including a second monitor at negative coordinates. See [input validation](docs/windows-validation.md) and [capture results](docs/capture.md#verified-results).
 
 ## Development
 

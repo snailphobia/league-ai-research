@@ -1,0 +1,39 @@
+{
+  "target_hz": 20.0,
+  "observations": 58,
+  "observed_hz": 19.577000371200537,
+  "skipped_by_consumer": 0,
+  "mean_capture_ms": 32.32197620689655,
+  "mean_resize_ms": 6.698199827586206,
+  "last_observation": {
+    "capture_id": "02a913d769a943c2a7ca699674571883",
+    "view_id": "c592d44853394925a37255c2f7e7b8d7",
+    "sequence": 57,
+    "region": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 800
+    },
+    "width": 576,
+    "height": 360,
+    "pixel_format": "RGB",
+    "started_ns": 12174640764330,
+    "finished_ns": 12174669347980,
+    "monitors": [
+      {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "left": -1024,
+        "top": -100,
+        "width": 1024,
+        "height": 768
+      }
+    ]
+  },
+  "includes_model_inference": false
+}

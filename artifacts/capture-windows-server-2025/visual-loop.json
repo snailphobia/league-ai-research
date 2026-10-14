@@ -1,0 +1,71 @@
+{
+  "windows": "Windows-2025Server-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "mss": "10.2.0",
+  "pillow": "12.3.0",
+  "reports": [
+    {
+      "monitor": 1,
+      "episode": "monitor-1-e476d8ceddf84bf99ba943716c51777b",
+      "region": {
+        "left": 0,
+        "top": 0,
+        "width": 1024,
+        "height": 768
+      },
+      "clicked": [
+        510,
+        382
+      ],
+      "before": {
+        "capture_id": "e476d8ceddf84bf99ba943716c51777b",
+        "view_id": "e476d8ceddf84bf99ba943716c51777b",
+        "sequence": 0,
+        "region": {
+          "left": 0,
+          "top": 0,
+          "width": 1024,
+          "height": 768
+        },
+        "width": 1024,
+        "height": 768,
+        "pixel_format": "RGB",
+        "started_ns": 270930015500,
+        "finished_ns": 270948267200,
+        "monitors": [
+          {
+            "left": 0,
+            "top": 0,
+            "width": 1024,
+            "height": 768
+          }
+        ]
+      },
+      "after": {
+        "capture_id": "71aab9416c5d49f48a3e0d042c02aa27",
+        "view_id": "71aab9416c5d49f48a3e0d042c02aa27",
+        "sequence": 1,
+        "region": {
+          "left": 0,
+          "top": 0,
+          "width": 1024,
+          "height": 768
+        },
+        "width": 1024,
+        "height": 768,
+        "pixel_format": "RGB",
+        "started_ns": 271002079700,
+        "finished_ns": 271025333000,
+        "monitors": [
+          {
+            "left": 0,
+            "top": 0,
+            "width": 1024,
+            "height": 768
+          }
+        ]
+      },
+      "application_received": true
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "windows": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "mss": "10.2.0",
+  "pillow": "12.3.0",
+  "reports": [
+    {
+      "monitor": 1,
+      "episode": "monitor-1-14aca3f11d4e455295e74af70240c6b0",
+      "region": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "clicked": [
+        638,
+        398
+      ],
+      "before": {
+        "capture_id": "14aca3f11d4e455295e74af70240c6b0",
+        "view_id": "14aca3f11d4e455295e74af70240c6b0",
+        "sequence": 0,
+        "region": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "width": 1280,
+        "height": 800,
+        "pixel_format": "RGB",
+        "started_ns": 12151953302080,
+        "finished_ns": 12151991426040,
+        "monitors": [
+          {
+            "left": 0,
+            "top": 0,
+            "width": 1280,
+            "height": 800
+          },
+          {
+            "left": -1024,
+            "top": -100,
+            "width": 1024,
+            "height": 768
+          }
+        ]
+      },
+      "after": {
+        "capture_id": "88c390459fb84be08630abbd0bd9a3fe",
+        "view_id": "88c390459fb84be08630abbd0bd9a3fe",
+        "sequence": 1,
+        "region": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "width": 1280,
+        "height": 800,
+        "pixel_format": "RGB",
+        "started_ns": 12152060875090,
+        "finished_ns": 12152102362980,
+        "monitors": [
+          {
+            "left": 0,
+            "top": 0,
+            "width": 1280,
+            "height": 800
+          },
+          {
+            "left": -1024,
+            "top": -100,
+            "width": 1024,
+            "height": 768
+          }
+        ]
+      },
+      "application_received": true
+    },
+    {
+      "monitor": 2,
+      "episode": "monitor-2-76c94a91e9514992bd0da8c1bc24a9cc",
+      "region": {
+        "left": -1024,
+        "top": -100,
+        "width": 1024,
+        "height": 768
+      },
+      "clicked": [
+        -514,
+        282
+      ],
+      "before": {
+        "capture_id": "76c94a91e9514992bd0da8c1bc24a9cc",
+        "view_id": "76c94a91e9514992bd0da8c1bc24a9cc",
+        "sequence": 2,
+        "region": {
+          "left": -1024,
+          "top": -100,
+          "width": 1024,
+          "height": 768
+        },
+        "width": 1024,
+        "height": 768,
+        "pixel_format": "RGB",
+        "started_ns": 12152260161950,
+        "finished_ns": 12152286873990,
+        "monitors": [
+          {
+            "left": 0,
+            "top": 0,
+            "width": 1280,
+            "height": 800
+          },
+          {
+            "left": -1024,
+            "top": -100,
+            "width": 1024,
+            "height": 768
+          }
+        ]
+      },
+      "after": {
+        "capture_id": "69f9f9e5d62b439d9dcc9b45b16c339c",
+        "view_id": "69f9f9e5d62b439d9dcc9b45b16c339c",
+        "sequence": 3,
+        "region": {
+          "left": -1024,
+          "top": -100,
+          "width": 1024,
+          "height": 768
+        },
+        "width": 1024,
+        "height": 768,
+        "pixel_format": "RGB",
+        "started_ns": 12152346490660,
+        "finished_ns": 12152382679170,
+        "monitors": [
+          {
+            "left": 0,
+            "top": 0,
+            "width": 1280,
+            "height": 800
+          },
+          {
+            "left": -1024,
+            "top": -100,
+            "width": 1024,
+            "height": 768
+          }
+        ]
+      },
+      "application_received": true
+    }
+  ]
+}

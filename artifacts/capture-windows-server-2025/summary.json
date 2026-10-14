@@ -1,0 +1,89 @@
+{
+  "code_revision": "53e6d07",
+  "package_version": "0.2.0",
+  "source": "https://github.com/snailphobia/league-ai-research/actions/runs/38651049565",
+  "test_counts": {
+    "tests": 74,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "windows": "Windows-2025Server-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "mss": "10.2.0",
+  "pillow": "12.3.0",
+  "monitor_count": 1,
+  "clicks": [
+    [
+      510,
+      382
+    ]
+  ],
+  "stream_benchmark": {
+    "target_hz": 20,
+    "observations": 41,
+    "observed_hz": 19.894078950149666,
+    "capture_ms": {
+      "mean": 24.771887804878048,
+      "median": 24.2256,
+      "p95": 31.7041
+    },
+    "geometry": {
+      "capture_id": "96a9d2203cc1479e9dd57978f4edba93",
+      "view_id": "96a9d2203cc1479e9dd57978f4edba93",
+      "sequence": 0,
+      "region": {
+        "left": 0,
+        "top": 0,
+        "width": 1024,
+        "height": 768
+      },
+      "width": 1024,
+      "height": 768,
+      "pixel_format": "RGB",
+      "started_ns": 271200702700,
+      "finished_ns": 271215777600,
+      "monitors": [
+        {
+          "left": 0,
+          "top": 0,
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    "includes_model_inference": false
+  },
+  "manifest": {
+    "benchmark.json": {
+      "source_sha256": "ff6b04a7f2bb3553607faa090bf4edbb481d8330232d046443eb50975cc359cc",
+      "published_sha256": "28b38d1f4a817c333f7340851431d4b555fedded402f917ea2895b8771b474fc"
+    },
+    "visual-loop.json": {
+      "source_sha256": "8323682a0ab30173745706d1bbaddccc968be2ba4f708cc43efa68922d3ced72",
+      "published_sha256": "001287ccfd8afe42b8e0e222d814d94dae025a67485ddf36c17b79bfc609c7c9"
+    },
+    "monitor-1-e476d8ceddf84bf99ba943716c51777b/c9815a89df6f6dc24b08542cc2c9fb6607e43ad098b7f2b447c2fbd361c91c8c.png": {
+      "source_sha256": "4c9529d20a63af1151e56f35ad9a388da5a40609ef9f5f729c1c3a47b274f482",
+      "published_sha256": "4c9529d20a63af1151e56f35ad9a388da5a40609ef9f5f729c1c3a47b274f482"
+    },
+    "monitor-1-e476d8ceddf84bf99ba943716c51777b/ecee3d6503412b3fa5bf3838349eda5c6530ce0f8c2736a02bc9cb17af00fb83.png": {
+      "source_sha256": "4d33257680ccc7efe328cb6af29eb5a9af419c2182ce7f7222c75457b176abe5",
+      "published_sha256": "4d33257680ccc7efe328cb6af29eb5a9af419c2182ce7f7222c75457b176abe5"
+    },
+    "monitor-1-e476d8ceddf84bf99ba943716c51777b/events.jsonl": {
+      "source_sha256": "c809ececcdf35bbb16f29830fd7910786717ada34afdbe3922ffb9414b7ef8a7",
+      "published_sha256": "2a43e5bfc0694c29c802590591b8b91199c47b7692e3635119af1a9b0a8522e2"
+    },
+    "monitor-1-e476d8ceddf84bf99ba943716c51777b/f0b63694e28042f3769a9556a8cdb191c318dce49b5e14fe027fb8116f162f0c.png": {
+      "source_sha256": "d280d024a360e9705c11042b0e1fb5d078f996f7aafa3f9c3a180cf465e34463",
+      "published_sha256": "d280d024a360e9705c11042b0e1fb5d078f996f7aafa3f9c3a180cf465e34463"
+    }
+  },
+  "limits": [
+    "synthetic GDI desktop scene; game and exclusive-fullscreen capture not tested",
+    "default DPI; mixed-DPI topology not tested",
+    "capture and resize rates exclude model inference",
+    "short local measurements; not guaranteed rates under other load"
+  ]
+}

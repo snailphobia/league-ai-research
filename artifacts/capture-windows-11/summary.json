@@ -1,0 +1,193 @@
+{
+  "code_revision": "53e6d07",
+  "package_version": "0.2.0",
+  "source": "local QEMU/KVM Windows 11 evaluation VM",
+  "test_counts": {
+    "tests": 74,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "windows": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "mss": "10.2.0",
+  "pillow": "12.3.0",
+  "monitor_count": 2,
+  "clicks": [
+    [
+      638,
+      398
+    ],
+    [
+      -514,
+      282
+    ]
+  ],
+  "stream_benchmark": {
+    "target_hz": 20,
+    "observations": 39,
+    "observed_hz": 19.283486437703242,
+    "capture_ms": {
+      "mean": 39.927360769230766,
+      "median": 37.91483,
+      "p95": 54.51837
+    },
+    "geometry": {
+      "capture_id": "5cf0e53156de4d479748abb9e4aab8fd",
+      "view_id": "5cf0e53156de4d479748abb9e4aab8fd",
+      "sequence": 0,
+      "region": {
+        "left": -1024,
+        "top": -100,
+        "width": 2304,
+        "height": 900
+      },
+      "width": 2304,
+      "height": 900,
+      "pixel_format": "RGB",
+      "started_ns": 12152555532630,
+      "finished_ns": 12152592408100,
+      "monitors": [
+        {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "left": -1024,
+          "top": -100,
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    "includes_model_inference": false
+  },
+  "manifest": {
+    "benchmark.json": {
+      "source_sha256": "667c058db74e66149184a62ca1eb7b5c36b64f0dfa9b3a05f437976e6d603679",
+      "published_sha256": "39dc223573c141033115db6d0d3f8d4ede09a70ff96471eeaa6cc5a71a68f47f"
+    },
+    "visual-loop.json": {
+      "source_sha256": "a7db1477581c66cc092fe486648ac3c5ea8ff1b193cb160e3fe87838e1823171",
+      "published_sha256": "93f121f82c81af57dfa767cce375863a269dda0c3e994af7e8dfc5e313cec41e"
+    },
+    "monitor-1-14aca3f11d4e455295e74af70240c6b0/9f6bce978d62274a6e5aef85acb9e628c36220a738ab8cb769e72ad1e41274f0.png": {
+      "source_sha256": "133c1cd6303dc9d6a836b0f42c7dc576aae81db048af6fdad4b8aaeffc918209",
+      "published_sha256": "133c1cd6303dc9d6a836b0f42c7dc576aae81db048af6fdad4b8aaeffc918209"
+    },
+    "monitor-1-14aca3f11d4e455295e74af70240c6b0/a8d7bd6b1dc43a5f8c0dae63b1249da1d6969413bd7542fe5c647987489c0114.png": {
+      "source_sha256": "55534502d3e6ade501f46b7a48a16ba688d8cd39ac10a9483b54ed8e50dbef12",
+      "published_sha256": "55534502d3e6ade501f46b7a48a16ba688d8cd39ac10a9483b54ed8e50dbef12"
+    },
+    "monitor-1-14aca3f11d4e455295e74af70240c6b0/b7bfb9b983502c7b3dc07a206cbca1e03fb571b66ed3f0b4231bf796eaeb776d.png": {
+      "source_sha256": "1a23693cf6a111b48a9088f3415bfc2c04f126dea32a25ae22fa06ee9c53e028",
+      "published_sha256": "1a23693cf6a111b48a9088f3415bfc2c04f126dea32a25ae22fa06ee9c53e028"
+    },
+    "monitor-1-14aca3f11d4e455295e74af70240c6b0/events.jsonl": {
+      "source_sha256": "a9cc6647e7afb5bf9d3c2bbd25e03a84a175c192963b7bf60c40b42191294782",
+      "published_sha256": "58c066147f3c142fdf681050cfe71ffa6c8c371d786be88aebe63300dbe1ad45"
+    },
+    "monitor-2-76c94a91e9514992bd0da8c1bc24a9cc/08f8b8af3f789e98f89d61b2a27147d8465ad38ead800d4107eb692152857577.png": {
+      "source_sha256": "d280d024a360e9705c11042b0e1fb5d078f996f7aafa3f9c3a180cf465e34463",
+      "published_sha256": "d280d024a360e9705c11042b0e1fb5d078f996f7aafa3f9c3a180cf465e34463"
+    },
+    "monitor-2-76c94a91e9514992bd0da8c1bc24a9cc/1044d555199fd7055b021feb4a1feba705721e08b5fe1b225def136ebd6d2d6a.png": {
+      "source_sha256": "4d33257680ccc7efe328cb6af29eb5a9af419c2182ce7f7222c75457b176abe5",
+      "published_sha256": "4d33257680ccc7efe328cb6af29eb5a9af419c2182ce7f7222c75457b176abe5"
+    },
+    "monitor-2-76c94a91e9514992bd0da8c1bc24a9cc/b8d582d89ae09b9ad80a219240232812f9618505ad0f578af64c778b39db7ec9.png": {
+      "source_sha256": "4c9529d20a63af1151e56f35ad9a388da5a40609ef9f5f729c1c3a47b274f482",
+      "published_sha256": "4c9529d20a63af1151e56f35ad9a388da5a40609ef9f5f729c1c3a47b274f482"
+    },
+    "monitor-2-76c94a91e9514992bd0da8c1bc24a9cc/events.jsonl": {
+      "source_sha256": "801a44f88f94c743e3d7958acfce36c3cf04701c73d87ecc84e08b9252e6a99a",
+      "published_sha256": "3c8bc616efe243ec382a82fd9a1edb66267ffa037b06ada1b346ec832997ae81"
+    }
+  },
+  "limits": [
+    "synthetic GDI desktop scene; game and exclusive-fullscreen capture not tested",
+    "default DPI; mixed-DPI topology not tested",
+    "capture and resize rates exclude model inference",
+    "short local measurements; not guaranteed rates under other load"
+  ],
+  "monitor_20hz_benchmark": {
+    "target_hz": 20.0,
+    "observations": 58,
+    "observed_hz": 19.577000371200537,
+    "skipped_by_consumer": 0,
+    "mean_capture_ms": 32.32197620689655,
+    "mean_resize_ms": 6.698199827586206,
+    "last_observation": {
+      "capture_id": "02a913d769a943c2a7ca699674571883",
+      "view_id": "c592d44853394925a37255c2f7e7b8d7",
+      "sequence": 57,
+      "region": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "width": 576,
+      "height": 360,
+      "pixel_format": "RGB",
+      "started_ns": 12174640764330,
+      "finished_ns": 12174669347980,
+      "monitors": [
+        {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "left": -1024,
+          "top": -100,
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    "includes_model_inference": false
+  },
+  "monitor_30hz_benchmark": {
+    "target_hz": 30.0,
+    "observations": 81,
+    "observed_hz": 27.92142546499548,
+    "skipped_by_consumer": 0,
+    "mean_capture_ms": 30.96389629629628,
+    "mean_resize_ms": 6.778569506172841,
+    "last_observation": {
+      "capture_id": "166fd7460c1d44349a9fd4a121407895",
+      "view_id": "b53565d59ec1442f87eb645917a0c970",
+      "sequence": 80,
+      "region": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "width": 576,
+      "height": 360,
+      "pixel_format": "RGB",
+      "started_ns": 12177813969460,
+      "finished_ns": 12177843245490,
+      "monitors": [
+        {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "left": -1024,
+          "top": -100,
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    "includes_model_inference": false
+  }
+}

@@ -77,3 +77,18 @@ Episode files are created exclusively to avoid silently appending unrelated runs
 The Windows tests paint a synthetic native GDI scene independently of both adapters. A policy locates a red target from captured pixels, maps a resized view point to desktop coordinates, and clicks using InputAdapter. The native application turns the target green; the test must capture that changed visual state and independently confirm application receipt. Each attached monitor is exercised. A separate bounded-stream test reports its measured rate at a 20 Hz target.
 
 Run on a disposable Windows desktop with the existing LEAGUE_INPUT_NATIVE_TESTS=1 opt-in. LEAGUE_CAPTURE_EVIDENCE selects the output directory, defaulting to artifacts/capture. Only synthetic test-scene images should be published. Real desktop recordings, VM files, and credentials stay private.
+
+## Verified results
+
+Revision 53e6d07 passed all 74 tests without skips on [Windows Server 2025 CI](https://github.com/snailphobia/league-ai-research/actions/runs/38651049565) and the local Windows 11 evaluation VM. This includes 49 portable tests and 25 native tests. The synthetic visual feedback test passed on one CI monitor and both VM monitors, with application-confirmed clicks at (638, 398) and (-514, 282) in the VM.
+
+| Environment and capture area | Target | Observed rate | Processing |
+| --- | ---: | ---: | --- |
+| Windows Server 2025, 1024 x 768 desktop | 20 Hz | 19.89 Hz | Native RGB capture stream |
+| Windows 11, 2304 x 900 two-monitor bounding area | 20 Hz | 19.28 Hz | Native RGB capture stream |
+| Windows 11, 1280 x 800 primary monitor | 20 Hz | 19.58 Hz | Capture plus consumer resize to 576 x 360 |
+| Windows 11, 1280 x 800 primary monitor | 30 Hz | 27.92 Hz | Capture plus consumer resize to 576 x 360 |
+
+These are short measurements on the recorded software-display environments and exclude model inference. The VM's primary-monitor capture averaged about 31–32 ms; consumer resizing averaged about 6.7 ms. Capturing the whole two-monitor area was slower than capturing only the game-sized monitor. Hardware, scene, and shared load affect the rates; none is an end-to-end game-agent FPS claim.
+
+The [Server evidence](../artifacts/capture-windows-server-2025/summary.json) and [Windows 11 evidence](../artifacts/capture-windows-11/summary.json) include geometry, versions, measured rates, and source/published hashes. Their visual-loop reports, PNGs, and JSONL episodes show the before observation, submitted click, and later changed observation. Every published image contains the synthetic scene; its hash is checked against the event trail. The recordings preserve native and resized views under a shared capture identifier. Mixed-DPI displays and game rendering paths remain untested.
