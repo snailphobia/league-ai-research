@@ -207,13 +207,22 @@ def test_raw_and_named_modifier_holds_share_ownership(native, receiver):
 
 def test_absolute_movement_all_desktop_corners(native, receiver):
     d = native.desktop()
-    for point in (
-        (d.left, d.top),
-        (d.right, d.top),
-        (d.left, d.bottom),
-        (d.right, d.bottom),
-        (d.left + d.width // 2, d.top + d.height // 2),
-    ):
+    points = []
+    for monitor in receiver.geometry["monitors"]:
+        left, top = monitor["left"], monitor["top"]
+        right, bottom = monitor["right"] - 1, monitor["bottom"] - 1
+        points.extend(
+            [
+                (left, top),
+                (right, top),
+                (left, bottom),
+                (right, bottom),
+                ((left + right) // 2, (top + bottom) // 2),
+            ]
+        )
+    assert d.left == min(m["left"] for m in receiver.geometry["monitors"])
+    assert d.top == min(m["top"] for m in receiver.geometry["monitors"])
+    for point in points:
         native.move_to(*point)
         receiver.wait(lambda point=point: native.position() == point)
         assert native.position() == point
@@ -226,6 +235,18 @@ def test_absolute_movement_all_desktop_corners(native, receiver):
         assert (click["x"], click["y"]) == point
         record(receiver, f"corner_click:{point}")
     record(receiver, "absolute_corners")
+    # A staggered topology can have gaps inside its bounding rectangle.
+    # Those are not target pixels and must be rejected before any click.
+    for point in ((d.left, d.top), (d.right, d.top), (d.left, d.bottom), (d.right, d.bottom)):
+        if not any(
+            m["left"] <= point[0] < m["right"] and m["top"] <= point[1] < m["bottom"]
+            for m in receiver.geometry["monitors"]
+        ):
+            receiver.clear()
+            with pytest.raises(ValueError):
+                native.click(*point)
+            assert receiver.events == []
+            record(receiver, f"monitor_gap_rejected:{point}")
 
 
 def test_exact_pixel_delta_and_raw_motion(native, receiver):

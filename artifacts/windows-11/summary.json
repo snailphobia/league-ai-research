@@ -1,0 +1,37 @@
+{
+  "source": "local QEMU/KVM evaluation VM",
+  "code_revision": "f4b9e9c",
+  "test_counts": {
+    "passed": 50,
+    "failed": 0,
+    "skipped": 0
+  },
+  "windows": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "library": "2.1.3.1",
+  "geometry": {
+    "left": 0,
+    "top": 0,
+    "width": 1280,
+    "height": 800
+  },
+  "named_keys": 137,
+  "modifier_chords": 92,
+  "long_chord_keys": 14,
+  "observations": 258,
+  "evidence_sha256": "dd38a8097eb4b5fea9d0cb59b7c31835e15b44367266ed316fb73df58fd42240",
+  "vm": {
+    "cpu": "KVM host CPU, 4 virtual CPUs",
+    "memory_mib": 6144,
+    "display": "QEMU standard VGA",
+    "media": "official Microsoft Windows 11 Enterprise LTSC Evaluation, build 26100",
+    "firmware": "OVMF UEFI Secure Boot and software TPM 2.0",
+    "installation": "Unattended installer compatibility checks overridden for evaluation VM"
+  },
+  "limits": [
+    "single monitor topology",
+    "keyboard catalog and chords recorded with injected key forwarding suppressed",
+    "Unicode, application modifier state and mouse buttons also observed by a real EDIT control",
+    "evaluation media; no gaming GPU or application-specific input acceptance measured"
+  ]
+}

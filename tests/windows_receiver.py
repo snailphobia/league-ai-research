@@ -18,6 +18,7 @@ K = C.WinDLL("kernel32", use_last_error=True)
 LRESULT = C.c_ssize_t
 PROC = C.WINFUNCTYPE(LRESULT, C.c_int, W.WPARAM, W.LPARAM)
 WNDPROC = C.WINFUNCTYPE(LRESULT, W.HWND, W.UINT, W.WPARAM, W.LPARAM)
+MONITORPROC = C.WINFUNCTYPE(W.BOOL, W.HANDLE, W.HDC, C.POINTER(W.RECT), W.LPARAM)
 
 
 class KeyboardEvent(C.Structure):
@@ -81,6 +82,7 @@ signature(U, "GetWindowTextW", [W.HWND, W.LPWSTR, C.c_int], C.c_int)
 signature(U, "SetWindowTextW", [W.HWND, W.LPCWSTR], W.BOOL)
 signature(U, "DestroyWindow", [W.HWND], W.BOOL)
 signature(U, "SetThreadDpiAwarenessContext", [C.c_void_p], C.c_void_p)
+signature(U, "EnumDisplayMonitors", [W.HDC, C.POINTER(W.RECT), MONITORPROC, W.LPARAM], W.BOOL)
 signature(K, "GetModuleHandleW", [W.LPCWSTR], W.HMODULE)
 signature(K, "GetCurrentThreadId", [], W.DWORD)
 
@@ -113,6 +115,19 @@ class Receiver:
             left, top = U.GetSystemMetrics(76), U.GetSystemMetrics(77)
             width, height = U.GetSystemMetrics(78), U.GetSystemMetrics(79)
             self.geometry = dict(left=left, top=top, width=width, height=height)
+            monitors = []
+
+            def monitor_rect(handle, hdc, pointer, data):
+                rect = pointer.contents
+                monitors.append(
+                    dict(left=rect.left, top=rect.top, right=rect.right, bottom=rect.bottom)
+                )
+                return True
+
+            monitor_callback = MONITORPROC(monitor_rect)
+            if not U.EnumDisplayMonitors(None, None, monitor_callback, 0) or not monitors:
+                raise RuntimeError("Cannot enumerate the attached Windows monitors")
+            self.geometry["monitors"] = monitors
             self.hwnd = U.CreateWindowExW(
                 8,
                 "EDIT",

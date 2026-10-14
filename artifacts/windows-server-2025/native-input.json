@@ -8321,153 +8321,403 @@
       "application_events": [
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 65
+          "wparam": 65,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 83
+          "wparam": 83,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 67
+          "wparam": 67,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 73
+          "wparam": 73,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 73
+          "wparam": 73,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 32
+          "wparam": 32,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 536
+          "wparam": 536,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 539
+          "wparam": 539,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 28450
+          "wparam": 28450,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 23383
+          "wparam": 23383,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 32
+          "wparam": 32,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 257,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 55357
+          "wparam": 55357,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 256,
-          "wparam": 231
+          "wparam": 231,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 258,
-          "wparam": 56832
+          "wparam": 56832,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
+    },
+    {
+      "test": "application_modifier_state",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 29,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 160,
+          "scan": 42,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 160,
+          "scan": 42,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 29,
+          "flags": 144
+        }
+      ],
+      "application_events": [
+        {
+          "message": 256,
+          "wparam": 17,
+          "ctrl": true,
+          "shift": false,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 16,
+          "ctrl": true,
+          "shift": true,
+          "alt": false
+        },
+        {
+          "message": 256,
+          "wparam": 65,
+          "ctrl": true,
+          "shift": true,
+          "alt": false
+        },
+        {
+          "message": 258,
+          "wparam": 1,
+          "ctrl": true,
+          "shift": true,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 65,
+          "ctrl": true,
+          "shift": true,
+          "alt": false
+        },
+        {
+          "message": 257,
+          "wparam": 16,
+          "ctrl": true,
+          "shift": false,
+          "alt": false
+        }
+      ]
+    },
+    {
+      "test": "mixed_raw_named_modifier_ownership",
+      "events": [
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 162,
+          "scan": 0,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 65,
+          "scan": 30,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 65,
+          "scan": 30,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 256,
+          "vk": 66,
+          "scan": 48,
+          "flags": 16
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 66,
+          "scan": 48,
+          "flags": 144
+        },
+        {
+          "kind": "key",
+          "message": 257,
+          "vk": 162,
+          "scan": 0,
+          "flags": 144
+        }
+      ],
+      "application_events": []
     },
     {
       "test": "corner_click:(0, 0)",
@@ -8500,7 +8750,10 @@
       "application_events": [
         {
           "message": 513,
-          "wparam": 1
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8535,7 +8788,10 @@
       "application_events": [
         {
           "message": 513,
-          "wparam": 1
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8570,7 +8826,10 @@
       "application_events": [
         {
           "message": 513,
-          "wparam": 1
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8605,7 +8864,10 @@
       "application_events": [
         {
           "message": 513,
-          "wparam": 1
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8640,7 +8902,10 @@
       "application_events": [
         {
           "message": 513,
-          "wparam": 1
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8675,7 +8940,10 @@
       "application_events": [
         {
           "message": 513,
-          "wparam": 1
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8691,6 +8959,11 @@
           "flags": 1
         }
       ],
+      "application_events": []
+    },
+    {
+      "test": "native_coordinate_overflow_rejected",
+      "events": [],
       "application_events": []
     },
     {
@@ -8724,7 +8997,10 @@
       "application_events": [
         {
           "message": 513,
-          "wparam": 1
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8759,7 +9035,10 @@
       "application_events": [
         {
           "message": 516,
-          "wparam": 2
+          "wparam": 2,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8794,7 +9073,10 @@
       "application_events": [
         {
           "message": 519,
-          "wparam": 16
+          "wparam": 16,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8829,7 +9111,10 @@
       "application_events": [
         {
           "message": 523,
-          "wparam": 65568
+          "wparam": 65568,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8864,7 +9149,10 @@
       "application_events": [
         {
           "message": 523,
-          "wparam": 131136
+          "wparam": 131136,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     },
@@ -8925,6 +9213,82 @@
       "application_events": []
     },
     {
+      "test": "large_wheel:False:1000",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 2146959360,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 2146959360,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 2146959360,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 522,
+          "x": 200,
+          "y": 200,
+          "data": 1423441920,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
+      "test": "large_wheel:True:-1000",
+      "events": [
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 2148007936,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 2148007936,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 2148007936,
+          "flags": 1
+        },
+        {
+          "kind": "mouse",
+          "message": 526,
+          "x": 200,
+          "y": 200,
+          "data": 2871525376,
+          "flags": 1
+        }
+      ],
+      "application_events": []
+    },
+    {
       "test": "drag_and_cleanup",
       "events": [
         {
@@ -8961,11 +9325,17 @@
       "application_events": [
         {
           "message": 513,
-          "wparam": 1
+          "wparam": 1,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         },
         {
           "message": 514,
-          "wparam": 0
+          "wparam": 0,
+          "ctrl": false,
+          "shift": false,
+          "alt": false
         }
       ]
     }

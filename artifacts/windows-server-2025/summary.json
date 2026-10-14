@@ -1,8 +1,8 @@
 {
-  "source_run": "https://github.com/snailphobia/league-ai-research/actions/runs/38613188095",
-  "code_revision": "70d8067",
+  "source_run": "https://github.com/snailphobia/league-ai-research/actions/runs/38620467658",
+  "code_revision": "f4b9e9c",
   "test_counts": {
-    "passed": 41,
+    "passed": 50,
     "failed": 0,
     "skipped": 0
   },
@@ -18,13 +18,12 @@
   "named_keys": 137,
   "modifier_chords": 92,
   "long_chord_keys": 14,
-  "observations": 253,
-  "evidence_sha256": "ad61cccac06a8bec11f905426dc0220cc2b3122f91cf46d98dee7d6c388e153e",
+  "observations": 258,
+  "evidence_sha256": "2cba0dd0c64f34e5559173ecf8a5c6df71a4364cec39589439ae501bbf29a865",
   "limits": [
     "single monitor topology",
     "keyboard catalog and chords observed with injected key forwarding suppressed to avoid shell shortcuts",
-    "Unicode and mouse buttons additionally verified by the real EDIT control",
-    "Windows 11 client VM acceptance pending",
+    "Unicode, modifier state and mouse buttons additionally verified by the real EDIT control",
     "application-specific input acceptance remains separate"
   ]
 }
