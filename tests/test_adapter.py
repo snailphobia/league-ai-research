@@ -37,6 +37,9 @@ class RecordingBackend:
         if key == (self.fail_down if down else self.fail_up):
             raise InputError("simulated native rejection")
 
+    def identity(self, key):
+        return self.names["ctrl"] if key == Key.vk(0x11) else key
+
     def button_event(self, button, down):
         self.events.append(("button", button, down))
 
@@ -93,6 +96,23 @@ def test_nested_hold_preserves_outer_input_and_alias_identity(pair):
         assert adapter.held_keys == (backend.names["ctrl"],)
     assert backend.events.count(("key", backend.names["ctrl"], True)) == 1
     assert backend.events.count(("key", backend.names["ctrl"], False)) == 1
+
+
+def test_raw_and_named_aliases_preserve_the_original_owned_event_channel(pair):
+    adapter, backend = pair
+    raw_ctrl = Key.vk(0x11)
+    with adapter.hold(raw_ctrl):
+        with adapter.hold("ctrl", "a"):
+            pass
+        assert adapter.held_keys == (raw_ctrl,)
+        with pytest.raises(InputError):
+            adapter.press("ctrl")
+    assert backend.events == [
+        ("key", raw_ctrl, True),
+        ("key", backend.names["a"], True),
+        ("key", backend.names["a"], False),
+        ("key", raw_ctrl, False),
+    ]
 
 
 def test_partial_chord_failure_releases_all_attempted_keys(pair):

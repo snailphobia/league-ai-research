@@ -102,6 +102,15 @@ class WindowsBackend:
         ]
         return tuple(sorted(set(names) | set(ALIASES)))
 
+    def identity(self, key):
+        if key.kind != "vk":
+            return key
+        # MAPVK_VK_TO_VSC_EX preserves E0/E1 prefixes and left/right identity.
+        code = self.lib._map_virtual_key(key.code, 4)
+        if not code or code >> 8 == 0xE1:
+            return key
+        return Key.scan(code & 0xFF, extended=key.extended or code >> 8 == 0xE0)
+
     def key_event(self, key, down):
         flags = (0 if down else 2) | (1 if key.extended else 0)
         if key.kind == "vk":

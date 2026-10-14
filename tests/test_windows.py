@@ -192,6 +192,19 @@ def test_application_receives_a_key_with_both_modifiers_held(native, receiver):
     record(receiver, "application_modifier_state")
 
 
+def test_raw_and_named_modifier_holds_share_ownership(native, receiver):
+    with native.hold(Key.vk(0x11)):
+        with native.hold("ctrl", "a"):
+            pass
+        assert native.held_keys == (Key.vk(0x11),)
+        native.press("b")
+    receiver.wait(lambda: len(key_events(receiver)) == 6)
+    events = key_events(receiver)
+    assert [e["vk"] for e in events] == [0xA2, 0x41, 0x41, 0x42, 0x42, 0xA2]
+    assert [e["message"] for e in events] == [0x100, 0x100, 0x101, 0x100, 0x101, 0x101]
+    record(receiver, "mixed_raw_named_modifier_ownership")
+
+
 def test_absolute_movement_all_desktop_corners(native, receiver):
     d = native.desktop()
     for point in (

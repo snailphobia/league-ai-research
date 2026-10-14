@@ -16,7 +16,7 @@ class InputAdapter:
             backend = WindowsBackend()
         self._backend = backend
         self._sleep = sleep
-        self._owned: dict[tuple[str, Key | Button], None] = {}
+        self._owned: dict[tuple[str, Key | Button], Key | Button] = {}
         self._lock = RLock()
         self._closed = False
 
@@ -26,7 +26,7 @@ class InputAdapter:
 
     @property
     def held_keys(self):
-        return tuple(k for kind, k in self._owned if kind == "key")
+        return tuple(value for (kind, _), value in self._owned.items() if kind == "key")
 
     @property
     def held_buttons(self):
@@ -35,13 +35,24 @@ class InputAdapter:
     def available_keys(self):
         return self._backend.keys()
 
+    def _token(self, kind, value):
+        # Exact descriptors already owned keep the identity resolved on key-down,
+        # even if the calling thread's keyboard layout changes before release.
+        for token, original in self._owned.items():
+            if token[0] == kind and original == value:
+                return token
+        if kind == "key":
+            identity = getattr(self._backend, "identity", lambda key: key)(value)
+            return kind, identity
+        return kind, value
+
     def _down(self, kind, value):
         self._open()
-        token = kind, value
+        token = self._token(kind, value)
         if token in self._owned:
             return False
         # Track before submission: a partially inserted input still needs release.
-        self._owned[token] = None
+        self._owned[token] = value
         if kind == "key":
             self._backend.key_event(value, True)
         else:
@@ -49,9 +60,10 @@ class InputAdapter:
         return True
 
     def _up(self, kind, value):
-        token = kind, value
+        token = self._token(kind, value)
         if token not in self._owned:
             return False
+        value = self._owned[token]
         if kind == "key":
             self._backend.key_event(value, False)
         else:
@@ -94,10 +106,11 @@ class InputAdapter:
         with self._lock:
             self._open()
             try:
-                for token in requested:
+                for kind, value in requested:
+                    token = self._token(kind, value)
                     if token not in self._owned:
                         acquired.append(token)
-                        self._down(*token)
+                        self._down(kind, value)
                 yield self
             finally:
                 self._release_tokens(acquired)
@@ -117,7 +130,7 @@ class InputAdapter:
         resolved = self._backend.resolve(key)
         with self._lock:
             self._open()
-            if ("key", resolved) in self._owned:
+            if self._token("key", resolved) in self._owned:
                 raise InputError("press cannot tap a key already held; release it or use key_down")
             for index in range(count):
                 if index:

@@ -24,7 +24,7 @@ All timing values are seconds. Coordinates and wheel ticks are integers. Validat
 
 Keys may be named strings, Key.scan(code, extended=False), or Key.vk(code, extended=False). Scan codes are 1..255, with the extended flag for E0-prefixed keys. Windows virtual-key codes are 1..254; unassigned codes do not create nonexistent hardware functionality. Uppercase letters identify the same physical key as lowercase letters. Use explicit modifiers for key combinations and type_text for Unicode text.
 
-Hold contexts preserve keys/buttons already owned by an outer context. Tapping a key or button already held is rejected instead of silently releasing it. The ownership registry identifies normalized named keys and exact raw descriptors; avoid mixing raw virtual-key and scan-code representations of the same physical key inside overlapping holds.
+Hold contexts preserve keys/buttons already owned by an outer context. Tapping a key or button already held is rejected instead of silently releasing it. Windows virtual keys are mapped to physical scan-code identities for ownership, so equivalent named/raw representations share a hold. Release uses the original event channel and retains an exact descriptor's identity across a calling-thread layout change. Named physical keys remain based on US QWERTY positions; Unicode text is the layout-independent text interface.
 
 Input errors preserve uncertain ownership until a release succeeds, so cleanup can be retried. Cleanup attempts every owned release even when an earlier release fails, and reports failures as an ExceptionGroup. Use a with block or explicit try/finally. Forcibly killing the process prevents Python cleanup.
 
