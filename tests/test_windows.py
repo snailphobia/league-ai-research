@@ -89,7 +89,12 @@ def test_all_named_keys_reach_windows(native, receiver):
         assert observed[-1]["message"] in {0x101, 0x105}, (name, observed)
         if key.kind == "scan":
             assert observed[0]["scan"] == key.code, (name, observed)
-            assert bool(observed[0]["flags"] & 1) == key.extended, (name, observed)
+            if key.code == 0x36 and not key.extended:
+                # Windows marks VK_RSHIFT extended in the low-level witness,
+                # although its physical make code is 0x36 without an E0 prefix.
+                assert observed[0]["vk"] == 0xA1, (name, observed)
+            else:
+                assert bool(observed[0]["flags"] & 1) == key.extended, (name, observed)
         else:
             assert observed[0]["vk"] == key.code, (name, observed)
         record(receiver, f"named_key:{name}")
