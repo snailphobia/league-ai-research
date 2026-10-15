@@ -1,0 +1,39 @@
+{
+  "monitor": 1,
+  "index": 2,
+  "condition": "background",
+  "present": true,
+  "score": 0.9999999854703623,
+  "point": [
+    190,
+    254
+  ],
+  "capture_id": "3035fe8e1827408ea6b59fe366683ffd",
+  "view_id": "1e94f83c2eef4f11b1644b38c82c6423",
+  "region": {
+    "left": 48,
+    "top": 48,
+    "width": 384,
+    "height": 256
+  },
+  "application_received": true,
+  "visible_feedback": true,
+  "success": true,
+  "baseline_correct": false,
+  "timestamps_ns": {
+    "capture_started": 328296255700,
+    "capture_finished": 328322677000,
+    "inference_started": 328322738700,
+    "preprocess_finished": 328323141900,
+    "inference_finished": 328323602700,
+    "submitted": 328324313500,
+    "application_received": 328324394400,
+    "feedback_finished": 328383944400
+  },
+  "capture_ms": 26.4213,
+  "preprocess_ms": 0.4032,
+  "inference_ms": 0.4608,
+  "input_ms": 0.7108,
+  "observation_to_submit_ms": 28.0578,
+  "observation_to_feedback_ms": 87.6887
+}

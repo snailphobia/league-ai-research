@@ -1,0 +1,1290 @@
+{
+  "model_sha256": "6e503cb707967518d35817783436950775ca8329691fb2a7900fcba06e4ae497",
+  "threshold": 0.99,
+  "windows": "Windows-2025Server-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "onnxruntime": "1.31.0",
+  "numpy": "2.5.4",
+  "pillow": "12.3.0",
+  "mss": "10.2.0",
+  "inference_threads": 1,
+  "crop": [
+    384,
+    256
+  ],
+  "model_input": [
+    96,
+    64
+  ],
+  "trials": 32,
+  "successes": 32,
+  "baseline_correct": 12,
+  "latency_ms": {
+    "capture_ms": {
+      "mean": 31.18913125,
+      "p50": 30.4226,
+      "p95": 46.3845,
+      "max": 47.0954
+    },
+    "preprocess_ms": {
+      "mean": 0.394234375,
+      "p50": 0.3929,
+      "p95": 0.4517,
+      "max": 0.4637
+    },
+    "inference_ms": {
+      "mean": 0.459696875,
+      "p50": 0.459,
+      "p95": 0.4953,
+      "max": 0.6821
+    },
+    "input_ms": {
+      "mean": 0.952665625,
+      "p50": 0.6389,
+      "p95": 0.7445,
+      "max": 14.747
+    },
+    "observation_to_submit_ms": {
+      "mean": 33.04905625,
+      "p50": 31.6927,
+      "p95": 48.0714,
+      "max": 48.4821
+    },
+    "observation_to_feedback_ms": {
+      "mean": 63.56902,
+      "p50": 61.2143,
+      "p95": 87.6887,
+      "max": 91.4929
+    }
+  },
+  "reports": [
+    {
+      "monitor": 1,
+      "index": 0,
+      "condition": "nominal",
+      "present": false,
+      "score": 0.006153540323344268,
+      "point": null,
+      "capture_id": "58c73710980a4b01a9f35f2c646bcbce",
+      "view_id": "31643e029e7f41ee94f64a5098f7c8e4",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": false,
+      "visible_feedback": false,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 328202320200,
+        "capture_finished": 328228343700,
+        "inference_started": 328228418700,
+        "preprocess_finished": 328228870400,
+        "inference_finished": 328229552500,
+        "submitted": 328229600200,
+        "application_received": null,
+        "feedback_finished": null
+      },
+      "capture_ms": 26.0235,
+      "preprocess_ms": 0.4517,
+      "inference_ms": 0.6821,
+      "input_ms": 0.0477,
+      "observation_to_submit_ms": 27.28,
+      "observation_to_feedback_ms": null
+    },
+    {
+      "monitor": 1,
+      "index": 1,
+      "condition": "palette",
+      "present": true,
+      "score": 0.9999939620377142,
+      "point": [
+        294,
+        262
+      ],
+      "capture_id": "c1916c3f2b17481da02f88cdb01d3da2",
+      "view_id": "586fa847cf3a4ab4bd80eb3a67098219",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328233866500,
+        "capture_finished": 328259475100,
+        "inference_started": 328259544200,
+        "preprocess_finished": 328259968800,
+        "inference_finished": 328260464100,
+        "submitted": 328275211100,
+        "application_received": 328275315500,
+        "feedback_finished": 328291736600
+      },
+      "capture_ms": 25.6086,
+      "preprocess_ms": 0.4246,
+      "inference_ms": 0.4953,
+      "input_ms": 14.747,
+      "observation_to_submit_ms": 41.3446,
+      "observation_to_feedback_ms": 57.8701
+    },
+    {
+      "monitor": 1,
+      "index": 2,
+      "condition": "background",
+      "present": true,
+      "score": 0.9999999854703623,
+      "point": [
+        190,
+        254
+      ],
+      "capture_id": "3035fe8e1827408ea6b59fe366683ffd",
+      "view_id": "1e94f83c2eef4f11b1644b38c82c6423",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328296255700,
+        "capture_finished": 328322677000,
+        "inference_started": 328322738700,
+        "preprocess_finished": 328323141900,
+        "inference_finished": 328323602700,
+        "submitted": 328324313500,
+        "application_received": 328324394400,
+        "feedback_finished": 328383944400
+      },
+      "capture_ms": 26.4213,
+      "preprocess_ms": 0.4032,
+      "inference_ms": 0.4608,
+      "input_ms": 0.7108,
+      "observation_to_submit_ms": 28.0578,
+      "observation_to_feedback_ms": 87.6887
+    },
+    {
+      "monitor": 1,
+      "index": 3,
+      "condition": "combined",
+      "present": true,
+      "score": 0.9999981801435226,
+      "point": [
+        370,
+        82
+      ],
+      "capture_id": "16eea5bd5b78400081f1bb3bc2cbb915",
+      "view_id": "f271aa8e439c4636abeef805c9ccaa19",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328388448400,
+        "capture_finished": 328415628000,
+        "inference_started": 328415677500,
+        "preprocess_finished": 328416076300,
+        "inference_finished": 328416543300,
+        "submitted": 328417232700,
+        "application_received": 328417309900,
+        "feedback_finished": 328446444600
+      },
+      "capture_ms": 27.1796,
+      "preprocess_ms": 0.3988,
+      "inference_ms": 0.467,
+      "input_ms": 0.6894,
+      "observation_to_submit_ms": 28.7843,
+      "observation_to_feedback_ms": 57.9962
+    },
+    {
+      "monitor": 1,
+      "index": 4,
+      "condition": "nominal",
+      "present": true,
+      "score": 0.9999999593479726,
+      "point": [
+        182,
+        166
+      ],
+      "capture_id": "4ccdf11b10214db6af2ac01f140dbcc1",
+      "view_id": "93bf93157b5245419a89fc72ff6b7001",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 328451073700,
+        "capture_finished": 328477831100,
+        "inference_started": 328477869300,
+        "preprocess_finished": 328478252800,
+        "inference_finished": 328478711800,
+        "submitted": 328479350700,
+        "application_received": 328479476000,
+        "feedback_finished": 328494358900
+      },
+      "capture_ms": 26.7574,
+      "preprocess_ms": 0.3835,
+      "inference_ms": 0.459,
+      "input_ms": 0.6389,
+      "observation_to_submit_ms": 28.277,
+      "observation_to_feedback_ms": 43.2852
+    },
+    {
+      "monitor": 1,
+      "index": 5,
+      "condition": "palette",
+      "present": false,
+      "score": 0.23465808938415675,
+      "point": null,
+      "capture_id": "b975350022834ef1957475020482a6c9",
+      "view_id": "15afc3d5fa7f4481a3f48ae22769e8e5",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": false,
+      "visible_feedback": false,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 328495289800,
+        "capture_finished": 328525291500,
+        "inference_started": 328525339200,
+        "preprocess_finished": 328525731300,
+        "inference_finished": 328526197600,
+        "submitted": 328526239100,
+        "application_received": null,
+        "feedback_finished": null
+      },
+      "capture_ms": 30.0017,
+      "preprocess_ms": 0.3921,
+      "inference_ms": 0.4663,
+      "input_ms": 0.0415,
+      "observation_to_submit_ms": 30.9493,
+      "observation_to_feedback_ms": null
+    },
+    {
+      "monitor": 1,
+      "index": 6,
+      "condition": "background",
+      "present": true,
+      "score": 0.9999999757546704,
+      "point": [
+        194,
+        86
+      ],
+      "capture_id": "1761bbf346d74729a6005cb35741d8d4",
+      "view_id": "e21a9be8baf64e9c9f233a42037ce783",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 328527158000,
+        "capture_finished": 328556872000,
+        "inference_started": 328556918200,
+        "preprocess_finished": 328557310800,
+        "inference_finished": 328557756400,
+        "submitted": 328558436700,
+        "application_received": 328558493300,
+        "feedback_finished": 328603665800
+      },
+      "capture_ms": 29.714,
+      "preprocess_ms": 0.3926,
+      "inference_ms": 0.4456,
+      "input_ms": 0.6803,
+      "observation_to_submit_ms": 31.2787,
+      "observation_to_feedback_ms": 76.5078
+    },
+    {
+      "monitor": 1,
+      "index": 7,
+      "condition": "combined",
+      "present": true,
+      "score": 0.9999982659200072,
+      "point": [
+        366,
+        174
+      ],
+      "capture_id": "3e8928bac27f4d6e97e4d3a48b050577",
+      "view_id": "3343f532d9bc4f6fbfd0b6be8210b271",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328604710800,
+        "capture_finished": 328635191100,
+        "inference_started": 328635252100,
+        "preprocess_finished": 328635653300,
+        "inference_finished": 328636111400,
+        "submitted": 328636811900,
+        "application_received": 328636948700,
+        "feedback_finished": 328651615300
+      },
+      "capture_ms": 30.4803,
+      "preprocess_ms": 0.4012,
+      "inference_ms": 0.4581,
+      "input_ms": 0.7005,
+      "observation_to_submit_ms": 32.1011,
+      "observation_to_feedback_ms": 46.9045
+    },
+    {
+      "monitor": 1,
+      "index": 8,
+      "condition": "nominal",
+      "present": true,
+      "score": 0.9999999960685801,
+      "point": [
+        178,
+        98
+      ],
+      "capture_id": "8e105dede5104cf38ed362845f7cb166",
+      "view_id": "c80590a195eb4b1ba04d2fd7c50f8252",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 328652605000,
+        "capture_finished": 328682539400,
+        "inference_started": 328682595900,
+        "preprocess_finished": 328682988800,
+        "inference_finished": 328683445400,
+        "submitted": 328684178700,
+        "application_received": 328684249200,
+        "feedback_finished": 328699078700
+      },
+      "capture_ms": 29.9344,
+      "preprocess_ms": 0.3929,
+      "inference_ms": 0.4566,
+      "input_ms": 0.7333,
+      "observation_to_submit_ms": 31.5737,
+      "observation_to_feedback_ms": 46.4737
+    },
+    {
+      "monitor": 1,
+      "index": 9,
+      "condition": "palette",
+      "present": true,
+      "score": 0.9999983929631047,
+      "point": [
+        378,
+        250
+      ],
+      "capture_id": "180a07f9b6514c3d8381005eeca9a356",
+      "view_id": "ef0846ca368d4a759d937e63f72948d1",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328700031500,
+        "capture_finished": 328731407600,
+        "inference_started": 328731455600,
+        "preprocess_finished": 328731849200,
+        "inference_finished": 328732300700,
+        "submitted": 328732951500,
+        "application_received": 328733006800,
+        "feedback_finished": 328761245800
+      },
+      "capture_ms": 31.3761,
+      "preprocess_ms": 0.3936,
+      "inference_ms": 0.4515,
+      "input_ms": 0.6508,
+      "observation_to_submit_ms": 32.92,
+      "observation_to_feedback_ms": 61.2143
+    },
+    {
+      "monitor": 1,
+      "index": 10,
+      "condition": "background",
+      "present": false,
+      "score": 0.024222488302970503,
+      "point": null,
+      "capture_id": "ae88530bad3e49d7a66a72449bb0a88c",
+      "view_id": "d945306ba3b94734b3a21e83d664dfc2",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": false,
+      "visible_feedback": false,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328762217500,
+        "capture_finished": 328792180800,
+        "inference_started": 328792244100,
+        "preprocess_finished": 328792642100,
+        "inference_finished": 328793101600,
+        "submitted": 328793142200,
+        "application_received": null,
+        "feedback_finished": null
+      },
+      "capture_ms": 29.9633,
+      "preprocess_ms": 0.398,
+      "inference_ms": 0.4595,
+      "input_ms": 0.0406,
+      "observation_to_submit_ms": 30.9247,
+      "observation_to_feedback_ms": null
+    },
+    {
+      "monitor": 1,
+      "index": 11,
+      "condition": "combined",
+      "present": true,
+      "score": 0.9999996358014519,
+      "point": [
+        362,
+        170
+      ],
+      "capture_id": "a51c61065b1b4953b860c96336dec476",
+      "view_id": "6f391608614a45d5ac11c029573f747c",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328794142600,
+        "capture_finished": 328840527100,
+        "inference_started": 328840598100,
+        "preprocess_finished": 328841012700,
+        "inference_finished": 328841469500,
+        "submitted": 328842214000,
+        "application_received": 328842398300,
+        "feedback_finished": 328885635500
+      },
+      "capture_ms": 46.3845,
+      "preprocess_ms": 0.4146,
+      "inference_ms": 0.4568,
+      "input_ms": 0.7445,
+      "observation_to_submit_ms": 48.0714,
+      "observation_to_feedback_ms": 91.4929
+    },
+    {
+      "monitor": 1,
+      "index": 12,
+      "condition": "nominal",
+      "present": true,
+      "score": 0.9999999937751605,
+      "point": [
+        266,
+        246
+      ],
+      "capture_id": "1c5bb25b12b740f59c985a860e088d1e",
+      "view_id": "81d5914553fa47c9b0cef1bf8bb4ee96",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 328886658100,
+        "capture_finished": 328917115300,
+        "inference_started": 328917173300,
+        "preprocess_finished": 328917604800,
+        "inference_finished": 328918085800,
+        "submitted": 328918783300,
+        "application_received": 328918857600,
+        "feedback_finished": 328935093100
+      },
+      "capture_ms": 30.4572,
+      "preprocess_ms": 0.4315,
+      "inference_ms": 0.481,
+      "input_ms": 0.6975,
+      "observation_to_submit_ms": 32.1252,
+      "observation_to_feedback_ms": 48.435
+    },
+    {
+      "monitor": 1,
+      "index": 13,
+      "condition": "palette",
+      "present": true,
+      "score": 0.9999996294623875,
+      "point": [
+        182,
+        94
+      ],
+      "capture_id": "672c727215e64af8b339bee40b2b3b70",
+      "view_id": "1d4ece8dc20b4876bfbb6ad7cbc3740a",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328936034800,
+        "capture_finished": 328979295100,
+        "inference_started": 328979345800,
+        "preprocess_finished": 328979731500,
+        "inference_finished": 328980192500,
+        "submitted": 328980807500,
+        "application_received": 328980876500,
+        "feedback_finished": 328995898200
+      },
+      "capture_ms": 43.2603,
+      "preprocess_ms": 0.3857,
+      "inference_ms": 0.461,
+      "input_ms": 0.615,
+      "observation_to_submit_ms": 44.7727,
+      "observation_to_feedback_ms": 59.8634
+    },
+    {
+      "monitor": 1,
+      "index": 14,
+      "condition": "background",
+      "present": true,
+      "score": 0.9999999944524776,
+      "point": [
+        374,
+        258
+      ],
+      "capture_id": "bf90da299df248e9b1c9e0949156a90d",
+      "view_id": "ce6a7099206b490cad37b2f0df567a6f",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 328996906700,
+        "capture_finished": 329026599700,
+        "inference_started": 329026637900,
+        "preprocess_finished": 329027014300,
+        "inference_finished": 329027465700,
+        "submitted": 329028113200,
+        "application_received": 329028195800,
+        "feedback_finished": 329058333000
+      },
+      "capture_ms": 29.693,
+      "preprocess_ms": 0.3764,
+      "inference_ms": 0.4514,
+      "input_ms": 0.6475,
+      "observation_to_submit_ms": 31.2065,
+      "observation_to_feedback_ms": 61.4263
+    },
+    {
+      "monitor": 1,
+      "index": 15,
+      "condition": "combined",
+      "present": false,
+      "score": 0.0010708872819039737,
+      "point": null,
+      "capture_id": "a60a100263ba492b91876a03f8c43e13",
+      "view_id": "13805cf81d0843a8a4bf18ec52c8365f",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": false,
+      "visible_feedback": false,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 329059377200,
+        "capture_finished": 329089918400,
+        "inference_started": 329089979300,
+        "preprocess_finished": 329090381100,
+        "inference_finished": 329090842900,
+        "submitted": 329090885600,
+        "application_received": null,
+        "feedback_finished": null
+      },
+      "capture_ms": 30.5412,
+      "preprocess_ms": 0.4018,
+      "inference_ms": 0.4618,
+      "input_ms": 0.0427,
+      "observation_to_submit_ms": 31.5084,
+      "observation_to_feedback_ms": null
+    },
+    {
+      "monitor": 1,
+      "index": 16,
+      "condition": "nominal",
+      "present": true,
+      "score": 0.9999999925260598,
+      "point": [
+        278,
+        86
+      ],
+      "capture_id": "42a4a5a960c14a0cb04c515b6d387de0",
+      "view_id": "6b6a166fab36442fbd61b296ed7db626",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 329091881500,
+        "capture_finished": 329123172100,
+        "inference_started": 329123226700,
+        "preprocess_finished": 329123623700,
+        "inference_finished": 329124076800,
+        "submitted": 329124806300,
+        "application_received": 329124874000,
+        "feedback_finished": 329168601600
+      },
+      "capture_ms": 31.2906,
+      "preprocess_ms": 0.397,
+      "inference_ms": 0.4531,
+      "input_ms": 0.7295,
+      "observation_to_submit_ms": 32.9248,
+      "observation_to_feedback_ms": 76.7201
+    },
+    {
+      "monitor": 1,
+      "index": 17,
+      "condition": "palette",
+      "present": true,
+      "score": 0.9999992581914388,
+      "point": [
+        362,
+        94
+      ],
+      "capture_id": "f4caf13f5f854375863a98cc5e48309e",
+      "view_id": "ef60f2f50e9c4298a7315e49de6e8142",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329169719500,
+        "capture_finished": 329200147700,
+        "inference_started": 329200265500,
+        "preprocess_finished": 329200729200,
+        "inference_finished": 329201189400,
+        "submitted": 329201843900,
+        "application_received": 329201911500,
+        "feedback_finished": 329218289300
+      },
+      "capture_ms": 30.4282,
+      "preprocess_ms": 0.4637,
+      "inference_ms": 0.4602,
+      "input_ms": 0.6545,
+      "observation_to_submit_ms": 32.1244,
+      "observation_to_feedback_ms": 48.5698
+    },
+    {
+      "monitor": 1,
+      "index": 18,
+      "condition": "background",
+      "present": true,
+      "score": 0.9999999631944316,
+      "point": [
+        282,
+        266
+      ],
+      "capture_id": "d9387c46c9464cd4b9a901ce1b20d4b8",
+      "view_id": "88eb209e0b0541bfb080ba8d98942a7a",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329219202300,
+        "capture_finished": 329264772200,
+        "inference_started": 329264827900,
+        "preprocess_finished": 329265232600,
+        "inference_finished": 329265692100,
+        "submitted": 329266356700,
+        "application_received": 329266437600,
+        "feedback_finished": 329294993300
+      },
+      "capture_ms": 45.5699,
+      "preprocess_ms": 0.4047,
+      "inference_ms": 0.4595,
+      "input_ms": 0.6646,
+      "observation_to_submit_ms": 47.1544,
+      "observation_to_feedback_ms": 75.791
+    },
+    {
+      "monitor": 1,
+      "index": 19,
+      "condition": "combined",
+      "present": true,
+      "score": 0.9999998589124072,
+      "point": [
+        370,
+        266
+      ],
+      "capture_id": "3bbc3cf70b9543a4a80b8e8d19f3b08f",
+      "view_id": "e80a5b971e8945059724456bebcd0420",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329296030200,
+        "capture_finished": 329327373700,
+        "inference_started": 329327429600,
+        "preprocess_finished": 329327824200,
+        "inference_finished": 329328280100,
+        "submitted": 329328923800,
+        "application_received": 329328992400,
+        "feedback_finished": 329372953300
+      },
+      "capture_ms": 31.3435,
+      "preprocess_ms": 0.3946,
+      "inference_ms": 0.4559,
+      "input_ms": 0.6437,
+      "observation_to_submit_ms": 32.8936,
+      "observation_to_feedback_ms": 76.9231
+    },
+    {
+      "monitor": 1,
+      "index": 20,
+      "condition": "nominal",
+      "present": false,
+      "score": 0.008187263247639005,
+      "point": null,
+      "capture_id": "b43eeae8f38f42c18f5fdccdb8b4d12d",
+      "view_id": "3f91b623128d4e5baa208def2992407e",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": false,
+      "visible_feedback": false,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 329374055600,
+        "capture_finished": 329404677800,
+        "inference_started": 329404734000,
+        "preprocess_finished": 329405161300,
+        "inference_finished": 329405625500,
+        "submitted": 329405667500,
+        "application_received": null,
+        "feedback_finished": null
+      },
+      "capture_ms": 30.6222,
+      "preprocess_ms": 0.4273,
+      "inference_ms": 0.4642,
+      "input_ms": 0.042,
+      "observation_to_submit_ms": 31.6119,
+      "observation_to_feedback_ms": null
+    },
+    {
+      "monitor": 1,
+      "index": 21,
+      "condition": "palette",
+      "present": true,
+      "score": 0.9999999631084051,
+      "point": [
+        366,
+        178
+      ],
+      "capture_id": "942adc36073f486eae8117639b7ec905",
+      "view_id": "7816669cf12a42fc91a488ec5ff51f9d",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329406620100,
+        "capture_finished": 329436104300,
+        "inference_started": 329436145700,
+        "preprocess_finished": 329436527100,
+        "inference_finished": 329436990300,
+        "submitted": 329437659800,
+        "application_received": 329437724200,
+        "feedback_finished": 329466818600
+      },
+      "capture_ms": 29.4842,
+      "preprocess_ms": 0.3814,
+      "inference_ms": 0.4632,
+      "input_ms": 0.6695,
+      "observation_to_submit_ms": 31.0397,
+      "observation_to_feedback_ms": 60.1985
+    },
+    {
+      "monitor": 1,
+      "index": 22,
+      "condition": "background",
+      "present": true,
+      "score": 0.9999999910770853,
+      "point": [
+        278,
+        250
+      ],
+      "capture_id": "96158aaa20134f8eb0f5c6d0f1ffbb5c",
+      "view_id": "66b6e649df14439888c0c648a6a0de68",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329467712400,
+        "capture_finished": 329514807800,
+        "inference_started": 329514845900,
+        "preprocess_finished": 329515205300,
+        "inference_finished": 329515646100,
+        "submitted": 329516194500,
+        "application_received": 329516249400,
+        "feedback_finished": 329544391200
+      },
+      "capture_ms": 47.0954,
+      "preprocess_ms": 0.3594,
+      "inference_ms": 0.4408,
+      "input_ms": 0.5484,
+      "observation_to_submit_ms": 48.4821,
+      "observation_to_feedback_ms": 76.6788
+    },
+    {
+      "monitor": 1,
+      "index": 23,
+      "condition": "combined",
+      "present": true,
+      "score": 0.999996847007067,
+      "point": [
+        278,
+        254
+      ],
+      "capture_id": "1cd3b02a4509419da8499bd0ecdb678f",
+      "view_id": "888a29d6d55c4dd292996a7b8deaa36a",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329545267600,
+        "capture_finished": 329575690200,
+        "inference_started": 329575726200,
+        "preprocess_finished": 329576100000,
+        "inference_finished": 329576538100,
+        "submitted": 329577112300,
+        "application_received": 329577170000,
+        "feedback_finished": 329607308800
+      },
+      "capture_ms": 30.4226,
+      "preprocess_ms": 0.3738,
+      "inference_ms": 0.4381,
+      "input_ms": 0.5742,
+      "observation_to_submit_ms": 31.8447,
+      "observation_to_feedback_ms": 62.0412
+    },
+    {
+      "monitor": 1,
+      "index": 24,
+      "condition": "nominal",
+      "present": true,
+      "score": 0.9999999912099583,
+      "point": [
+        278,
+        82
+      ],
+      "capture_id": "70c5a56498b645459b332a64254fe06e",
+      "view_id": "704bbe259e974500b81b260a06876891",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 329608199500,
+        "capture_finished": 329639172700,
+        "inference_started": 329639207000,
+        "preprocess_finished": 329639585100,
+        "inference_finished": 329640045900,
+        "submitted": 329640657000,
+        "application_received": 329640715800,
+        "feedback_finished": 329686142700
+      },
+      "capture_ms": 30.9732,
+      "preprocess_ms": 0.3781,
+      "inference_ms": 0.4608,
+      "input_ms": 0.6111,
+      "observation_to_submit_ms": 32.4575,
+      "observation_to_feedback_ms": 77.9432
+    },
+    {
+      "monitor": 1,
+      "index": 25,
+      "condition": "palette",
+      "present": false,
+      "score": 0.024910776907416853,
+      "point": null,
+      "capture_id": "4e9f91ca178a4f11b179c105e5f70ee6",
+      "view_id": "cd5544d7641d4a83b5cc1b973d056081",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": false,
+      "visible_feedback": false,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 329687172000,
+        "capture_finished": 329701849000,
+        "inference_started": 329701894200,
+        "preprocess_finished": 329702282600,
+        "inference_finished": 329702742600,
+        "submitted": 329702779400,
+        "application_received": null,
+        "feedback_finished": null
+      },
+      "capture_ms": 14.677,
+      "preprocess_ms": 0.3884,
+      "inference_ms": 0.46,
+      "input_ms": 0.0368,
+      "observation_to_submit_ms": 15.6074,
+      "observation_to_feedback_ms": null
+    },
+    {
+      "monitor": 1,
+      "index": 26,
+      "condition": "background",
+      "present": true,
+      "score": 0.9999999952620517,
+      "point": [
+        174,
+        266
+      ],
+      "capture_id": "d1220df2dd25438eadd61bb8d65dd4b2",
+      "view_id": "25aadf6319974b509d6fbb412b1c35b2",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329703676600,
+        "capture_finished": 329733904500,
+        "inference_started": 329733941900,
+        "preprocess_finished": 329734322800,
+        "inference_finished": 329734746500,
+        "submitted": 329735369300,
+        "application_received": 329735423500,
+        "feedback_finished": 329780770900
+      },
+      "capture_ms": 30.2279,
+      "preprocess_ms": 0.3809,
+      "inference_ms": 0.4237,
+      "input_ms": 0.6228,
+      "observation_to_submit_ms": 31.6927,
+      "observation_to_feedback_ms": 77.0943
+    },
+    {
+      "monitor": 1,
+      "index": 27,
+      "condition": "combined",
+      "present": true,
+      "score": 0.9999999451981346,
+      "point": [
+        170,
+        98
+      ],
+      "capture_id": "0a533f6afde94eb9b75efc464d2d0c7d",
+      "view_id": "4229251a5c8d46a9aa3ef160880babfe",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329781708100,
+        "capture_finished": 329812906300,
+        "inference_started": 329813003600,
+        "preprocess_finished": 329813378500,
+        "inference_finished": 329813812600,
+        "submitted": 329814345200,
+        "application_received": 329814406900,
+        "feedback_finished": 329859776300
+      },
+      "capture_ms": 31.1982,
+      "preprocess_ms": 0.3749,
+      "inference_ms": 0.4341,
+      "input_ms": 0.5326,
+      "observation_to_submit_ms": 32.6371,
+      "observation_to_feedback_ms": 78.0682
+    },
+    {
+      "monitor": 1,
+      "index": 28,
+      "condition": "nominal",
+      "present": true,
+      "score": 0.9999999396842484,
+      "point": [
+        370,
+        94
+      ],
+      "capture_id": "35b2eb3cca704c6187b5f3479b162ea9",
+      "view_id": "32e22b11f77d42c49971f20d8b23ec90",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": true,
+      "timestamps_ns": {
+        "capture_started": 329860667100,
+        "capture_finished": 329891834300,
+        "inference_started": 329891865300,
+        "preprocess_finished": 329892222700,
+        "inference_finished": 329892634600,
+        "submitted": 329893180400,
+        "application_received": 329893250100,
+        "feedback_finished": 329907540600
+      },
+      "capture_ms": 31.1672,
+      "preprocess_ms": 0.3574,
+      "inference_ms": 0.4119,
+      "input_ms": 0.5458,
+      "observation_to_submit_ms": 32.5133,
+      "observation_to_feedback_ms": 46.8735
+    },
+    {
+      "monitor": 1,
+      "index": 29,
+      "condition": "palette",
+      "present": true,
+      "score": 0.9999998989263374,
+      "point": [
+        78,
+        258
+      ],
+      "capture_id": "094e24250c3c4cacbf83cee83d2b3dcd",
+      "view_id": "a02be65f05cc42528ded6bf07062d10b",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329908391600,
+        "capture_finished": 329938727900,
+        "inference_started": 329938760800,
+        "preprocess_finished": 329939112500,
+        "inference_finished": 329939511700,
+        "submitted": 329940024900,
+        "application_received": 329940156400,
+        "feedback_finished": 329955534600
+      },
+      "capture_ms": 30.3363,
+      "preprocess_ms": 0.3517,
+      "inference_ms": 0.3992,
+      "input_ms": 0.5132,
+      "observation_to_submit_ms": 31.6333,
+      "observation_to_feedback_ms": 47.143
+    },
+    {
+      "monitor": 1,
+      "index": 30,
+      "condition": "background",
+      "present": false,
+      "score": 0.0017861605948750105,
+      "point": null,
+      "capture_id": "13057daec4a248d49ddca862bed20e66",
+      "view_id": "2024fbc11f264700b17ec256939a6bea",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": false,
+      "visible_feedback": false,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329956484500,
+        "capture_finished": 329986178400,
+        "inference_started": 329986222100,
+        "preprocess_finished": 329986603400,
+        "inference_finished": 329987053700,
+        "submitted": 329987090800,
+        "application_received": null,
+        "feedback_finished": null
+      },
+      "capture_ms": 29.6939,
+      "preprocess_ms": 0.3813,
+      "inference_ms": 0.4503,
+      "input_ms": 0.0371,
+      "observation_to_submit_ms": 30.6063,
+      "observation_to_feedback_ms": null
+    },
+    {
+      "monitor": 1,
+      "index": 31,
+      "condition": "combined",
+      "present": true,
+      "score": 0.9999999084381592,
+      "point": [
+        382,
+        90
+      ],
+      "capture_id": "d5f553f763794f1584ad16d688a39122",
+      "view_id": "d7fa9d378cb4456683bff4181958be0b",
+      "region": {
+        "left": 48,
+        "top": 48,
+        "width": 384,
+        "height": 256
+      },
+      "application_received": true,
+      "visible_feedback": true,
+      "success": true,
+      "baseline_correct": false,
+      "timestamps_ns": {
+        "capture_started": 329987982000,
+        "capture_finished": 330017707500,
+        "inference_started": 330017741500,
+        "preprocess_finished": 330018100200,
+        "inference_finished": 330018521700,
+        "submitted": 330019153200,
+        "application_received": 330019221600,
+        "feedback_finished": 330034004700
+      },
+      "capture_ms": 29.7255,
+      "preprocess_ms": 0.3587,
+      "inference_ms": 0.4215,
+      "input_ms": 0.6315,
+      "observation_to_submit_ms": 31.1712,
+      "observation_to_feedback_ms": 46.0227
+    }
+  ],
+  "limitations": "Stationary synthetic cropped scenes on CPU; excludes frame-pacing wait."
+}

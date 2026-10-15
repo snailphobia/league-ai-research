@@ -75,6 +75,10 @@ The evaluation includes four conditions:
 | Combined | Unseen palette | Unseen brighter range |
 
 All conditions also have new seeds for positions, sizes, layouts, and distractors.
+These are bundled stress cases, not one-factor ablations. Nominal evaluation
+excludes red distractors to preserve the baseline's original task; the Background
+condition permits red distractors. Its baseline failures therefore cannot be
+attributed to brighter backgrounds alone. Palette shifts change all disk colors.
 About 20% of offline examples have no target. We report hits among present
 targets and false clicks among absent targets separately. Correct abstention
 counts toward overall accuracy; an inaccurate click or a missed target fails.
@@ -124,6 +128,8 @@ pacing, model/session startup, and experiment scene setup. PNG encoding and
 evidence writes happen after the measured action. First-inference overhead is
 retained in native trial measurements. Successful clicks and abstentions are
 distinguished; feedback latency is reported only for successful clicks.
+The `input_ms` field includes prediction decoding, coordinate/freshness checks,
+and adapter submission; its aggregate includes abstaining trials as well.
 
 Run on a disposable Windows desktop:
 
@@ -140,6 +146,41 @@ hash, geometry, and timestamps; representative trials and failures also retain
 PNG observations. `events.jsonl` links capture/view IDs to PNG hashes, and
 `policy.json` links the measured inference/action/feedback timestamps to those
 observations. SDK submission alone never counts as application acceptance.
+
+## Native results
+
+At revision `b9ab2e1`, [Windows Server 2025 CI](https://github.com/snailphobia/league-ai-research/actions/runs/38820248487)
+passed **79 tests**, with zero failures, errors, or skips. The learned-policy test
+completed **32 / 32 trials**: 25 clicks confirmed by both application receipt and
+visible feedback, and seven correct absent-target abstentions. The baseline was
+correct on 12 / 32 trials. These are fresh trials from the native seed namespace.
+
+| Stage | Mean | p95 |
+| --- | ---: | ---: |
+| Capture | 31.19 ms | 46.38 ms |
+| Preprocessing | 0.39 ms | 0.45 ms |
+| ONNX inference | 0.46 ms | 0.50 ms |
+| Decision decoding and input | 0.95 ms | 0.74 ms |
+| Observation start to submission/abstention | 33.05 ms | 48.07 ms |
+| Observation start to visible feedback, 25 successful clicks | 63.57 ms | 87.69 ms |
+
+The input-stage mean exceeds its p95 because one trial took 14.75 ms. Capture
+dominates this measured loop; faster inference alone would have a small effect.
+The second screenshot needed for visual confirmation contributes to feedback
+latency. These are latency measurements, not a sustained learned-policy Hz test.
+
+Published [summary and hashes](../artifacts/policy-windows-server-2025/summary.json),
+[all native trials](../artifacts/policy-windows-server-2025/native-policy.json), and
+[JUnit](../artifacts/policy-windows-server-2025/windows-junit.xml) retain the tested
+revision, model hash, timing distributions, and outcomes. Every published PNG was
+checked against the seeded synthetic renderer or completion image, and the
+observation/action/feedback timestamps were checked for causality.
+
+A Windows 11 rerun was attempted, but Defender terminated the HTTP-download/run
+bootstrap process before it started acceptance tests. Protection settings were
+left unchanged and the VM was shut down. Consequently this checkpoint has fresh
+native policy evidence on Server 2025 only; the earlier Windows 11 capture/input
+results do not validate its learned policy or inference timings.
 
 ## Limits and research connection
 

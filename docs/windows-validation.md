@@ -2,7 +2,13 @@
 
 Acceptance requires running the adapter on Windows and independently observing delivered keyboard and mouse events. Linux mocks alone are insufficient.
 
-The original input milestone below records its 50-test suite. The combined input/capture suite now passes 74 tests; see [capture acceptance and recorded results](capture.md#verified-results).
+The original input milestone below records its 50-test suite. The preceding
+input/capture suite passed 74 tests on Windows 11 and Server 2025; see
+[capture acceptance and recorded results](capture.md#verified-results). The
+combined suite with the first learned policy now passes **79 tests on Server
+2025**. Its [native feedback results](visual-policy.md#native-results) include
+actual application receipt, changed pixels, and full observation-to-feedback
+latency. Fresh learned-policy validation on Windows 11 remains uncompleted.
 
 The validation matrix covers named keys, modifier ordering and release, extended scan codes, representative virtual keys, Unicode including non-BMP characters, all mouse buttons, absolute coordinates, relative movement, both wheel axes, dragging, and cleanup after exceptions. It must exercise monitor corners and record the actual virtual desktop geometry.
 

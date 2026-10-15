@@ -4,7 +4,14 @@ Research tooling for a visual agent that can cooperate with human players: Windo
 
 The Python API and JSON Lines CLI provide named keys, arbitrary chords, physical scan codes, virtual keys, Unicode text, pointer movement, all mouse buttons, dragging, and both wheel axes. Windows tests observe input received by independent native hooks and a real EDIT control rather than treating an API call as proof of delivery.
 
-The combined suite passes all 74 tests on Windows 11 and Windows Server 2025. Input coverage includes 137 distinct named keys, 92 modifier chords, a 14-key chord, all five mouse buttons, and multi-monitor coordinates. Capture tests verify pixels -> visual target -> adapter click -> changed pixels, including a second monitor at negative coordinates. See [input validation](docs/windows-validation.md) and [capture results](docs/capture.md#verified-results).
+The combined suite passes all **79 tests on Windows Server 2025**, including the
+new learned-policy feedback test. The preceding input/capture foundation passed
+74 tests on both Windows 11 and Server 2025. Input coverage includes 137 distinct
+named keys, 92 modifier chords, a 14-key chord, all five mouse buttons, and
+multi-monitor coordinates. Capture tests verify pixels -> visual target -> adapter
+click -> changed pixels, including a second monitor at negative coordinates.
+See [input validation](docs/windows-validation.md), [capture results](docs/capture.md#verified-results),
+and [learned-policy results](docs/visual-policy.md#native-results).
 
 ## Development
 
