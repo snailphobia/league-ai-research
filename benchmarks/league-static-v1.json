@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "annotation_created_before_model_trials": true,
+  "reviewer": "single research-agent visual review; not expert consensus",
+  "source_notice": "Public web screenshots retained in the private local corpus; source links and hashes are public. Images remain the rights holders property.",
+  "viewport": [
+    960,
+    540
+  ],
+  "variants": [
+    "full",
+    "small",
+    "grid"
+  ],
+  "repetitions": 5,
+  "temperature": 0.6,
+  "tasks": [
+    "decide",
+    "ground"
+  ],
+  "scenes": [
+    {
+      "id": "legacy_fight",
+      "page_url": "https://www.gamingcfg.com/screenshot/League-of-Legends-team-fight-344",
+      "image_url": "https://www.gamingcfg.com/img/344/League-of-Legends-team-fight.jpg",
+      "original_sha256": "8498d75ff5a26dab79bed2752d5c097429c770f36c98c17b82b9b1fd187cdbbd",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "local_file": "legacy_fight.png",
+      "rgb_png_sha256": "5c3f664ef78448c90e0501ac8dbf5977d1be708bd3c47aca5d12594a3fb1da79",
+      "annotation": {
+        "states": [
+          "playing"
+        ],
+        "actions": [
+          "move"
+        ],
+        "health": [
+          "critical"
+        ],
+        "health_box": [
+          365,
+          936,
+          638,
+          960
+        ],
+        "note": "23/1185 HP and red vignette. Retreat priority; tactical destination is not uniquely labeled."
+      }
+    },
+    {
+      "id": "legacy_lane",
+      "page_url": "https://www.gamingcfg.com/screenshot/League-of-Legends-mid-lane-336",
+      "image_url": "https://www.gamingcfg.com/img/336/League-of-Legends-mid-lane.jpg",
+      "original_sha256": "1a1a0f2de6c957b8dbb3b673922948529dc626b27acd4440b0d35ca788d103a6",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "local_file": "legacy_lane.png",
+      "rgb_png_sha256": "b695da3588c5cb3fceedd305de50ddc70a919e8f6ac809837fd9025daaea27b8",
+      "annotation": {
+        "states": [
+          "playing"
+        ],
+        "actions": [
+          "move",
+          "attack",
+          "cast"
+        ],
+        "health": [
+          "healthy"
+        ],
+        "health_box": [
+          365,
+          936,
+          638,
+          960
+        ],
+        "note": "Healthy Ashe at 474/474, active lane. Several actions are defensible."
+      }
+    },
+    {
+      "id": "legacy_loading",
+      "page_url": "https://www.gamingcfg.com/screenshot/Loading-Screen-League-of-Legends-803",
+      "image_url": "https://www.gamingcfg.com/img/803/Loading-Screen-League-of-Legends.jpg",
+      "original_sha256": "c90e980a528d5e7986f1e5a72df9840855c5cae88d873158891ed24c11b9a7c7",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "local_file": "legacy_loading.png",
+      "rgb_png_sha256": "f9bbc264ca190138249ad8d9bf90939e21c4190740434c32e45be391e244a40a",
+      "annotation": {
+        "states": [
+          "loading"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "unknown"
+        ],
+        "health_box": null,
+        "note": "Champion loading cards; no controllable player HUD."
+      }
+    },
+    {
+      "id": "legacy_shop",
+      "page_url": "https://www.gamingcfg.com/screenshot/League-of-Legends-shop-779",
+      "image_url": "https://www.gamingcfg.com/img/779/League-of-Legends-shop.jpg",
+      "original_sha256": "8a3570d30c5c16d84735bcc7463ef5d8f40735084e3b9ad20f69c92336142c4c",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "local_file": "legacy_shop.png",
+      "rgb_png_sha256": "39f94fd24f076f29d870f0745efe45b62629c22a7ea02ccce07e352df13f173a",
+      "annotation": {
+        "states": [
+          "shop"
+        ],
+        "actions": [
+          "close_overlay"
+        ],
+        "health": [
+          "healthy"
+        ],
+        "health_box": [
+          385,
+          949,
+          638,
+          975
+        ],
+        "note": "In-game item shop open; return to field with Escape under the fixed task policy."
+      }
+    },
+    {
+      "id": "legacy_reconnect",
+      "page_url": "https://www.gamingcfg.com/screenshot/Attempting-to-Reconnect-484",
+      "image_url": "https://www.gamingcfg.com/img/484/Attempting-to-Reconnect.jpg",
+      "original_sha256": "c315d09cb94b8ef7d1c99791446caff976b180bc957497eb41f30315d16bcc10",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "local_file": "legacy_reconnect.png",
+      "rgb_png_sha256": "35fe38e79ce6e9b91cc394219145902145317130345f3c307371ec10f1ccf4f1",
+      "annotation": {
+        "states": [
+          "disconnected"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "healthy"
+        ],
+        "health_box": [
+          385,
+          947,
+          638,
+          974
+        ],
+        "note": "Attempting to Reconnect overlay; normal gameplay control unavailable."
+      }
+    },
+    {
+      "id": "legacy_death",
+      "page_url": "https://www.gamingcfg.com/screenshot/Death-Recap-566",
+      "image_url": "https://www.gamingcfg.com/img/566/Death-Recap.jpg",
+      "original_sha256": "3bc85d7fa85c844a08f63438534a65ee4f712213b9377ffc6459f9842c24264c",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "local_file": "legacy_death.png",
+      "rgb_png_sha256": "7cc3213f29d21b27d3039fbb424301b067ae49e44ce88e471c65f11acbc16c9b",
+      "annotation": {
+        "states": [
+          "dead"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "critical",
+          "unknown"
+        ],
+        "health_box": [
+          385,
+          946,
+          638,
+          974
+        ],
+        "note": "Grayscale scene, death recap, 0/743 player health."
+      }
+    },
+    {
+      "id": "player_death",
+      "page_url": "https://www.pcgamer.com/god-help-me-ive-started-playing-league-of-legends/",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/j8kLhv9KMs2H56zuJuGvCZ.png",
+      "original_sha256": "174b8e2051f41f6c6ba8443fc964edc995aa8dd6d4d95d6419fd7961916b68ab",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "local_file": "player_death.png",
+      "rgb_png_sha256": "e9e0605810b11aa138b1315ac6ca0b652555a670bbde228b88785838c91e8c58",
+      "annotation": {
+        "states": [
+          "dead"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "critical",
+          "unknown"
+        ],
+        "health_box": [
+          350,
+          944,
+          576,
+          973
+        ],
+        "note": "You have been slain, respawn timer, 0/1177 HP."
+      }
+    },
+    {
+      "id": "modern_shop",
+      "page_url": "https://www.huya.com/video/play/952338788.html",
+      "image_url": "https://v-huya-img2.msstatic.com/record/2402/952338788/4.jpg",
+      "original_sha256": "f64aeb937bcb97e3eadc4f5b41d6e4b31a795500c56b49fb9320ce9f108fe92a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "local_file": "modern_shop.png",
+      "rgb_png_sha256": "026dcbb86a57a5779b5d71049ac5b1aa0621e0622873d2ac56893d4db05c86ae",
+      "annotation": {
+        "states": [
+          "shop"
+        ],
+        "actions": [
+          "close_overlay"
+        ],
+        "health": [
+          "healthy"
+        ],
+        "health_box": [
+          365,
+          947,
+          570,
+          974
+        ],
+        "note": "Chinese-language in-game shop; 3107/3107 HP."
+      }
+    },
+    {
+      "id": "spectator_fight",
+      "page_url": "https://m.ruliweb.com/community/board/300143/read/73000602",
+      "image_url": "https://i1.ruliweb.com/ori/25/11/10/19a6d51a3a64dcd45.png",
+      "original_sha256": "09db1e42892109c9c59dfe6b9fef5454e322358e033e5cfae8a9a322cbd5b7c9",
+      "dimensions": [
+        2375,
+        1323
+      ],
+      "local_file": "spectator_fight.png",
+      "rgb_png_sha256": "f6ea62b6653a9dbb0f6b1439d65e127a4dcd4d8a870785e472ba5e4de92bda52",
+      "annotation": {
+        "states": [
+          "spectator"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "unknown"
+        ],
+        "health_box": null,
+        "note": "Esports broadcast with both team rosters, scoreboard and player cameras. No player HUD."
+      }
+    },
+    {
+      "id": "modern_hazards",
+      "page_url": "https://esports.gg/news/league-of-legends/league-of-legends-doom-bots-patch-25-17/",
+      "image_url": "https://media.esports.gg/uploads/2025/08/image-17-7-1024x576.jpg",
+      "original_sha256": "26f8afd895eadd544967bb0ee3f1d84970e1c72f6c94fead5de6e359961628c2",
+      "dimensions": [
+        1024,
+        576
+      ],
+      "local_file": "modern_hazards.png",
+      "rgb_png_sha256": "85b10beb639a1d03a14a47766ad8bab894874153804741a1e2ab5898af80f912",
+      "annotation": {
+        "states": [
+          "playing"
+        ],
+        "actions": [
+          "move"
+        ],
+        "health": [
+          "healthy"
+        ],
+        "health_box": [
+          350,
+          944,
+          590,
+          974
+        ],
+        "note": "Doom Bots area hazards around Jinx. Static frame supports avoiding visible red zones, not a timed dodge claim."
+      }
+    },
+    {
+      "id": "client_store",
+      "page_url": "https://www.test-aankoop.be/familie-prive/consumentenrechten/dossier/microtransacties-gacha-battle-pass-lootbox",
+      "image_url": "https://www.test-aankoop.be/-/media/ta/images/home/famille-prive/consumer-rights/dossier/microtransactions/screenshotnl.png?h=415&hash=66D72FBC1013A4AD707840C1DB8F98B6&la=nl-be&mw=660&rev=f8382372-30cb-4f43-bbde-40cc98d6ec0a&w=600",
+      "original_sha256": "1c4aa7c9b474fa86e97af793397bd86865cb1eb7ba2823de2f7babffc72e76cf",
+      "dimensions": [
+        600,
+        415
+      ],
+      "local_file": "client_store.png",
+      "rgb_png_sha256": "0c1d6615da7cffb032e8e36dcb8e64d2b39941abe66bf55d813bd375d8cc4eff",
+      "annotation": {
+        "states": [
+          "client"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "unknown"
+        ],
+        "health_box": null,
+        "note": "Out-of-game store with RP/BE, skins and client navigation, no match HUD."
+      }
+    },
+    {
+      "id": "low_health",
+      "page_url": "https://www.linkedin.com/pulse/my-dismal-2022-season-league-legends-valuable-learning-ranin-mendis",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5612AQEX88akRG8vlQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1674729428058?e=2147483647&t=W7ia1mj5RCDXlqr91A_L_PJMgmN3uP20KusE8QkEELU&v=beta",
+      "original_sha256": "2f88faceb958cf69ce902cc5e170fa14f0a31734f342834cde9d5117ffc1de56",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "local_file": "low_health.png",
+      "rgb_png_sha256": "c4677124a9e48b0976f86a3ffa83dc594ae2a3490db0e57096a72c075b34e2e1",
+      "annotation": {
+        "states": [
+          "playing"
+        ],
+        "actions": [
+          "move",
+          "attack",
+          "cast",
+          "recall"
+        ],
+        "health": [
+          "low"
+        ],
+        "health_box": [
+          350,
+          944,
+          570,
+          974
+        ],
+        "note": "236/612 HP Lux in early lane. Limited static context; multiple actions may be defensible."
+      }
+    },
+    {
+      "id": "yuumi_demo",
+      "page_url": "https://www.leagueoflegends.com/en-us/champions/yuumi/",
+      "image_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0350/ability_0350_P1.jpg",
+      "original_sha256": "d7b5032e262d579f81b6ccf49bdf9f88a2c0a0a7e140f2bd455eee0df22b9b8e",
+      "dimensions": [
+        1056,
+        720
+      ],
+      "local_file": "yuumi_demo.png",
+      "rgb_png_sha256": "6b3ffa1e44be35cdacd09523ec937d977f1c5042d829f82671de0c2bd7404035",
+      "annotation": {
+        "states": [
+          "unknown",
+          "playing"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "unknown"
+        ],
+        "health_box": null,
+        "note": "Official Yuumi ability demonstration crop; no player HUD or established control."
+      }
+    },
+    {
+      "id": "cropped_lane",
+      "page_url": "https://store.epicgames.com/news/a-beginner-s-guide-to-league-of-legends?lang=en-US",
+      "image_url": "https://cdn2.unrealengine.com/a-beginner-s-guide-to-league-of-legends-laning-phase-1607x827-bea7c893b8c4.png",
+      "original_sha256": "dbc191139b1dafdc3c7f448178b9dd0f822964590f483a8df21348126c767272",
+      "dimensions": [
+        1607,
+        827
+      ],
+      "local_file": "cropped_lane.png",
+      "rgb_png_sha256": "93bcc432d86bf012be4435bbd8a8b2d8220041506ec101034df596874af117b6",
+      "annotation": {
+        "states": [
+          "unknown",
+          "playing"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "unknown"
+        ],
+        "health_box": null,
+        "note": "Editorial laning crop contains overhead HP bars but no player HUD."
+      }
+    },
+    {
+      "id": "blank_control",
+      "page_url": null,
+      "image_url": null,
+      "local_file": "blank_control.png",
+      "dimensions": [
+        960,
+        540
+      ],
+      "original_sha256": "a258f20d5dc1de8283dcdd102802639d3da0d777490e02a5f6618f3f239ebc3f",
+      "rgb_png_sha256": "a258f20d5dc1de8283dcdd102802639d3da0d777490e02a5f6618f3f239ebc3f",
+      "annotation": {
+        "states": [
+          "unknown"
+        ],
+        "actions": [
+          "wait"
+        ],
+        "health": [
+          "unknown"
+        ],
+        "health_box": null,
+        "note": "Synthetic negative control; no League image or visible HUD."
+      }
+    }
+  ]
+}
