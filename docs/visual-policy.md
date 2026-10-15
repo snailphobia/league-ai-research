@@ -188,8 +188,8 @@ This is a stationary synthetic target task with a known crop and one click per
 trial. It does not establish full-screen perception latency, moving-target
 tracking, temporal memory, action sequences, audiovisual reasoning, or gameplay
 competence. A 20 Hz capture rate from the previous milestone is not a measured
-20 Hz learned gameplay policy. Native results come from Windows CI and a
-software-rendered Windows VM, rather than a gaming GPU/display pipeline.
+20 Hz learned gameplay policy. This checkpoint's native results come from a
+Windows CI virtual machine, rather than a gaming GPU/display pipeline.
 
 The [VPT research notes](research-notes.md) motivate the pixel/native-input
 interface. This experiment uses direct supervised synthetic labels, not VPT's
