@@ -1,11 +1,43 @@
 """Rendering, annotation scoring, and variance summaries for static-image trials."""
 
 import hashlib
+import json
 import math
 from collections import Counter
 from statistics import mean, pstdev
 
 from PIL import Image, ImageDraw
+
+
+def completed_rows(directory):
+    """Resume only unrecorded cells; recorded failures count as completed trials."""
+    rows, seen = [], set()
+    for path in directory.glob("*.json"):
+        row = json.loads(path.read_text(encoding="utf-8"))
+        if "trial_id" not in row:
+            continue
+        key = (row["scenario"], row["variant"], row["task"], row["repetition"])
+        if key in seen:
+            raise ValueError("duplicate completed cell in existing recording")
+        seen.add(key)
+        rows.append(row)
+    return sorted(rows, key=lambda row: row["before"]["started_ns"]), seen
+
+
+def validate_resume(previous, current):
+    for key in [
+        "model",
+        "manifest_sha256",
+        "repetitions",
+        "variants",
+        "concurrency",
+        "planned_trials",
+        "temperature",
+    ]:
+        if previous[key] != current[key]:
+            raise ValueError("resume context differs: " + key)
+    if previous.get("coordinate_system", "normalized") != current["coordinate_system"]:
+        raise ValueError("resume cannot change coordinate system")
 
 
 def render(image, variant):

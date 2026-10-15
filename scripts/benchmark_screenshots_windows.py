@@ -21,15 +21,22 @@ from PIL import Image
 from league_capture import Region, ScreenCapture
 from league_input import InputAdapter
 from league_input.cli import execute
-from league_policy.screenshot_benchmark import grade, image_digest, render, summarize
+from league_policy.screenshot_benchmark import (
+    completed_rows,
+    grade,
+    image_digest,
+    render,
+    summarize,
+    validate_resume,
+)
 from league_policy.screenshot_policy import ScreenshotPolicy, input_plan
 
 
 class Record:
-    def __init__(self, directory):
+    def __init__(self, directory, *, resume=False):
         self.directory = directory
-        (directory / "observations").mkdir(parents=True)
-        self.output = (directory / "events.jsonl").open("x", encoding="utf-8")
+        (directory / "observations").mkdir(parents=True, exist_ok=resume)
+        self.output = (directory / "events.jsonl").open("a" if resume else "x", encoding="utf-8")
 
     def event(self, event):
         self.output.write(json.dumps(event, allow_nan=False) + "\n")
@@ -98,15 +105,13 @@ def benchmark(args, progress=None):
     manifest = json.loads(args.manifest.read_text())
     settings = json.loads(args.client.read_text())
     policy = ScreenshotPolicy(**settings)
-    args.output.mkdir(parents=True, exist_ok=False)
-    log = Record(args.output)
     region = Region(32, 32, 960, 540)
     full_region = Region(32, 32, 960, 576)
-    viewer = ScreenshotViewer().start()
     scenes = manifest["scenes"][: args.max_scenarios]
     variants = args.variants or manifest["variants"]
     reps = args.repetitions or manifest["repetitions"]
-    rows = []
+    resume = getattr(args, "resume", False)
+    rows, done_keys = completed_rows(args.output) if resume else ([], set())
     planned = len(scenes) * len(variants) * reps * len(manifest["tasks"])
     context = {
         "model": policy.model,
@@ -125,8 +130,29 @@ def benchmark(args, progress=None):
         "temperature": manifest["temperature"],
         "clock": "perf_counter_ns on the Windows observer/action process",
     }
-    (args.output / "run.json").write_text(json.dumps(context, indent=2) + "\n")
-    (args.output / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    if resume:
+        previous = json.loads((args.output / "run.json").read_text())
+        validate_resume(previous, context)
+        with (args.output / "continuations.jsonl").open("a", encoding="utf-8") as out:
+            out.write(
+                json.dumps(
+                    {
+                        "resumed_ns": time.perf_counter_ns(),
+                        "already_recorded": len(rows),
+                        "benchmark_script_sha256": hashlib.sha256(
+                            Path(__file__).read_bytes()
+                        ).hexdigest(),
+                        "prior_trial_ids": [r["trial_id"] for r in rows],
+                    }
+                )
+                + "\n"
+            )
+    else:
+        args.output.mkdir(parents=True, exist_ok=False)
+        (args.output / "run.json").write_text(json.dumps(context, indent=2) + "\n")
+        (args.output / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    log = Record(args.output, resume=resume)
+    viewer = ScreenshotViewer().start()
     try:
         with (
             ScreenCapture() as capture,
@@ -138,14 +164,17 @@ def benchmark(args, progress=None):
                 assert hashlib.sha256(path.read_bytes()).hexdigest() == scene["rgb_png_sha256"]
                 source = Image.open(path).convert("RGB")
                 for variant in variants:
-                    image = render(source, variant)
-                    expected = image_digest(image)
-                    viewer.present(image)
                     jobs = [
                         (task, repetition)
                         for repetition in range(reps)
                         for task in manifest["tasks"]
+                        if (scene["id"], variant, task, repetition) not in done_keys
                     ]
+                    if not jobs:
+                        continue
+                    image = render(source, variant)
+                    expected = image_digest(image)
+                    viewer.present(image)
                     random.Random(42).shuffle(jobs)
                     pending = {}
 
@@ -298,6 +327,7 @@ def main():
     parser.add_argument("--max-scenarios", type=int, default=10_000)
     parser.add_argument("--variants", nargs="+", choices=["full", "small", "grid"])
     parser.add_argument("--concurrency", type=int, default=2)
+    parser.add_argument("--resume", action="store_true")
     args = parser.parse_args()
     if args.concurrency not in {1, 2} or (args.repetitions is not None and args.repetitions < 1):
         parser.error("use concurrency 1 or 2 and positive repetitions")

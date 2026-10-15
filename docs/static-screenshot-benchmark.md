@@ -109,6 +109,13 @@ Outputs are exclusive. Use a new output directory for each run. A short plumbing
 check can set `--max-scenarios 1 --repetitions 1 --variants full`; it is distinct
 from the main benchmark and must not be included in its 450-trial denominator.
 
+An interrupted run can use `--resume` with the same output directory and matching
+model, manifest, coordinate contract, repetitions, variants and temperature.
+Recorded failures remain completed cells and are never retried. Only missing
+cells are scheduled; continuation metadata lists all retained trial IDs. A crash
+can leave an in-flight API result unrecorded; this is distinct from discarding a
+recorded failure and must be disclosed with the run.
+
 ## Interpretation
 
 Report valid response rate, native delivery, state/health recognition, constrained

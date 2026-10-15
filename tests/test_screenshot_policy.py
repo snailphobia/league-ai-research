@@ -5,7 +5,13 @@ import pytest
 from PIL import Image
 
 from league_capture import Frame, Region
-from league_policy.screenshot_benchmark import grade, render, summarize
+from league_policy.screenshot_benchmark import (
+    completed_rows,
+    grade,
+    render,
+    summarize,
+    validate_resume,
+)
 from league_policy.screenshot_policy import from_pixel_coordinates, input_plan, parse_decision
 
 
@@ -95,3 +101,33 @@ def test_pixel_contract_checks_actual_image_bounds_before_converting():
     assert input_plan(correct, view) == [{"action": "click", "x": -2, "y": 438, "button": "left"}]
     with pytest.raises(ValueError, match="outside"):
         from_pixel_coordinates(parse_decision(json.dumps(decision(target=[500, 500]))), view)
+
+
+def test_resume_preserves_failed_trials_and_rejects_changed_protocol(tmp_path):
+    row = {
+        "trial_id": "failed",
+        "scenario": "s",
+        "variant": "full",
+        "task": "ground",
+        "repetition": 0,
+        "before": {"started_ns": 1},
+        "grade": {"correct": False},
+    }
+    (tmp_path / "failed.json").write_text(json.dumps(row))
+    rows, keys = completed_rows(tmp_path)
+    assert rows == [row] and keys == {("s", "full", "ground", 0)}
+    context = {
+        "model": "m",
+        "manifest_sha256": "fixed",
+        "repetitions": 5,
+        "variants": ["full"],
+        "concurrency": 2,
+        "planned_trials": 150,
+        "temperature": 0.6,
+        "coordinate_system": "normalized",
+    }
+    validate_resume(context, context)
+    with pytest.raises(ValueError, match="manifest"):
+        validate_resume(context, context | {"manifest_sha256": "changed"})
+    with pytest.raises(ValueError, match="coordinate"):
+        validate_resume(context, context | {"coordinate_system": "pixels"})
