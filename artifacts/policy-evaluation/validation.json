@@ -1,0 +1,8281 @@
+{
+  "model_sha256": "6e503cb707967518d35817783436950775ca8329691fb2a7900fcba06e4ae497",
+  "threshold": 0.99,
+  "split": "validation",
+  "seed_namespaces": "league_policy.playground.SPLITS",
+  "platform": "Linux-7.1.10-200.fc44.x86_64-x86_64-with-glibc2.43",
+  "python": "3.12.13",
+  "inference_threads": 1,
+  "reports": {
+    "nominal": {
+      "examples": 128,
+      "target_present": 107,
+      "target_absent": 21,
+      "learned_correct": 128,
+      "learned_hits": 107,
+      "learned_false_clicks": 0,
+      "baseline_correct": 128,
+      "baseline_hits": 107,
+      "baseline_false_clicks": 0,
+      "preprocess_and_inference_ms": {
+        "mean": 0.9667335078125,
+        "p50": 0.916136,
+        "p95": 1.19585,
+        "max": 1.768263
+      },
+      "trials": [
+        {
+          "index": 0,
+          "target": [
+            239,
+            216,
+            27
+          ],
+          "point": [
+            234,
+            218
+          ],
+          "score": 0.9999999501467591,
+          "correct": true,
+          "baseline_point": [
+            238,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 1,
+          "target": [
+            33,
+            203,
+            25
+          ],
+          "point": [
+            30,
+            206
+          ],
+          "score": 0.9999999933914137,
+          "correct": true,
+          "baseline_point": [
+            34,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 2,
+          "target": [
+            326,
+            38,
+            22
+          ],
+          "point": [
+            322,
+            38
+          ],
+          "score": 0.9999999947971561,
+          "correct": true,
+          "baseline_point": [
+            326,
+            38
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 3,
+          "target": [
+            227,
+            36,
+            20
+          ],
+          "point": [
+            222,
+            38
+          ],
+          "score": 0.9999999626447652,
+          "correct": true,
+          "baseline_point": [
+            226,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 4,
+          "target": [
+            43,
+            130,
+            18
+          ],
+          "point": [
+            38,
+            130
+          ],
+          "score": 0.9999999724758283,
+          "correct": true,
+          "baseline_point": [
+            42,
+            130
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 5,
+          "target": [
+            326,
+            134,
+            18
+          ],
+          "point": [
+            322,
+            134
+          ],
+          "score": 0.9999999785581424,
+          "correct": true,
+          "baseline_point": [
+            326,
+            134
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 6,
+          "target": [
+            143,
+            50,
+            23
+          ],
+          "point": [
+            138,
+            50
+          ],
+          "score": 0.9999999880875047,
+          "correct": true,
+          "baseline_point": [
+            142,
+            50
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 7,
+          "target": [
+            238,
+            120,
+            18
+          ],
+          "point": [
+            234,
+            122
+          ],
+          "score": 0.9999999924013218,
+          "correct": true,
+          "baseline_point": [
+            234,
+            118
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 8,
+          "target": null,
+          "point": null,
+          "score": 0.002254396379943653,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 9,
+          "target": [
+            329,
+            115,
+            21
+          ],
+          "point": [
+            326,
+            118
+          ],
+          "score": 0.9999999660022647,
+          "correct": true,
+          "baseline_point": [
+            330,
+            114
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 10,
+          "target": [
+            135,
+            30,
+            23
+          ],
+          "point": [
+            130,
+            30
+          ],
+          "score": 0.9999999936436148,
+          "correct": true,
+          "baseline_point": [
+            134,
+            30
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 11,
+          "target": null,
+          "point": null,
+          "score": 0.003324365794884183,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 12,
+          "target": null,
+          "point": null,
+          "score": 0.006225267772327768,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 13,
+          "target": [
+            129,
+            209,
+            22
+          ],
+          "point": [
+            126,
+            210
+          ],
+          "score": 0.9999999920393264,
+          "correct": true,
+          "baseline_point": [
+            130,
+            210
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 14,
+          "target": [
+            220,
+            49,
+            21
+          ],
+          "point": [
+            218,
+            50
+          ],
+          "score": 0.9999999365485304,
+          "correct": true,
+          "baseline_point": [
+            222,
+            50
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 15,
+          "target": [
+            133,
+            123,
+            21
+          ],
+          "point": [
+            130,
+            126
+          ],
+          "score": 0.9999999847624368,
+          "correct": true,
+          "baseline_point": [
+            134,
+            122
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 16,
+          "target": [
+            37,
+            208,
+            18
+          ],
+          "point": [
+            34,
+            210
+          ],
+          "score": 0.9999999874574564,
+          "correct": true,
+          "baseline_point": [
+            38,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 17,
+          "target": [
+            45,
+            205,
+            22
+          ],
+          "point": [
+            42,
+            206
+          ],
+          "score": 0.999999977042794,
+          "correct": true,
+          "baseline_point": [
+            46,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 18,
+          "target": null,
+          "point": null,
+          "score": 0.005601225105452018,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 19,
+          "target": [
+            338,
+            46,
+            19
+          ],
+          "point": [
+            334,
+            46
+          ],
+          "score": 0.9999999861199003,
+          "correct": true,
+          "baseline_point": [
+            338,
+            46
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 20,
+          "target": null,
+          "point": null,
+          "score": 0.003015763693364716,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 21,
+          "target": [
+            138,
+            213,
+            27
+          ],
+          "point": [
+            134,
+            214
+          ],
+          "score": 0.9999999987837558,
+          "correct": true,
+          "baseline_point": [
+            138,
+            210
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 22,
+          "target": [
+            221,
+            122,
+            27
+          ],
+          "point": [
+            218,
+            122
+          ],
+          "score": 0.9999999844904166,
+          "correct": true,
+          "baseline_point": [
+            218,
+            122
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 23,
+          "target": null,
+          "point": null,
+          "score": 0.001336887149773748,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 24,
+          "target": [
+            148,
+            127,
+            26
+          ],
+          "point": [
+            146,
+            130
+          ],
+          "score": 0.9999999343410372,
+          "correct": true,
+          "baseline_point": [
+            146,
+            126
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 25,
+          "target": [
+            36,
+            124,
+            26
+          ],
+          "point": [
+            34,
+            126
+          ],
+          "score": 0.9999999751037054,
+          "correct": true,
+          "baseline_point": [
+            34,
+            122
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 26,
+          "target": [
+            324,
+            33,
+            20
+          ],
+          "point": [
+            322,
+            34
+          ],
+          "score": 0.9999999546138213,
+          "correct": true,
+          "baseline_point": [
+            322,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 27,
+          "target": [
+            132,
+            206,
+            18
+          ],
+          "point": [
+            130,
+            210
+          ],
+          "score": 0.999999918638822,
+          "correct": true,
+          "baseline_point": [
+            130,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 28,
+          "target": [
+            335,
+            125,
+            20
+          ],
+          "point": [
+            330,
+            126
+          ],
+          "score": 0.9999999905623383,
+          "correct": true,
+          "baseline_point": [
+            334,
+            126
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 29,
+          "target": [
+            224,
+            118,
+            18
+          ],
+          "point": [
+            222,
+            122
+          ],
+          "score": 0.9999998706048076,
+          "correct": true,
+          "baseline_point": [
+            222,
+            118
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 30,
+          "target": [
+            125,
+            40,
+            24
+          ],
+          "point": [
+            122,
+            42
+          ],
+          "score": 0.9999999899403352,
+          "correct": true,
+          "baseline_point": [
+            126,
+            38
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 31,
+          "target": [
+            326,
+            39,
+            24
+          ],
+          "point": [
+            322,
+            38
+          ],
+          "score": 0.9999999904839264,
+          "correct": true,
+          "baseline_point": [
+            326,
+            38
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 32,
+          "target": [
+            230,
+            33,
+            26
+          ],
+          "point": [
+            226,
+            34
+          ],
+          "score": 0.9999999987714172,
+          "correct": true,
+          "baseline_point": [
+            230,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 33,
+          "target": [
+            325,
+            130,
+            24
+          ],
+          "point": [
+            322,
+            130
+          ],
+          "score": 0.9999999853603705,
+          "correct": true,
+          "baseline_point": [
+            326,
+            130
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 34,
+          "target": [
+            231,
+            204,
+            18
+          ],
+          "point": [
+            226,
+            206
+          ],
+          "score": 0.9999999652248966,
+          "correct": true,
+          "baseline_point": [
+            230,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 35,
+          "target": [
+            146,
+            205,
+            24
+          ],
+          "point": [
+            142,
+            206
+          ],
+          "score": 0.999999997312728,
+          "correct": true,
+          "baseline_point": [
+            146,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 36,
+          "target": [
+            234,
+            128,
+            18
+          ],
+          "point": [
+            230,
+            130
+          ],
+          "score": 0.9999999831152081,
+          "correct": true,
+          "baseline_point": [
+            234,
+            126
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 37,
+          "target": [
+            35,
+            132,
+            25
+          ],
+          "point": [
+            30,
+            134
+          ],
+          "score": 0.9999996917458864,
+          "correct": true,
+          "baseline_point": [
+            34,
+            134
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 38,
+          "target": [
+            234,
+            42,
+            23
+          ],
+          "point": [
+            230,
+            42
+          ],
+          "score": 0.999999995345292,
+          "correct": true,
+          "baseline_point": [
+            234,
+            42
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 39,
+          "target": [
+            28,
+            204,
+            18
+          ],
+          "point": [
+            26,
+            206
+          ],
+          "score": 0.9999999651791663,
+          "correct": true,
+          "baseline_point": [
+            26,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 40,
+          "target": [
+            326,
+            130,
+            20
+          ],
+          "point": [
+            322,
+            130
+          ],
+          "score": 0.9999999855206021,
+          "correct": true,
+          "baseline_point": [
+            326,
+            130
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 41,
+          "target": [
+            319,
+            42,
+            25
+          ],
+          "point": [
+            314,
+            42
+          ],
+          "score": 0.9999999956538146,
+          "correct": true,
+          "baseline_point": [
+            318,
+            42
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 42,
+          "target": [
+            140,
+            118,
+            24
+          ],
+          "point": [
+            138,
+            122
+          ],
+          "score": 0.9999999733032645,
+          "correct": true,
+          "baseline_point": [
+            138,
+            118
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 43,
+          "target": [
+            236,
+            214,
+            27
+          ],
+          "point": [
+            234,
+            218
+          ],
+          "score": 0.9999999363632144,
+          "correct": true,
+          "baseline_point": [
+            234,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 44,
+          "target": [
+            134,
+            49,
+            25
+          ],
+          "point": [
+            130,
+            50
+          ],
+          "score": 0.9999999975196663,
+          "correct": true,
+          "baseline_point": [
+            134,
+            50
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 45,
+          "target": [
+            243,
+            44,
+            22
+          ],
+          "point": [
+            238,
+            46
+          ],
+          "score": 0.9999999768338589,
+          "correct": true,
+          "baseline_point": [
+            242,
+            42
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 46,
+          "target": [
+            225,
+            218,
+            19
+          ],
+          "point": [
+            222,
+            218
+          ],
+          "score": 0.9999999507392192,
+          "correct": true,
+          "baseline_point": [
+            222,
+            218
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 47,
+          "target": [
+            232,
+            130,
+            18
+          ],
+          "point": [
+            230,
+            134
+          ],
+          "score": 0.9999999325609196,
+          "correct": true,
+          "baseline_point": [
+            230,
+            126
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 48,
+          "target": null,
+          "point": null,
+          "score": 0.007715641965726387,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 49,
+          "target": [
+            33,
+            131,
+            25
+          ],
+          "point": [
+            30,
+            134
+          ],
+          "score": 0.9999999792529293,
+          "correct": true,
+          "baseline_point": [
+            34,
+            130
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 50,
+          "target": [
+            227,
+            133,
+            18
+          ],
+          "point": [
+            222,
+            134
+          ],
+          "score": 0.9999998369987849,
+          "correct": true,
+          "baseline_point": [
+            226,
+            134
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 51,
+          "target": [
+            132,
+            115,
+            25
+          ],
+          "point": [
+            130,
+            118
+          ],
+          "score": 0.9999999324700458,
+          "correct": true,
+          "baseline_point": [
+            134,
+            114
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 52,
+          "target": [
+            141,
+            42,
+            23
+          ],
+          "point": [
+            138,
+            42
+          ],
+          "score": 0.9999999813013608,
+          "correct": true,
+          "baseline_point": [
+            138,
+            42
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 53,
+          "target": null,
+          "point": null,
+          "score": 0.0015151138894501563,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 54,
+          "target": [
+            334,
+            198,
+            20
+          ],
+          "point": [
+            330,
+            198
+          ],
+          "score": 0.9999999661004932,
+          "correct": true,
+          "baseline_point": [
+            330,
+            194
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 55,
+          "target": [
+            330,
+            214,
+            26
+          ],
+          "point": [
+            326,
+            214
+          ],
+          "score": 0.9999999885448047,
+          "correct": true,
+          "baseline_point": [
+            330,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 56,
+          "target": [
+            229,
+            206,
+            20
+          ],
+          "point": [
+            226,
+            206
+          ],
+          "score": 0.9999999679314552,
+          "correct": true,
+          "baseline_point": [
+            230,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 57,
+          "target": [
+            235,
+            41,
+            24
+          ],
+          "point": [
+            230,
+            42
+          ],
+          "score": 0.9999999971987421,
+          "correct": true,
+          "baseline_point": [
+            234,
+            42
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 58,
+          "target": null,
+          "point": null,
+          "score": 0.011224744967560795,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 59,
+          "target": [
+            325,
+            120,
+            20
+          ],
+          "point": [
+            322,
+            122
+          ],
+          "score": 0.9999999853643071,
+          "correct": true,
+          "baseline_point": [
+            326,
+            122
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 60,
+          "target": [
+            52,
+            214,
+            20
+          ],
+          "point": [
+            50,
+            218
+          ],
+          "score": 0.9999999521144564,
+          "correct": true,
+          "baseline_point": [
+            50,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 61,
+          "target": null,
+          "point": null,
+          "score": 0.0007395158571886055,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 62,
+          "target": null,
+          "point": null,
+          "score": 0.007698826711744734,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 63,
+          "target": [
+            134,
+            214,
+            19
+          ],
+          "point": [
+            130,
+            214
+          ],
+          "score": 0.9999999905022953,
+          "correct": true,
+          "baseline_point": [
+            134,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 64,
+          "target": [
+            323,
+            120,
+            20
+          ],
+          "point": [
+            318,
+            122
+          ],
+          "score": 0.9999999529873234,
+          "correct": true,
+          "baseline_point": [
+            322,
+            118
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 65,
+          "target": [
+            220,
+            202,
+            20
+          ],
+          "point": [
+            218,
+            206
+          ],
+          "score": 0.9999998584992684,
+          "correct": true,
+          "baseline_point": [
+            222,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 66,
+          "target": [
+            336,
+            200,
+            18
+          ],
+          "point": [
+            334,
+            202
+          ],
+          "score": 0.9999999674589264,
+          "correct": true,
+          "baseline_point": [
+            334,
+            198
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 67,
+          "target": [
+            222,
+            130,
+            22
+          ],
+          "point": [
+            218,
+            130
+          ],
+          "score": 0.9999999951984881,
+          "correct": true,
+          "baseline_point": [
+            222,
+            130
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 68,
+          "target": [
+            222,
+            130,
+            23
+          ],
+          "point": [
+            218,
+            130
+          ],
+          "score": 0.9999999922329553,
+          "correct": true,
+          "baseline_point": [
+            222,
+            130
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 69,
+          "target": [
+            43,
+            38,
+            18
+          ],
+          "point": [
+            38,
+            38
+          ],
+          "score": 0.9999999837188538,
+          "correct": true,
+          "baseline_point": [
+            46,
+            38
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 70,
+          "target": null,
+          "point": null,
+          "score": 0.055450281821650155,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 71,
+          "target": [
+            329,
+            130,
+            25
+          ],
+          "point": [
+            326,
+            130
+          ],
+          "score": 0.9999999859266022,
+          "correct": true,
+          "baseline_point": [
+            330,
+            130
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 72,
+          "target": null,
+          "point": null,
+          "score": 0.0059945707675310165,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 73,
+          "target": [
+            336,
+            35,
+            27
+          ],
+          "point": [
+            334,
+            38
+          ],
+          "score": 0.9999999501954202,
+          "correct": true,
+          "baseline_point": [
+            334,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 74,
+          "target": [
+            38,
+            203,
+            22
+          ],
+          "point": [
+            42,
+            202
+          ],
+          "score": 0.999999987674829,
+          "correct": true,
+          "baseline_point": [
+            38,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 75,
+          "target": [
+            131,
+            200,
+            23
+          ],
+          "point": [
+            126,
+            202
+          ],
+          "score": 0.9999994966770056,
+          "correct": true,
+          "baseline_point": [
+            130,
+            198
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 76,
+          "target": [
+            243,
+            204,
+            20
+          ],
+          "point": [
+            246,
+            202
+          ],
+          "score": 0.9999999702524975,
+          "correct": true,
+          "baseline_point": [
+            242,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 77,
+          "target": [
+            335,
+            115,
+            23
+          ],
+          "point": [
+            338,
+            114
+          ],
+          "score": 0.9999997357845193,
+          "correct": true,
+          "baseline_point": [
+            334,
+            114
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 78,
+          "target": [
+            334,
+            125,
+            24
+          ],
+          "point": [
+            330,
+            126
+          ],
+          "score": 0.9999999983688868,
+          "correct": true,
+          "baseline_point": [
+            334,
+            126
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 79,
+          "target": [
+            220,
+            200,
+            20
+          ],
+          "point": [
+            218,
+            202
+          ],
+          "score": 0.9999999635633026,
+          "correct": true,
+          "baseline_point": [
+            218,
+            198
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 80,
+          "target": [
+            325,
+            129,
+            19
+          ],
+          "point": [
+            322,
+            130
+          ],
+          "score": 0.9999999861297186,
+          "correct": true,
+          "baseline_point": [
+            322,
+            126
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 81,
+          "target": null,
+          "point": null,
+          "score": 0.0009452898191870333,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 82,
+          "target": [
+            43,
+            33,
+            18
+          ],
+          "point": [
+            38,
+            34
+          ],
+          "score": 0.999999989645249,
+          "correct": true,
+          "baseline_point": [
+            42,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 83,
+          "target": [
+            223,
+            206,
+            26
+          ],
+          "point": [
+            218,
+            206
+          ],
+          "score": 0.999999957328078,
+          "correct": true,
+          "baseline_point": [
+            222,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 84,
+          "target": [
+            231,
+            120,
+            18
+          ],
+          "point": [
+            226,
+            122
+          ],
+          "score": 0.9999999607734944,
+          "correct": true,
+          "baseline_point": [
+            234,
+            118
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 85,
+          "target": null,
+          "point": null,
+          "score": 0.0007161419375925934,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 86,
+          "target": [
+            29,
+            32,
+            23
+          ],
+          "point": [
+            26,
+            34
+          ],
+          "score": 0.9999999931241195,
+          "correct": true,
+          "baseline_point": [
+            26,
+            30
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 87,
+          "target": [
+            332,
+            121,
+            20
+          ],
+          "point": [
+            330,
+            122
+          ],
+          "score": 0.999999870427606,
+          "correct": true,
+          "baseline_point": [
+            334,
+            122
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 88,
+          "target": [
+            136,
+            209,
+            23
+          ],
+          "point": [
+            134,
+            210
+          ],
+          "score": 0.9999999618500494,
+          "correct": true,
+          "baseline_point": [
+            134,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 89,
+          "target": [
+            324,
+            129,
+            27
+          ],
+          "point": [
+            322,
+            130
+          ],
+          "score": 0.9999998978900593,
+          "correct": true,
+          "baseline_point": [
+            322,
+            126
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 90,
+          "target": [
+            337,
+            118,
+            21
+          ],
+          "point": [
+            334,
+            118
+          ],
+          "score": 0.9999999730732411,
+          "correct": true,
+          "baseline_point": [
+            338,
+            118
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 91,
+          "target": [
+            327,
+            199,
+            25
+          ],
+          "point": [
+            322,
+            198
+          ],
+          "score": 0.9999997733012386,
+          "correct": true,
+          "baseline_point": [
+            326,
+            198
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 92,
+          "target": [
+            238,
+            114,
+            24
+          ],
+          "point": [
+            234,
+            114
+          ],
+          "score": 0.9999999965948676,
+          "correct": true,
+          "baseline_point": [
+            238,
+            114
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 93,
+          "target": [
+            243,
+            47,
+            25
+          ],
+          "point": [
+            238,
+            46
+          ],
+          "score": 0.999999958320865,
+          "correct": true,
+          "baseline_point": [
+            242,
+            46
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 94,
+          "target": [
+            38,
+            117,
+            25
+          ],
+          "point": [
+            34,
+            118
+          ],
+          "score": 0.9999999946132818,
+          "correct": true,
+          "baseline_point": [
+            38,
+            118
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 95,
+          "target": [
+            339,
+            213,
+            27
+          ],
+          "point": [
+            334,
+            214
+          ],
+          "score": 0.9999999979511305,
+          "correct": true,
+          "baseline_point": [
+            338,
+            210
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 96,
+          "target": [
+            34,
+            207,
+            21
+          ],
+          "point": [
+            38,
+            206
+          ],
+          "score": 0.9999999716326496,
+          "correct": true,
+          "baseline_point": [
+            34,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 97,
+          "target": [
+            124,
+            33,
+            27
+          ],
+          "point": [
+            122,
+            34
+          ],
+          "score": 0.9999999628983323,
+          "correct": true,
+          "baseline_point": [
+            122,
+            30
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 98,
+          "target": [
+            338,
+            33,
+            23
+          ],
+          "point": [
+            334,
+            34
+          ],
+          "score": 0.9999999963553936,
+          "correct": true,
+          "baseline_point": [
+            338,
+            30
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 99,
+          "target": [
+            126,
+            211,
+            19
+          ],
+          "point": [
+            122,
+            210
+          ],
+          "score": 0.9999999628508889,
+          "correct": true,
+          "baseline_point": [
+            130,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 100,
+          "target": [
+            241,
+            45,
+            21
+          ],
+          "point": [
+            238,
+            46
+          ],
+          "score": 0.9999999893912589,
+          "correct": true,
+          "baseline_point": [
+            242,
+            46
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 101,
+          "target": null,
+          "point": null,
+          "score": 0.11025712670037581,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 102,
+          "target": null,
+          "point": null,
+          "score": 0.003095161960679344,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 103,
+          "target": [
+            146,
+            47,
+            23
+          ],
+          "point": [
+            142,
+            46
+          ],
+          "score": 0.9999999765983073,
+          "correct": true,
+          "baseline_point": [
+            146,
+            46
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 104,
+          "target": [
+            33,
+            114,
+            22
+          ],
+          "point": [
+            30,
+            114
+          ],
+          "score": 0.9999999385921532,
+          "correct": true,
+          "baseline_point": [
+            34,
+            114
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 105,
+          "target": [
+            52,
+            127,
+            26
+          ],
+          "point": [
+            50,
+            130
+          ],
+          "score": 0.999999934674688,
+          "correct": true,
+          "baseline_point": [
+            50,
+            126
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 106,
+          "target": [
+            45,
+            41,
+            26
+          ],
+          "point": [
+            42,
+            42
+          ],
+          "score": 0.9999999839435776,
+          "correct": true,
+          "baseline_point": [
+            46,
+            42
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 107,
+          "target": [
+            336,
+            117,
+            25
+          ],
+          "point": [
+            334,
+            118
+          ],
+          "score": 0.9999999622927837,
+          "correct": true,
+          "baseline_point": [
+            338,
+            118
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 108,
+          "target": [
+            33,
+            133,
+            19
+          ],
+          "point": [
+            30,
+            134
+          ],
+          "score": 0.9999999564037908,
+          "correct": true,
+          "baseline_point": [
+            34,
+            134
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 109,
+          "target": [
+            231,
+            202,
+            21
+          ],
+          "point": [
+            226,
+            202
+          ],
+          "score": 0.9999999902676752,
+          "correct": true,
+          "baseline_point": [
+            230,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 110,
+          "target": [
+            127,
+            45,
+            21
+          ],
+          "point": [
+            122,
+            46
+          ],
+          "score": 0.9999999870464229,
+          "correct": true,
+          "baseline_point": [
+            126,
+            46
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 111,
+          "target": null,
+          "point": null,
+          "score": 0.0008038392507667192,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 112,
+          "target": null,
+          "point": null,
+          "score": 0.0020533800662748706,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 113,
+          "target": [
+            319,
+            47,
+            24
+          ],
+          "point": [
+            322,
+            46
+          ],
+          "score": 0.9999997369601331,
+          "correct": true,
+          "baseline_point": [
+            318,
+            46
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 114,
+          "target": null,
+          "point": null,
+          "score": 0.0170827715177799,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 115,
+          "target": null,
+          "point": null,
+          "score": 0.008279835876341636,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 116,
+          "target": [
+            235,
+            33,
+            18
+          ],
+          "point": [
+            230,
+            34
+          ],
+          "score": 0.9999999830543599,
+          "correct": true,
+          "baseline_point": [
+            238,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 117,
+          "target": [
+            334,
+            202,
+            19
+          ],
+          "point": [
+            330,
+            202
+          ],
+          "score": 0.9999999640357151,
+          "correct": true,
+          "baseline_point": [
+            334,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 118,
+          "target": [
+            145,
+            209,
+            25
+          ],
+          "point": [
+            142,
+            210
+          ],
+          "score": 0.9999999832602139,
+          "correct": true,
+          "baseline_point": [
+            146,
+            210
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 119,
+          "target": [
+            336,
+            131,
+            27
+          ],
+          "point": [
+            334,
+            134
+          ],
+          "score": 0.9999999502054886,
+          "correct": true,
+          "baseline_point": [
+            334,
+            130
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 120,
+          "target": [
+            131,
+            121,
+            25
+          ],
+          "point": [
+            126,
+            122
+          ],
+          "score": 0.9999999966380031,
+          "correct": true,
+          "baseline_point": [
+            130,
+            122
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 121,
+          "target": [
+            32,
+            39,
+            22
+          ],
+          "point": [
+            30,
+            42
+          ],
+          "score": 0.999999923941989,
+          "correct": true,
+          "baseline_point": [
+            30,
+            38
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 122,
+          "target": [
+            317,
+            44,
+            24
+          ],
+          "point": [
+            314,
+            46
+          ],
+          "score": 0.9999999898705595,
+          "correct": true,
+          "baseline_point": [
+            318,
+            42
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 123,
+          "target": [
+            338,
+            216,
+            24
+          ],
+          "point": [
+            334,
+            218
+          ],
+          "score": 0.9999999969898759,
+          "correct": true,
+          "baseline_point": [
+            338,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 124,
+          "target": [
+            49,
+            204,
+            18
+          ],
+          "point": [
+            46,
+            206
+          ],
+          "score": 0.9999999863185829,
+          "correct": true,
+          "baseline_point": [
+            50,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 125,
+          "target": [
+            318,
+            121,
+            25
+          ],
+          "point": [
+            314,
+            122
+          ],
+          "score": 0.999999998506218,
+          "correct": true,
+          "baseline_point": [
+            318,
+            122
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 126,
+          "target": [
+            125,
+            46,
+            21
+          ],
+          "point": [
+            122,
+            46
+          ],
+          "score": 0.9999999771497358,
+          "correct": true,
+          "baseline_point": [
+            126,
+            46
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 127,
+          "target": [
+            226,
+            214,
+            23
+          ],
+          "point": [
+            222,
+            214
+          ],
+          "score": 0.9999999954279506,
+          "correct": true,
+          "baseline_point": [
+            226,
+            214
+          ],
+          "baseline_correct": true
+        }
+      ]
+    },
+    "palette": {
+      "examples": 128,
+      "target_present": 96,
+      "target_absent": 32,
+      "learned_correct": 128,
+      "learned_hits": 96,
+      "learned_false_clicks": 0,
+      "baseline_correct": 32,
+      "baseline_hits": 0,
+      "baseline_false_clicks": 0,
+      "preprocess_and_inference_ms": {
+        "mean": 0.9444639609375,
+        "p50": 0.912671,
+        "p95": 1.086215,
+        "max": 1.549192
+      },
+      "trials": [
+        {
+          "index": 0,
+          "target": [
+            242,
+            47,
+            18
+          ],
+          "point": [
+            238,
+            46
+          ],
+          "score": 0.9999996144813205,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 1,
+          "target": [
+            37,
+            132,
+            18
+          ],
+          "point": [
+            34,
+            134
+          ],
+          "score": 0.9999979339176047,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 2,
+          "target": null,
+          "point": null,
+          "score": 0.016673707771773724,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 3,
+          "target": null,
+          "point": null,
+          "score": 0.020099996085012853,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 4,
+          "target": [
+            231,
+            210,
+            25
+          ],
+          "point": [
+            234,
+            210
+          ],
+          "score": 0.9999985493448759,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 5,
+          "target": [
+            136,
+            37,
+            22
+          ],
+          "point": [
+            134,
+            38
+          ],
+          "score": 0.9999996237442667,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 6,
+          "target": null,
+          "point": null,
+          "score": 0.24777568926775395,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 7,
+          "target": [
+            46,
+            119,
+            22
+          ],
+          "point": [
+            42,
+            118
+          ],
+          "score": 0.9999999199040293,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 8,
+          "target": null,
+          "point": null,
+          "score": 0.7006721907778863,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 9,
+          "target": [
+            137,
+            126,
+            21
+          ],
+          "point": [
+            134,
+            126
+          ],
+          "score": 0.9999990160707071,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 10,
+          "target": [
+            239,
+            120,
+            22
+          ],
+          "point": [
+            238,
+            122
+          ],
+          "score": 0.9999944800579726,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 11,
+          "target": null,
+          "point": null,
+          "score": 0.9595223413250236,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 12,
+          "target": [
+            323,
+            35,
+            23
+          ],
+          "point": [
+            326,
+            34
+          ],
+          "score": 0.999999800492907,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 13,
+          "target": null,
+          "point": null,
+          "score": 0.11727869065229533,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 14,
+          "target": [
+            140,
+            122,
+            19
+          ],
+          "point": [
+            138,
+            122
+          ],
+          "score": 0.9999983736740605,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 15,
+          "target": [
+            328,
+            206,
+            23
+          ],
+          "point": [
+            326,
+            210
+          ],
+          "score": 0.9999995858731149,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 16,
+          "target": [
+            237,
+            204,
+            23
+          ],
+          "point": [
+            234,
+            206
+          ],
+          "score": 0.9999998252560937,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 17,
+          "target": [
+            50,
+            129,
+            19
+          ],
+          "point": [
+            46,
+            130
+          ],
+          "score": 0.9999942466223057,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 18,
+          "target": null,
+          "point": null,
+          "score": 0.5527111661685091,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 19,
+          "target": [
+            34,
+            205,
+            25
+          ],
+          "point": [
+            30,
+            206
+          ],
+          "score": 0.9999947593336631,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 20,
+          "target": [
+            39,
+            44,
+            24
+          ],
+          "point": [
+            38,
+            46
+          ],
+          "score": 0.9999396613278277,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 21,
+          "target": [
+            234,
+            42,
+            27
+          ],
+          "point": [
+            230,
+            42
+          ],
+          "score": 0.999986365612648,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 22,
+          "target": [
+            29,
+            211,
+            27
+          ],
+          "point": [
+            26,
+            210
+          ],
+          "score": 0.9999997690598335,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 23,
+          "target": [
+            230,
+            201,
+            23
+          ],
+          "point": [
+            226,
+            202
+          ],
+          "score": 0.9999999748128301,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 24,
+          "target": [
+            337,
+            201,
+            22
+          ],
+          "point": [
+            334,
+            202
+          ],
+          "score": 0.9999999118273535,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 25,
+          "target": null,
+          "point": null,
+          "score": 0.005274882350891227,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 26,
+          "target": null,
+          "point": null,
+          "score": 0.751302159000791,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 27,
+          "target": null,
+          "point": null,
+          "score": 0.029960898938637962,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 28,
+          "target": [
+            316,
+            48,
+            21
+          ],
+          "point": [
+            314,
+            50
+          ],
+          "score": 0.9999997574164212,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 29,
+          "target": [
+            332,
+            212,
+            19
+          ],
+          "point": [
+            330,
+            214
+          ],
+          "score": 0.9999997299016173,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 30,
+          "target": [
+            50,
+            199,
+            23
+          ],
+          "point": [
+            46,
+            198
+          ],
+          "score": 0.9999913926928049,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 31,
+          "target": null,
+          "point": null,
+          "score": 0.048168865790505895,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 32,
+          "target": [
+            242,
+            215,
+            18
+          ],
+          "point": [
+            238,
+            214
+          ],
+          "score": 0.9999994642338731,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 33,
+          "target": null,
+          "point": null,
+          "score": 0.2268623259806738,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 34,
+          "target": [
+            332,
+            205,
+            22
+          ],
+          "point": [
+            330,
+            206
+          ],
+          "score": 0.9999995377269152,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 35,
+          "target": [
+            330,
+            205,
+            19
+          ],
+          "point": [
+            326,
+            206
+          ],
+          "score": 0.9999997886001931,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 36,
+          "target": [
+            336,
+            208,
+            26
+          ],
+          "point": [
+            334,
+            210
+          ],
+          "score": 0.999999464494903,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 37,
+          "target": [
+            326,
+            131,
+            22
+          ],
+          "point": [
+            322,
+            130
+          ],
+          "score": 0.9999993864074391,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 38,
+          "target": [
+            133,
+            36,
+            26
+          ],
+          "point": [
+            130,
+            38
+          ],
+          "score": 0.9999999490920773,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 39,
+          "target": null,
+          "point": null,
+          "score": 0.02605485823592839,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 40,
+          "target": [
+            133,
+            210,
+            18
+          ],
+          "point": [
+            130,
+            210
+          ],
+          "score": 0.9999983997946105,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 41,
+          "target": [
+            138,
+            123,
+            26
+          ],
+          "point": [
+            134,
+            122
+          ],
+          "score": 0.9999719782891128,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 42,
+          "target": [
+            145,
+            38,
+            27
+          ],
+          "point": [
+            142,
+            38
+          ],
+          "score": 0.999999946890694,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 43,
+          "target": [
+            37,
+            35,
+            23
+          ],
+          "point": [
+            34,
+            34
+          ],
+          "score": 0.9999972973748965,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 44,
+          "target": [
+            42,
+            216,
+            19
+          ],
+          "point": [
+            42,
+            218
+          ],
+          "score": 0.9999886334978274,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 45,
+          "target": [
+            335,
+            212,
+            21
+          ],
+          "point": [
+            334,
+            214
+          ],
+          "score": 0.9999970140199429,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 46,
+          "target": null,
+          "point": null,
+          "score": 0.029884066405757317,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 47,
+          "target": [
+            46,
+            33,
+            20
+          ],
+          "point": [
+            42,
+            34
+          ],
+          "score": 0.999999779572716,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 48,
+          "target": [
+            52,
+            208,
+            19
+          ],
+          "point": [
+            50,
+            210
+          ],
+          "score": 0.9999997387710594,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 49,
+          "target": [
+            41,
+            131,
+            26
+          ],
+          "point": [
+            38,
+            130
+          ],
+          "score": 0.9999996915520967,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 50,
+          "target": [
+            239,
+            116,
+            24
+          ],
+          "point": [
+            242,
+            118
+          ],
+          "score": 0.9999949829643151,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 51,
+          "target": null,
+          "point": null,
+          "score": 0.9833751862318022,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 52,
+          "target": null,
+          "point": null,
+          "score": 0.12063037934102802,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 53,
+          "target": [
+            33,
+            43,
+            22
+          ],
+          "point": [
+            30,
+            42
+          ],
+          "score": 0.9999991790361275,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 54,
+          "target": [
+            131,
+            215,
+            19
+          ],
+          "point": [
+            134,
+            214
+          ],
+          "score": 0.9999995165020161,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 55,
+          "target": [
+            231,
+            115,
+            26
+          ],
+          "point": [
+            234,
+            114
+          ],
+          "score": 0.9999994454305114,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 56,
+          "target": null,
+          "point": null,
+          "score": 0.02080838560789735,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 57,
+          "target": [
+            33,
+            205,
+            19
+          ],
+          "point": [
+            30,
+            206
+          ],
+          "score": 0.9999998976441724,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 58,
+          "target": [
+            33,
+            36,
+            18
+          ],
+          "point": [
+            30,
+            38
+          ],
+          "score": 0.9999980266134292,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 59,
+          "target": [
+            129,
+            38,
+            23
+          ],
+          "point": [
+            126,
+            38
+          ],
+          "score": 0.9999986481616618,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 60,
+          "target": [
+            230,
+            214,
+            20
+          ],
+          "point": [
+            226,
+            214
+          ],
+          "score": 0.9999993674018833,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 61,
+          "target": [
+            45,
+            116,
+            18
+          ],
+          "point": [
+            42,
+            118
+          ],
+          "score": 0.9999998174231013,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 62,
+          "target": [
+            51,
+            133,
+            22
+          ],
+          "point": [
+            50,
+            134
+          ],
+          "score": 0.9999757660620145,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 63,
+          "target": null,
+          "point": null,
+          "score": 0.018930625861420528,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 64,
+          "target": [
+            327,
+            201,
+            27
+          ],
+          "point": [
+            330,
+            202
+          ],
+          "score": 0.9999960928696648,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 65,
+          "target": [
+            226,
+            38,
+            27
+          ],
+          "point": [
+            222,
+            38
+          ],
+          "score": 0.999999897535177,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 66,
+          "target": null,
+          "point": null,
+          "score": 0.15990839792442368,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 67,
+          "target": [
+            34,
+            36,
+            19
+          ],
+          "point": [
+            34,
+            34
+          ],
+          "score": 0.9999869272609835,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 68,
+          "target": null,
+          "point": null,
+          "score": 0.018190629239468858,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 69,
+          "target": [
+            32,
+            218,
+            25
+          ],
+          "point": [
+            30,
+            218
+          ],
+          "score": 0.9999993579128207,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 70,
+          "target": [
+            324,
+            126,
+            18
+          ],
+          "point": [
+            322,
+            126
+          ],
+          "score": 0.999998674045552,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 71,
+          "target": null,
+          "point": null,
+          "score": 0.02877428407718679,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 72,
+          "target": [
+            52,
+            126,
+            24
+          ],
+          "point": [
+            50,
+            126
+          ],
+          "score": 0.999999288072252,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 73,
+          "target": null,
+          "point": null,
+          "score": 0.3228774912757718,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 74,
+          "target": [
+            323,
+            44,
+            27
+          ],
+          "point": [
+            326,
+            46
+          ],
+          "score": 0.9999948235098687,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 75,
+          "target": [
+            146,
+            207,
+            23
+          ],
+          "point": [
+            142,
+            206
+          ],
+          "score": 0.9999983988237342,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 76,
+          "target": [
+            323,
+            48,
+            27
+          ],
+          "point": [
+            326,
+            50
+          ],
+          "score": 0.9999948165889854,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 77,
+          "target": null,
+          "point": null,
+          "score": 0.055932002274410475,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 78,
+          "target": [
+            229,
+            130,
+            26
+          ],
+          "point": [
+            226,
+            130
+          ],
+          "score": 0.9999992365181993,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 79,
+          "target": [
+            36,
+            132,
+            26
+          ],
+          "point": [
+            34,
+            134
+          ],
+          "score": 0.9999992106064427,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 80,
+          "target": [
+            138,
+            30,
+            19
+          ],
+          "point": [
+            134,
+            30
+          ],
+          "score": 0.9999936438153182,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 81,
+          "target": [
+            46,
+            120,
+            21
+          ],
+          "point": [
+            42,
+            122
+          ],
+          "score": 0.9999996791823357,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 82,
+          "target": [
+            40,
+            134,
+            25
+          ],
+          "point": [
+            38,
+            134
+          ],
+          "score": 0.9999987498277123,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 83,
+          "target": null,
+          "point": null,
+          "score": 0.03579280485207329,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 84,
+          "target": [
+            244,
+            213,
+            19
+          ],
+          "point": [
+            242,
+            214
+          ],
+          "score": 0.9999995172346084,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 85,
+          "target": [
+            325,
+            211,
+            25
+          ],
+          "point": [
+            322,
+            214
+          ],
+          "score": 0.9999998903142435,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 86,
+          "target": [
+            33,
+            40,
+            22
+          ],
+          "point": [
+            30,
+            42
+          ],
+          "score": 0.9999967238538117,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 87,
+          "target": [
+            148,
+            118,
+            20
+          ],
+          "point": [
+            146,
+            118
+          ],
+          "score": 0.9999993169937416,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 88,
+          "target": [
+            146,
+            207,
+            24
+          ],
+          "point": [
+            142,
+            206
+          ],
+          "score": 0.9999998268403638,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 89,
+          "target": [
+            329,
+            132,
+            21
+          ],
+          "point": [
+            326,
+            134
+          ],
+          "score": 0.9999959150867698,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 90,
+          "target": [
+            134,
+            117,
+            21
+          ],
+          "point": [
+            130,
+            118
+          ],
+          "score": 0.9999999464452527,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 91,
+          "target": [
+            34,
+            215,
+            21
+          ],
+          "point": [
+            30,
+            214
+          ],
+          "score": 0.9999992839998684,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 92,
+          "target": [
+            239,
+            40,
+            23
+          ],
+          "point": [
+            242,
+            38
+          ],
+          "score": 0.9999983595518888,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 93,
+          "target": [
+            340,
+            30,
+            21
+          ],
+          "point": [
+            338,
+            34
+          ],
+          "score": 0.9999993459839468,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 94,
+          "target": [
+            28,
+            208,
+            26
+          ],
+          "point": [
+            26,
+            210
+          ],
+          "score": 0.999993205117134,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 95,
+          "target": [
+            239,
+            33,
+            21
+          ],
+          "point": [
+            238,
+            34
+          ],
+          "score": 0.9999871225169606,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 96,
+          "target": [
+            326,
+            34,
+            18
+          ],
+          "point": [
+            322,
+            34
+          ],
+          "score": 0.9999996265743889,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 97,
+          "target": [
+            28,
+            46,
+            26
+          ],
+          "point": [
+            26,
+            46
+          ],
+          "score": 0.9999993681802544,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 98,
+          "target": null,
+          "point": null,
+          "score": 0.03019062709924289,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 99,
+          "target": [
+            319,
+            47,
+            23
+          ],
+          "point": [
+            322,
+            46
+          ],
+          "score": 0.9999973836265383,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 100,
+          "target": null,
+          "point": null,
+          "score": 0.013435022046618608,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 101,
+          "target": [
+            46,
+            45,
+            27
+          ],
+          "point": [
+            42,
+            46
+          ],
+          "score": 0.9999875154486861,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 102,
+          "target": [
+            240,
+            114,
+            20
+          ],
+          "point": [
+            238,
+            114
+          ],
+          "score": 0.9999949296602676,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 103,
+          "target": [
+            243,
+            128,
+            18
+          ],
+          "point": [
+            242,
+            126
+          ],
+          "score": 0.999998086806282,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 104,
+          "target": [
+            335,
+            206,
+            21
+          ],
+          "point": [
+            334,
+            206
+          ],
+          "score": 0.9999980705574696,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 105,
+          "target": [
+            224,
+            129,
+            25
+          ],
+          "point": [
+            222,
+            130
+          ],
+          "score": 0.9999984002737256,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 106,
+          "target": [
+            328,
+            45,
+            23
+          ],
+          "point": [
+            326,
+            46
+          ],
+          "score": 0.999999605011804,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 107,
+          "target": [
+            41,
+            212,
+            25
+          ],
+          "point": [
+            38,
+            214
+          ],
+          "score": 0.999999907988758,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 108,
+          "target": null,
+          "point": null,
+          "score": 0.29410386320290477,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 109,
+          "target": null,
+          "point": null,
+          "score": 0.019530188468333157,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 110,
+          "target": [
+            225,
+            45,
+            24
+          ],
+          "point": [
+            222,
+            46
+          ],
+          "score": 0.9999999363526537,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 111,
+          "target": [
+            42,
+            44,
+            26
+          ],
+          "point": [
+            38,
+            46
+          ],
+          "score": 0.9999996743408305,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 112,
+          "target": [
+            231,
+            120,
+            20
+          ],
+          "point": [
+            230,
+            122
+          ],
+          "score": 0.9999972588279449,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 113,
+          "target": [
+            148,
+            198,
+            21
+          ],
+          "point": [
+            146,
+            202
+          ],
+          "score": 0.9999994004263357,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 114,
+          "target": [
+            138,
+            32,
+            21
+          ],
+          "point": [
+            138,
+            34
+          ],
+          "score": 0.9999512641358104,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 115,
+          "target": [
+            48,
+            35,
+            19
+          ],
+          "point": [
+            46,
+            38
+          ],
+          "score": 0.9999995430092797,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 116,
+          "target": null,
+          "point": null,
+          "score": 0.02085551541656479,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 117,
+          "target": null,
+          "point": null,
+          "score": 0.21909936907839087,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 118,
+          "target": [
+            338,
+            43,
+            22
+          ],
+          "point": [
+            334,
+            42
+          ],
+          "score": 0.9999879727469005,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 119,
+          "target": [
+            232,
+            114,
+            18
+          ],
+          "point": [
+            230,
+            114
+          ],
+          "score": 0.9999924680391883,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 120,
+          "target": null,
+          "point": null,
+          "score": 0.6588794983029074,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 121,
+          "target": [
+            135,
+            202,
+            18
+          ],
+          "point": [
+            134,
+            202
+          ],
+          "score": 0.9999990240404791,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 122,
+          "target": [
+            238,
+            205,
+            18
+          ],
+          "point": [
+            234,
+            206
+          ],
+          "score": 0.9999912952024818,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 123,
+          "target": [
+            39,
+            49,
+            26
+          ],
+          "point": [
+            42,
+            50
+          ],
+          "score": 0.9999946645824611,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 124,
+          "target": null,
+          "point": null,
+          "score": 0.24763174097001994,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 125,
+          "target": [
+            236,
+            38,
+            27
+          ],
+          "point": [
+            234,
+            38
+          ],
+          "score": 0.9999968173343555,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 126,
+          "target": [
+            148,
+            33,
+            20
+          ],
+          "point": [
+            146,
+            34
+          ],
+          "score": 0.9999985731175968,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 127,
+          "target": [
+            33,
+            30,
+            20
+          ],
+          "point": [
+            30,
+            30
+          ],
+          "score": 0.9999968128968131,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        }
+      ]
+    },
+    "background": {
+      "examples": 128,
+      "target_present": 103,
+      "target_absent": 25,
+      "learned_correct": 128,
+      "learned_hits": 103,
+      "learned_false_clicks": 0,
+      "baseline_correct": 20,
+      "baseline_hits": 20,
+      "baseline_false_clicks": 25,
+      "preprocess_and_inference_ms": {
+        "mean": 0.9729720703125,
+        "p50": 0.957333,
+        "p95": 1.137802,
+        "max": 1.414109
+      },
+      "trials": [
+        {
+          "index": 0,
+          "target": [
+            128,
+            31,
+            24
+          ],
+          "point": [
+            126,
+            34
+          ],
+          "score": 0.9999999519741442,
+          "correct": true,
+          "baseline_point": [
+            174,
+            78
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 1,
+          "target": [
+            36,
+            38,
+            20
+          ],
+          "point": [
+            34,
+            42
+          ],
+          "score": 0.999999979632898,
+          "correct": true,
+          "baseline_point": [
+            182,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 2,
+          "target": null,
+          "point": null,
+          "score": 0.020611928529104824,
+          "correct": true,
+          "baseline_point": [
+            230,
+            82
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 3,
+          "target": [
+            234,
+            215,
+            18
+          ],
+          "point": [
+            230,
+            214
+          ],
+          "score": 0.9999999935832564,
+          "correct": true,
+          "baseline_point": [
+            138,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 4,
+          "target": [
+            38,
+            198,
+            24
+          ],
+          "point": [
+            34,
+            198
+          ],
+          "score": 0.9999999967269835,
+          "correct": true,
+          "baseline_point": [
+            134,
+            162
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 5,
+          "target": null,
+          "point": null,
+          "score": 0.01859245747050136,
+          "correct": true,
+          "baseline_point": [
+            42,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 6,
+          "target": [
+            147,
+            215,
+            21
+          ],
+          "point": [
+            142,
+            214
+          ],
+          "score": 0.9999999764000508,
+          "correct": true,
+          "baseline_point": [
+            146,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 7,
+          "target": null,
+          "point": null,
+          "score": 0.032676245833057345,
+          "correct": true,
+          "baseline_point": [
+            234,
+            130
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 8,
+          "target": [
+            327,
+            211,
+            27
+          ],
+          "point": [
+            322,
+            210
+          ],
+          "score": 0.9999999914106966,
+          "correct": true,
+          "baseline_point": [
+            186,
+            130
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 9,
+          "target": null,
+          "point": null,
+          "score": 0.010738267267876588,
+          "correct": true,
+          "baseline_point": [
+            186,
+            114
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 10,
+          "target": [
+            220,
+            216,
+            18
+          ],
+          "point": [
+            218,
+            218
+          ],
+          "score": 0.9999999747455315,
+          "correct": true,
+          "baseline_point": [
+            130,
+            218
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 11,
+          "target": [
+            37,
+            216,
+            21
+          ],
+          "point": [
+            34,
+            218
+          ],
+          "score": 0.9999999957007115,
+          "correct": true,
+          "baseline_point": [
+            38,
+            218
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 12,
+          "target": [
+            145,
+            32,
+            22
+          ],
+          "point": [
+            142,
+            34
+          ],
+          "score": 0.9999999969438318,
+          "correct": true,
+          "baseline_point": [
+            186,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 13,
+          "target": null,
+          "point": null,
+          "score": 0.00763175520657154,
+          "correct": true,
+          "baseline_point": [
+            186,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 14,
+          "target": [
+            228,
+            218,
+            24
+          ],
+          "point": [
+            226,
+            222
+          ],
+          "score": 0.9999999724735708,
+          "correct": true,
+          "baseline_point": [
+            278,
+            134
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 15,
+          "target": [
+            42,
+            123,
+            27
+          ],
+          "point": [
+            38,
+            122
+          ],
+          "score": 0.9999999913844934,
+          "correct": true,
+          "baseline_point": [
+            42,
+            122
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 16,
+          "target": [
+            130,
+            213,
+            22
+          ],
+          "point": [
+            126,
+            214
+          ],
+          "score": 0.9999999990480972,
+          "correct": true,
+          "baseline_point": [
+            130,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 17,
+          "target": [
+            227,
+            40,
+            19
+          ],
+          "point": [
+            222,
+            42
+          ],
+          "score": 0.9999998063969346,
+          "correct": true,
+          "baseline_point": [
+            226,
+            38
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 18,
+          "target": [
+            226,
+            134,
+            18
+          ],
+          "point": [
+            222,
+            134
+          ],
+          "score": 0.9999999953281078,
+          "correct": true,
+          "baseline_point": [
+            130,
+            86
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 19,
+          "target": [
+            333,
+            131,
+            27
+          ],
+          "point": [
+            330,
+            134
+          ],
+          "score": 0.9999999939256994,
+          "correct": true,
+          "baseline_point": [
+            290,
+            90
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 20,
+          "target": [
+            330,
+            50,
+            21
+          ],
+          "point": [
+            326,
+            50
+          ],
+          "score": 0.9999999921156214,
+          "correct": true,
+          "baseline_point": [
+            330,
+            50
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 21,
+          "target": null,
+          "point": null,
+          "score": 0.012121334454644894,
+          "correct": true,
+          "baseline_point": [
+            182,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 22,
+          "target": [
+            328,
+            206,
+            24
+          ],
+          "point": [
+            326,
+            210
+          ],
+          "score": 0.9999999722674656,
+          "correct": true,
+          "baseline_point": [
+            326,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 23,
+          "target": [
+            143,
+            208,
+            21
+          ],
+          "point": [
+            138,
+            210
+          ],
+          "score": 0.999999994268777,
+          "correct": true,
+          "baseline_point": [
+            186,
+            170
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 24,
+          "target": [
+            35,
+            36,
+            26
+          ],
+          "point": [
+            30,
+            38
+          ],
+          "score": 0.9999999895430148,
+          "correct": true,
+          "baseline_point": [
+            182,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 25,
+          "target": [
+            321,
+            201,
+            23
+          ],
+          "point": [
+            318,
+            202
+          ],
+          "score": 0.9999999954659873,
+          "correct": true,
+          "baseline_point": [
+            186,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 26,
+          "target": [
+            334,
+            215,
+            21
+          ],
+          "point": [
+            330,
+            214
+          ],
+          "score": 0.9999999930561134,
+          "correct": true,
+          "baseline_point": [
+            334,
+            214
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 27,
+          "target": [
+            333,
+            133,
+            19
+          ],
+          "point": [
+            330,
+            134
+          ],
+          "score": 0.9999999969920912,
+          "correct": true,
+          "baseline_point": [
+            278,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 28,
+          "target": [
+            132,
+            33,
+            22
+          ],
+          "point": [
+            130,
+            34
+          ],
+          "score": 0.999999898731053,
+          "correct": true,
+          "baseline_point": [
+            186,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 29,
+          "target": [
+            329,
+            120,
+            18
+          ],
+          "point": [
+            326,
+            122
+          ],
+          "score": 0.9999999944312006,
+          "correct": true,
+          "baseline_point": [
+            282,
+            170
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 30,
+          "target": null,
+          "point": null,
+          "score": 0.005447429951402694,
+          "correct": true,
+          "baseline_point": [
+            230,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 31,
+          "target": [
+            337,
+            129,
+            20
+          ],
+          "point": [
+            334,
+            130
+          ],
+          "score": 0.9999999902739475,
+          "correct": true,
+          "baseline_point": [
+            186,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 32,
+          "target": [
+            240,
+            32,
+            25
+          ],
+          "point": [
+            238,
+            34
+          ],
+          "score": 0.9999999621837382,
+          "correct": true,
+          "baseline_point": [
+            146,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 33,
+          "target": [
+            240,
+            132,
+            25
+          ],
+          "point": [
+            238,
+            134
+          ],
+          "score": 0.9999999424798889,
+          "correct": true,
+          "baseline_point": [
+            182,
+            86
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 34,
+          "target": [
+            317,
+            203,
+            19
+          ],
+          "point": [
+            314,
+            206
+          ],
+          "score": 0.9999999966768927,
+          "correct": true,
+          "baseline_point": [
+            314,
+            206
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 35,
+          "target": null,
+          "point": null,
+          "score": 0.0150563980163351,
+          "correct": true,
+          "baseline_point": [
+            142,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 36,
+          "target": [
+            224,
+            207,
+            23
+          ],
+          "point": [
+            222,
+            210
+          ],
+          "score": 0.9999999818213342,
+          "correct": true,
+          "baseline_point": [
+            182,
+            162
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 37,
+          "target": [
+            146,
+            131,
+            24
+          ],
+          "point": [
+            142,
+            130
+          ],
+          "score": 0.9999999824124964,
+          "correct": true,
+          "baseline_point": [
+            98,
+            162
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 38,
+          "target": [
+            136,
+            46,
+            18
+          ],
+          "point": [
+            134,
+            50
+          ],
+          "score": 0.9999999790995782,
+          "correct": true,
+          "baseline_point": [
+            190,
+            130
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 39,
+          "target": [
+            224,
+            198,
+            21
+          ],
+          "point": [
+            222,
+            202
+          ],
+          "score": 0.9999999811596293,
+          "correct": true,
+          "baseline_point": [
+            226,
+            198
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 40,
+          "target": null,
+          "point": null,
+          "score": 0.0038964416803289204,
+          "correct": true,
+          "baseline_point": [
+            230,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 41,
+          "target": null,
+          "point": null,
+          "score": 0.003941788097343744,
+          "correct": true,
+          "baseline_point": [
+            322,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 42,
+          "target": [
+            141,
+            45,
+            25
+          ],
+          "point": [
+            138,
+            46
+          ],
+          "score": 0.9999999916041445,
+          "correct": true,
+          "baseline_point": [
+            230,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 43,
+          "target": [
+            337,
+            126,
+            19
+          ],
+          "point": [
+            334,
+            126
+          ],
+          "score": 0.9999999775811405,
+          "correct": true,
+          "baseline_point": [
+            278,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 44,
+          "target": [
+            330,
+            120,
+            24
+          ],
+          "point": [
+            326,
+            122
+          ],
+          "score": 0.9999999928730485,
+          "correct": true,
+          "baseline_point": [
+            190,
+            82
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 45,
+          "target": null,
+          "point": null,
+          "score": 0.01454225407778536,
+          "correct": true,
+          "baseline_point": [
+            330,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 46,
+          "target": [
+            145,
+            118,
+            19
+          ],
+          "point": [
+            142,
+            118
+          ],
+          "score": 0.999999992691837,
+          "correct": true,
+          "baseline_point": [
+            234,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 47,
+          "target": [
+            145,
+            30,
+            21
+          ],
+          "point": [
+            142,
+            30
+          ],
+          "score": 0.9999999881678251,
+          "correct": true,
+          "baseline_point": [
+            186,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 48,
+          "target": null,
+          "point": null,
+          "score": 0.010372928083277505,
+          "correct": true,
+          "baseline_point": [
+            238,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 49,
+          "target": [
+            34,
+            121,
+            23
+          ],
+          "point": [
+            30,
+            122
+          ],
+          "score": 0.9999999988017871,
+          "correct": true,
+          "baseline_point": [
+            134,
+            170
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 50,
+          "target": null,
+          "point": null,
+          "score": 0.0004662599115643716,
+          "correct": true,
+          "baseline_point": [
+            242,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 51,
+          "target": [
+            328,
+            40,
+            19
+          ],
+          "point": [
+            326,
+            42
+          ],
+          "score": 0.9999999671258568,
+          "correct": true,
+          "baseline_point": [
+            182,
+            78
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 52,
+          "target": [
+            147,
+            134,
+            26
+          ],
+          "point": [
+            142,
+            134
+          ],
+          "score": 0.99999999664464,
+          "correct": true,
+          "baseline_point": [
+            94,
+            90
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 53,
+          "target": [
+            320,
+            30,
+            21
+          ],
+          "point": [
+            318,
+            34
+          ],
+          "score": 0.9999998378912586,
+          "correct": true,
+          "baseline_point": [
+            174,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 54,
+          "target": [
+            40,
+            46,
+            26
+          ],
+          "point": [
+            38,
+            50
+          ],
+          "score": 0.9999999713134792,
+          "correct": true,
+          "baseline_point": [
+            42,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 55,
+          "target": [
+            243,
+            37,
+            25
+          ],
+          "point": [
+            238,
+            38
+          ],
+          "score": 0.9999999953575542,
+          "correct": true,
+          "baseline_point": [
+            186,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 56,
+          "target": [
+            52,
+            121,
+            22
+          ],
+          "point": [
+            50,
+            122
+          ],
+          "score": 0.9999999468928212,
+          "correct": true,
+          "baseline_point": [
+            142,
+            74
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 57,
+          "target": [
+            132,
+            34,
+            21
+          ],
+          "point": [
+            130,
+            38
+          ],
+          "score": 0.999999940172803,
+          "correct": true,
+          "baseline_point": [
+            134,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 58,
+          "target": [
+            46,
+            115,
+            22
+          ],
+          "point": [
+            42,
+            114
+          ],
+          "score": 0.9999999927181487,
+          "correct": true,
+          "baseline_point": [
+            46,
+            114
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 59,
+          "target": [
+            34,
+            40,
+            20
+          ],
+          "point": [
+            30,
+            42
+          ],
+          "score": 0.9999999923428348,
+          "correct": true,
+          "baseline_point": [
+            134,
+            78
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 60,
+          "target": [
+            45,
+            42,
+            18
+          ],
+          "point": [
+            42,
+            42
+          ],
+          "score": 0.999999985970315,
+          "correct": true,
+          "baseline_point": [
+            42,
+            42
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 61,
+          "target": [
+            45,
+            39,
+            23
+          ],
+          "point": [
+            42,
+            42
+          ],
+          "score": 0.9999999940742934,
+          "correct": true,
+          "baseline_point": [
+            130,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 62,
+          "target": [
+            125,
+            204,
+            27
+          ],
+          "point": [
+            122,
+            206
+          ],
+          "score": 0.9999999966987008,
+          "correct": true,
+          "baseline_point": [
+            214,
+            130
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 63,
+          "target": [
+            244,
+            124,
+            21
+          ],
+          "point": [
+            242,
+            126
+          ],
+          "score": 0.9999999757295005,
+          "correct": true,
+          "baseline_point": [
+            286,
+            166
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 64,
+          "target": [
+            222,
+            50,
+            24
+          ],
+          "point": [
+            218,
+            50
+          ],
+          "score": 0.9999999896323838,
+          "correct": true,
+          "baseline_point": [
+            218,
+            134
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 65,
+          "target": [
+            330,
+            121,
+            26
+          ],
+          "point": [
+            326,
+            122
+          ],
+          "score": 0.9999999977564553,
+          "correct": true,
+          "baseline_point": [
+            238,
+            74
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 66,
+          "target": [
+            140,
+            211,
+            27
+          ],
+          "point": [
+            138,
+            214
+          ],
+          "score": 0.9999999506037345,
+          "correct": true,
+          "baseline_point": [
+            230,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 67,
+          "target": [
+            40,
+            215,
+            22
+          ],
+          "point": [
+            38,
+            218
+          ],
+          "score": 0.9999999738954175,
+          "correct": true,
+          "baseline_point": [
+            90,
+            210
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 68,
+          "target": [
+            238,
+            218,
+            27
+          ],
+          "point": [
+            234,
+            218
+          ],
+          "score": 0.9999999971422768,
+          "correct": true,
+          "baseline_point": [
+            282,
+            218
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 69,
+          "target": [
+            325,
+            215,
+            18
+          ],
+          "point": [
+            322,
+            218
+          ],
+          "score": 0.9999999881355538,
+          "correct": true,
+          "baseline_point": [
+            226,
+            162
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 70,
+          "target": null,
+          "point": null,
+          "score": 0.0030386166054237975,
+          "correct": true,
+          "baseline_point": [
+            242,
+            42
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 71,
+          "target": [
+            140,
+            200,
+            19
+          ],
+          "point": [
+            138,
+            202
+          ],
+          "score": 0.9999999541323082,
+          "correct": true,
+          "baseline_point": [
+            186,
+            126
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 72,
+          "target": [
+            228,
+            34,
+            24
+          ],
+          "point": [
+            226,
+            38
+          ],
+          "score": 0.9999999720040721,
+          "correct": true,
+          "baseline_point": [
+            274,
+            70
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 73,
+          "target": [
+            130,
+            200,
+            24
+          ],
+          "point": [
+            126,
+            202
+          ],
+          "score": 0.9999999978634047,
+          "correct": true,
+          "baseline_point": [
+            86,
+            170
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 74,
+          "target": [
+            316,
+            119,
+            27
+          ],
+          "point": [
+            314,
+            122
+          ],
+          "score": 0.9999999695854254,
+          "correct": true,
+          "baseline_point": [
+            274,
+            82
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 75,
+          "target": [
+            36,
+            204,
+            21
+          ],
+          "point": [
+            34,
+            206
+          ],
+          "score": 0.9999999652022712,
+          "correct": true,
+          "baseline_point": [
+            134,
+            162
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 76,
+          "target": [
+            322,
+            116,
+            24
+          ],
+          "point": [
+            318,
+            118
+          ],
+          "score": 0.9999999989541244,
+          "correct": true,
+          "baseline_point": [
+            234,
+            82
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 77,
+          "target": [
+            29,
+            208,
+            25
+          ],
+          "point": [
+            26,
+            210
+          ],
+          "score": 0.9999999967931166,
+          "correct": true,
+          "baseline_point": [
+            130,
+            162
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 78,
+          "target": null,
+          "point": null,
+          "score": 0.013062649275063244,
+          "correct": true,
+          "baseline_point": [
+            38,
+            38
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 79,
+          "target": [
+            52,
+            32,
+            25
+          ],
+          "point": [
+            50,
+            34
+          ],
+          "score": 0.9999999743897281,
+          "correct": true,
+          "baseline_point": [
+            142,
+            74
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 80,
+          "target": null,
+          "point": null,
+          "score": 0.01273230691239919,
+          "correct": true,
+          "baseline_point": [
+            134,
+            38
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 81,
+          "target": [
+            227,
+            128,
+            27
+          ],
+          "point": [
+            222,
+            130
+          ],
+          "score": 0.9999999890483408,
+          "correct": true,
+          "baseline_point": [
+            182,
+            170
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 82,
+          "target": [
+            238,
+            212,
+            26
+          ],
+          "point": [
+            234,
+            214
+          ],
+          "score": 0.9999999919674579,
+          "correct": true,
+          "baseline_point": [
+            238,
+            210
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 83,
+          "target": [
+            142,
+            126,
+            26
+          ],
+          "point": [
+            138,
+            126
+          ],
+          "score": 0.9999999889303998,
+          "correct": true,
+          "baseline_point": [
+            178,
+            170
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 84,
+          "target": [
+            37,
+            206,
+            24
+          ],
+          "point": [
+            34,
+            206
+          ],
+          "score": 0.9999999870030638,
+          "correct": true,
+          "baseline_point": [
+            134,
+            162
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 85,
+          "target": [
+            335,
+            33,
+            20
+          ],
+          "point": [
+            330,
+            34
+          ],
+          "score": 0.9999999980605319,
+          "correct": true,
+          "baseline_point": [
+            334,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 86,
+          "target": [
+            331,
+            202,
+            21
+          ],
+          "point": [
+            326,
+            202
+          ],
+          "score": 0.9999999974624929,
+          "correct": true,
+          "baseline_point": [
+            282,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 87,
+          "target": [
+            231,
+            125,
+            26
+          ],
+          "point": [
+            226,
+            126
+          ],
+          "score": 0.999999998183881,
+          "correct": true,
+          "baseline_point": [
+            178,
+            114
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 88,
+          "target": [
+            329,
+            50,
+            19
+          ],
+          "point": [
+            326,
+            50
+          ],
+          "score": 0.9999999913952665,
+          "correct": true,
+          "baseline_point": [
+            326,
+            50
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 89,
+          "target": [
+            328,
+            34,
+            22
+          ],
+          "point": [
+            326,
+            38
+          ],
+          "score": 0.9999999793982011,
+          "correct": true,
+          "baseline_point": [
+            278,
+            78
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 90,
+          "target": [
+            224,
+            47,
+            18
+          ],
+          "point": [
+            222,
+            50
+          ],
+          "score": 0.9999999419351342,
+          "correct": true,
+          "baseline_point": [
+            226,
+            134
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 91,
+          "target": [
+            316,
+            122,
+            25
+          ],
+          "point": [
+            314,
+            126
+          ],
+          "score": 0.9999998018857075,
+          "correct": true,
+          "baseline_point": [
+            234,
+            166
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 92,
+          "target": [
+            232,
+            125,
+            18
+          ],
+          "point": [
+            230,
+            126
+          ],
+          "score": 0.9999999715204281,
+          "correct": true,
+          "baseline_point": [
+            174,
+            166
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 93,
+          "target": null,
+          "point": null,
+          "score": 0.006372238858999896,
+          "correct": true,
+          "baseline_point": [
+            234,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 94,
+          "target": [
+            227,
+            209,
+            18
+          ],
+          "point": [
+            222,
+            210
+          ],
+          "score": 0.9999999984190195,
+          "correct": true,
+          "baseline_point": [
+            142,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 95,
+          "target": null,
+          "point": null,
+          "score": 0.02458624624584555,
+          "correct": true,
+          "baseline_point": [
+            198,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 96,
+          "target": [
+            220,
+            201,
+            20
+          ],
+          "point": [
+            218,
+            202
+          ],
+          "score": 0.9999999722172753,
+          "correct": true,
+          "baseline_point": [
+            278,
+            206
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 97,
+          "target": [
+            47,
+            216,
+            22
+          ],
+          "point": [
+            42,
+            218
+          ],
+          "score": 0.9999999895475414,
+          "correct": true,
+          "baseline_point": [
+            98,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 98,
+          "target": [
+            324,
+            40,
+            22
+          ],
+          "point": [
+            322,
+            42
+          ],
+          "score": 0.9999999453694982,
+          "correct": true,
+          "baseline_point": [
+            322,
+            38
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 99,
+          "target": [
+            239,
+            123,
+            24
+          ],
+          "point": [
+            234,
+            122
+          ],
+          "score": 0.9999998380289477,
+          "correct": true,
+          "baseline_point": [
+            146,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 100,
+          "target": [
+            331,
+            200,
+            25
+          ],
+          "point": [
+            326,
+            202
+          ],
+          "score": 0.9999999898922524,
+          "correct": true,
+          "baseline_point": [
+            330,
+            202
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 101,
+          "target": [
+            234,
+            120,
+            22
+          ],
+          "point": [
+            230,
+            122
+          ],
+          "score": 0.999999993167666,
+          "correct": true,
+          "baseline_point": [
+            178,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 102,
+          "target": null,
+          "point": null,
+          "score": 0.0056288156716825495,
+          "correct": true,
+          "baseline_point": [
+            138,
+            134
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 103,
+          "target": null,
+          "point": null,
+          "score": 0.010749837784585893,
+          "correct": true,
+          "baseline_point": [
+            138,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 104,
+          "target": [
+            234,
+            119,
+            21
+          ],
+          "point": [
+            230,
+            118
+          ],
+          "score": 0.9999999946610196,
+          "correct": true,
+          "baseline_point": [
+            238,
+            78
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 105,
+          "target": [
+            134,
+            49,
+            22
+          ],
+          "point": [
+            130,
+            50
+          ],
+          "score": 0.9999999989516819,
+          "correct": true,
+          "baseline_point": [
+            82,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 106,
+          "target": null,
+          "point": null,
+          "score": 0.016130018599578622,
+          "correct": true,
+          "baseline_point": [
+            98,
+            78
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 107,
+          "target": [
+            132,
+            40,
+            27
+          ],
+          "point": [
+            130,
+            42
+          ],
+          "score": 0.9999999753452736,
+          "correct": true,
+          "baseline_point": [
+            186,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 108,
+          "target": [
+            337,
+            49,
+            26
+          ],
+          "point": [
+            334,
+            50
+          ],
+          "score": 0.9999999915668781,
+          "correct": true,
+          "baseline_point": [
+            246,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 109,
+          "target": null,
+          "point": null,
+          "score": 0.024860419601258454,
+          "correct": true,
+          "baseline_point": [
+            230,
+            170
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 110,
+          "target": [
+            229,
+            43,
+            19
+          ],
+          "point": [
+            226,
+            46
+          ],
+          "score": 0.9999999965064161,
+          "correct": true,
+          "baseline_point": [
+            238,
+            86
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 111,
+          "target": null,
+          "point": null,
+          "score": 0.0084435307813575,
+          "correct": true,
+          "baseline_point": [
+            186,
+            158
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 112,
+          "target": [
+            40,
+            199,
+            19
+          ],
+          "point": [
+            38,
+            202
+          ],
+          "score": 0.9999999875450899,
+          "correct": true,
+          "baseline_point": [
+            190,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 113,
+          "target": [
+            33,
+            40,
+            22
+          ],
+          "point": [
+            30,
+            42
+          ],
+          "score": 0.9999999921357469,
+          "correct": true,
+          "baseline_point": [
+            86,
+            118
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 114,
+          "target": null,
+          "point": null,
+          "score": 0.0063667946099053505,
+          "correct": true,
+          "baseline_point": [
+            38,
+            214
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 115,
+          "target": [
+            236,
+            42,
+            23
+          ],
+          "point": [
+            234,
+            46
+          ],
+          "score": 0.9999999725729357,
+          "correct": true,
+          "baseline_point": [
+            194,
+            42
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 116,
+          "target": [
+            334,
+            198,
+            22
+          ],
+          "point": [
+            330,
+            198
+          ],
+          "score": 0.9999999959878041,
+          "correct": true,
+          "baseline_point": [
+            334,
+            198
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 117,
+          "target": [
+            237,
+            198,
+            27
+          ],
+          "point": [
+            234,
+            198
+          ],
+          "score": 0.9999999765938433,
+          "correct": true,
+          "baseline_point": [
+            234,
+            198
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 118,
+          "target": [
+            130,
+            121,
+            21
+          ],
+          "point": [
+            126,
+            122
+          ],
+          "score": 0.999999999245649,
+          "correct": true,
+          "baseline_point": [
+            182,
+            166
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 119,
+          "target": [
+            138,
+            45,
+            22
+          ],
+          "point": [
+            134,
+            46
+          ],
+          "score": 0.9999999987619348,
+          "correct": true,
+          "baseline_point": [
+            134,
+            134
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 120,
+          "target": [
+            146,
+            202,
+            18
+          ],
+          "point": [
+            142,
+            202
+          ],
+          "score": 0.9999999980071859,
+          "correct": true,
+          "baseline_point": [
+            234,
+            162
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 121,
+          "target": null,
+          "point": null,
+          "score": 0.0007266613167045115,
+          "correct": true,
+          "baseline_point": [
+            90,
+            158
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 122,
+          "target": [
+            330,
+            212,
+            25
+          ],
+          "point": [
+            326,
+            214
+          ],
+          "score": 0.9999999989675665,
+          "correct": true,
+          "baseline_point": [
+            282,
+            130
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 123,
+          "target": [
+            131,
+            134,
+            18
+          ],
+          "point": [
+            126,
+            134
+          ],
+          "score": 0.9999999978242042,
+          "correct": true,
+          "baseline_point": [
+            142,
+            178
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 124,
+          "target": [
+            41,
+            198,
+            23
+          ],
+          "point": [
+            38,
+            198
+          ],
+          "score": 0.9999999879185436,
+          "correct": true,
+          "baseline_point": [
+            34,
+            154
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 125,
+          "target": [
+            142,
+            134,
+            27
+          ],
+          "point": [
+            138,
+            134
+          ],
+          "score": 0.9999999971598663,
+          "correct": true,
+          "baseline_point": [
+            238,
+            122
+          ],
+          "baseline_correct": false
+        },
+        {
+          "index": 126,
+          "target": [
+            50,
+            35,
+            24
+          ],
+          "point": [
+            46,
+            34
+          ],
+          "score": 0.9999999918428001,
+          "correct": true,
+          "baseline_point": [
+            50,
+            34
+          ],
+          "baseline_correct": true
+        },
+        {
+          "index": 127,
+          "target": [
+            44,
+            127,
+            25
+          ],
+          "point": [
+            42,
+            130
+          ],
+          "score": 0.9999999817159707,
+          "correct": true,
+          "baseline_point": [
+            38,
+            166
+          ],
+          "baseline_correct": false
+        }
+      ]
+    },
+    "combined": {
+      "examples": 128,
+      "target_present": 105,
+      "target_absent": 23,
+      "learned_correct": 128,
+      "learned_hits": 105,
+      "learned_false_clicks": 0,
+      "baseline_correct": 23,
+      "baseline_hits": 0,
+      "baseline_false_clicks": 0,
+      "preprocess_and_inference_ms": {
+        "mean": 0.9496410234375,
+        "p50": 0.92856,
+        "p95": 1.09949,
+        "max": 1.180131
+      },
+      "trials": [
+        {
+          "index": 0,
+          "target": [
+            332,
+            199,
+            23
+          ],
+          "point": [
+            330,
+            202
+          ],
+          "score": 0.9999996301875034,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 1,
+          "target": [
+            37,
+            40,
+            25
+          ],
+          "point": [
+            34,
+            42
+          ],
+          "score": 0.9999999348011572,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 2,
+          "target": null,
+          "point": null,
+          "score": 0.005882833545162542,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 3,
+          "target": [
+            134,
+            126,
+            22
+          ],
+          "point": [
+            130,
+            126
+          ],
+          "score": 0.9999999596407804,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 4,
+          "target": [
+            142,
+            206,
+            19
+          ],
+          "point": [
+            138,
+            206
+          ],
+          "score": 0.9999999833079108,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 5,
+          "target": [
+            143,
+            202,
+            19
+          ],
+          "point": [
+            138,
+            202
+          ],
+          "score": 0.9999995273025398,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 6,
+          "target": [
+            49,
+            119,
+            25
+          ],
+          "point": [
+            46,
+            118
+          ],
+          "score": 0.9999954844050546,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 7,
+          "target": [
+            43,
+            32,
+            18
+          ],
+          "point": [
+            46,
+            34
+          ],
+          "score": 0.9999940935811454,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 8,
+          "target": null,
+          "point": null,
+          "score": 0.017193218908300837,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 9,
+          "target": null,
+          "point": null,
+          "score": 0.019798146886809503,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 10,
+          "target": [
+            35,
+            198,
+            20
+          ],
+          "point": [
+            34,
+            198
+          ],
+          "score": 0.9999760849761166,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 11,
+          "target": [
+            330,
+            201,
+            19
+          ],
+          "point": [
+            326,
+            202
+          ],
+          "score": 0.9999999838970826,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 12,
+          "target": [
+            234,
+            35,
+            26
+          ],
+          "point": [
+            230,
+            34
+          ],
+          "score": 0.9999743887810966,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 13,
+          "target": [
+            28,
+            133,
+            27
+          ],
+          "point": [
+            26,
+            134
+          ],
+          "score": 0.999998468514401,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 14,
+          "target": [
+            134,
+            124,
+            25
+          ],
+          "point": [
+            130,
+            126
+          ],
+          "score": 0.9999997744570963,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 15,
+          "target": [
+            326,
+            123,
+            20
+          ],
+          "point": [
+            322,
+            122
+          ],
+          "score": 0.9999991536275898,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 16,
+          "target": null,
+          "point": null,
+          "score": 0.024728455958428153,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 17,
+          "target": [
+            133,
+            125,
+            26
+          ],
+          "point": [
+            130,
+            126
+          ],
+          "score": 0.9999992789503686,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 18,
+          "target": [
+            129,
+            40,
+            27
+          ],
+          "point": [
+            126,
+            42
+          ],
+          "score": 0.9999998827121297,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 19,
+          "target": [
+            228,
+            31,
+            25
+          ],
+          "point": [
+            226,
+            34
+          ],
+          "score": 0.9999996373555394,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 20,
+          "target": [
+            325,
+            42,
+            20
+          ],
+          "point": [
+            322,
+            42
+          ],
+          "score": 0.999999056528927,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 21,
+          "target": [
+            148,
+            47,
+            18
+          ],
+          "point": [
+            146,
+            50
+          ],
+          "score": 0.9999997751557143,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 22,
+          "target": [
+            48,
+            40,
+            23
+          ],
+          "point": [
+            46,
+            42
+          ],
+          "score": 0.9999998873586464,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 23,
+          "target": null,
+          "point": null,
+          "score": 0.023129567146130035,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 24,
+          "target": [
+            223,
+            36,
+            23
+          ],
+          "point": [
+            222,
+            34
+          ],
+          "score": 0.9999949986332646,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 25,
+          "target": null,
+          "point": null,
+          "score": 0.013193735518533607,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 26,
+          "target": [
+            241,
+            30,
+            20
+          ],
+          "point": [
+            238,
+            30
+          ],
+          "score": 0.9999998711155402,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 27,
+          "target": [
+            134,
+            38,
+            21
+          ],
+          "point": [
+            130,
+            38
+          ],
+          "score": 0.9999999869020271,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 28,
+          "target": [
+            321,
+            117,
+            18
+          ],
+          "point": [
+            318,
+            118
+          ],
+          "score": 0.9999991643540369,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 29,
+          "target": [
+            321,
+            44,
+            19
+          ],
+          "point": [
+            318,
+            46
+          ],
+          "score": 0.9999973589686602,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 30,
+          "target": null,
+          "point": null,
+          "score": 0.03656027023548145,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 31,
+          "target": [
+            34,
+            133,
+            23
+          ],
+          "point": [
+            30,
+            134
+          ],
+          "score": 0.9999999885912488,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 32,
+          "target": [
+            329,
+            115,
+            20
+          ],
+          "point": [
+            326,
+            114
+          ],
+          "score": 0.999980437975325,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 33,
+          "target": null,
+          "point": null,
+          "score": 0.017374638722714632,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 34,
+          "target": [
+            224,
+            50,
+            27
+          ],
+          "point": [
+            222,
+            50
+          ],
+          "score": 0.9999987968148624,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 35,
+          "target": [
+            35,
+            207,
+            20
+          ],
+          "point": [
+            34,
+            206
+          ],
+          "score": 0.9999974928044455,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 36,
+          "target": null,
+          "point": null,
+          "score": 0.019892559024967626,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 37,
+          "target": [
+            240,
+            44,
+            26
+          ],
+          "point": [
+            238,
+            46
+          ],
+          "score": 0.9999998339530833,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 38,
+          "target": [
+            234,
+            213,
+            25
+          ],
+          "point": [
+            230,
+            214
+          ],
+          "score": 0.9999996446910896,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 39,
+          "target": null,
+          "point": null,
+          "score": 0.020859050343522704,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 40,
+          "target": [
+            130,
+            116,
+            24
+          ],
+          "point": [
+            126,
+            118
+          ],
+          "score": 0.9999925280140837,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 41,
+          "target": [
+            140,
+            210,
+            22
+          ],
+          "point": [
+            138,
+            214
+          ],
+          "score": 0.9999996428221841,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 42,
+          "target": [
+            232,
+            47,
+            21
+          ],
+          "point": [
+            230,
+            50
+          ],
+          "score": 0.999999863368451,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 43,
+          "target": [
+            223,
+            214,
+            26
+          ],
+          "point": [
+            222,
+            214
+          ],
+          "score": 0.9999763749458856,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 44,
+          "target": [
+            337,
+            198,
+            19
+          ],
+          "point": [
+            334,
+            198
+          ],
+          "score": 0.9999998808987403,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 45,
+          "target": [
+            334,
+            116,
+            27
+          ],
+          "point": [
+            330,
+            118
+          ],
+          "score": 0.9999998585062853,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 46,
+          "target": [
+            135,
+            124,
+            23
+          ],
+          "point": [
+            138,
+            126
+          ],
+          "score": 0.9999879617766336,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 47,
+          "target": [
+            239,
+            216,
+            18
+          ],
+          "point": [
+            234,
+            218
+          ],
+          "score": 0.9999986545628653,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 48,
+          "target": null,
+          "point": null,
+          "score": 0.0023908130125228338,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 49,
+          "target": [
+            339,
+            215,
+            20
+          ],
+          "point": [
+            342,
+            214
+          ],
+          "score": 0.9999997669213577,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 50,
+          "target": [
+            134,
+            215,
+            22
+          ],
+          "point": [
+            130,
+            214
+          ],
+          "score": 0.9999895195668311,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 51,
+          "target": [
+            235,
+            116,
+            18
+          ],
+          "point": [
+            238,
+            114
+          ],
+          "score": 0.9999995654151882,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 52,
+          "target": [
+            33,
+            36,
+            27
+          ],
+          "point": [
+            30,
+            38
+          ],
+          "score": 0.9999999368547063,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 53,
+          "target": [
+            133,
+            49,
+            18
+          ],
+          "point": [
+            130,
+            50
+          ],
+          "score": 0.9999992647506865,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 54,
+          "target": [
+            126,
+            205,
+            24
+          ],
+          "point": [
+            122,
+            206
+          ],
+          "score": 0.9999998926296667,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 55,
+          "target": null,
+          "point": null,
+          "score": 0.014521426772920686,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 56,
+          "target": [
+            323,
+            130,
+            23
+          ],
+          "point": [
+            322,
+            130
+          ],
+          "score": 0.999949218905127,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 57,
+          "target": null,
+          "point": null,
+          "score": 0.030739328985657774,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 58,
+          "target": [
+            135,
+            212,
+            27
+          ],
+          "point": [
+            138,
+            214
+          ],
+          "score": 0.9999947773299835,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 59,
+          "target": [
+            223,
+            216,
+            20
+          ],
+          "point": [
+            226,
+            214
+          ],
+          "score": 0.9999987455234299,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 60,
+          "target": [
+            324,
+            198,
+            24
+          ],
+          "point": [
+            322,
+            202
+          ],
+          "score": 0.9999996643767176,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 61,
+          "target": [
+            228,
+            33,
+            22
+          ],
+          "point": [
+            226,
+            34
+          ],
+          "score": 0.9999996210622218,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 62,
+          "target": [
+            34,
+            121,
+            19
+          ],
+          "point": [
+            30,
+            122
+          ],
+          "score": 0.9999999552116645,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 63,
+          "target": [
+            28,
+            46,
+            21
+          ],
+          "point": [
+            26,
+            46
+          ],
+          "score": 0.99999278459412,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 64,
+          "target": [
+            337,
+            126,
+            21
+          ],
+          "point": [
+            334,
+            126
+          ],
+          "score": 0.999990741163488,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 65,
+          "target": [
+            318,
+            116,
+            18
+          ],
+          "point": [
+            314,
+            118
+          ],
+          "score": 0.9999987023812036,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 66,
+          "target": [
+            51,
+            127,
+            18
+          ],
+          "point": [
+            50,
+            126
+          ],
+          "score": 0.9999795416135607,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 67,
+          "target": [
+            242,
+            46,
+            27
+          ],
+          "point": [
+            238,
+            46
+          ],
+          "score": 0.9999999830355385,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 68,
+          "target": [
+            332,
+            50,
+            26
+          ],
+          "point": [
+            330,
+            50
+          ],
+          "score": 0.999993704630428,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 69,
+          "target": [
+            45,
+            125,
+            23
+          ],
+          "point": [
+            42,
+            126
+          ],
+          "score": 0.999998283433427,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 70,
+          "target": [
+            223,
+            117,
+            20
+          ],
+          "point": [
+            222,
+            118
+          ],
+          "score": 0.9999950915637797,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 71,
+          "target": [
+            328,
+            210,
+            23
+          ],
+          "point": [
+            326,
+            210
+          ],
+          "score": 0.9999845555169143,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 72,
+          "target": [
+            220,
+            218,
+            21
+          ],
+          "point": [
+            218,
+            218
+          ],
+          "score": 0.9999992552809823,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 73,
+          "target": [
+            326,
+            115,
+            18
+          ],
+          "point": [
+            322,
+            114
+          ],
+          "score": 0.999972909986719,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 74,
+          "target": [
+            228,
+            133,
+            19
+          ],
+          "point": [
+            226,
+            134
+          ],
+          "score": 0.999999785453514,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 75,
+          "target": [
+            326,
+            37,
+            24
+          ],
+          "point": [
+            322,
+            38
+          ],
+          "score": 0.9999999573826559,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 76,
+          "target": null,
+          "point": null,
+          "score": 0.01756633862895177,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 77,
+          "target": null,
+          "point": null,
+          "score": 0.016570426195473074,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 78,
+          "target": [
+            135,
+            201,
+            18
+          ],
+          "point": [
+            134,
+            202
+          ],
+          "score": 0.9999619391287667,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 79,
+          "target": null,
+          "point": null,
+          "score": 0.02653486584717205,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 80,
+          "target": [
+            236,
+            41,
+            18
+          ],
+          "point": [
+            234,
+            42
+          ],
+          "score": 0.9999957991900125,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 81,
+          "target": [
+            231,
+            31,
+            27
+          ],
+          "point": [
+            234,
+            30
+          ],
+          "score": 0.9999994665699207,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 82,
+          "target": [
+            29,
+            218,
+            20
+          ],
+          "point": [
+            26,
+            218
+          ],
+          "score": 0.9999998189173355,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 83,
+          "target": [
+            324,
+            49,
+            24
+          ],
+          "point": [
+            322,
+            50
+          ],
+          "score": 0.999999405854846,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 84,
+          "target": null,
+          "point": null,
+          "score": 0.015528026381850192,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 85,
+          "target": [
+            327,
+            126,
+            21
+          ],
+          "point": [
+            322,
+            126
+          ],
+          "score": 0.9999999299411637,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 86,
+          "target": [
+            317,
+            199,
+            25
+          ],
+          "point": [
+            314,
+            202
+          ],
+          "score": 0.9999997099082112,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 87,
+          "target": null,
+          "point": null,
+          "score": 0.027328041596758598,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 88,
+          "target": [
+            37,
+            127,
+            25
+          ],
+          "point": [
+            34,
+            126
+          ],
+          "score": 0.9999991621627898,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 89,
+          "target": [
+            36,
+            133,
+            27
+          ],
+          "point": [
+            34,
+            134
+          ],
+          "score": 0.999998468514401,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 90,
+          "target": [
+            131,
+            118,
+            20
+          ],
+          "point": [
+            134,
+            118
+          ],
+          "score": 0.9999907030640548,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 91,
+          "target": [
+            136,
+            200,
+            18
+          ],
+          "point": [
+            134,
+            202
+          ],
+          "score": 0.9999998680959964,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 92,
+          "target": null,
+          "point": null,
+          "score": 0.04127496893110066,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 93,
+          "target": [
+            320,
+            30,
+            21
+          ],
+          "point": [
+            318,
+            30
+          ],
+          "score": 0.9999978761537093,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 94,
+          "target": [
+            333,
+            42,
+            20
+          ],
+          "point": [
+            330,
+            42
+          ],
+          "score": 0.9999998921789989,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 95,
+          "target": [
+            48,
+            214,
+            25
+          ],
+          "point": [
+            46,
+            214
+          ],
+          "score": 0.9999846096678565,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 96,
+          "target": null,
+          "point": null,
+          "score": 0.0024297498666072436,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 97,
+          "target": [
+            147,
+            215,
+            21
+          ],
+          "point": [
+            146,
+            214
+          ],
+          "score": 0.9999497933555733,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 98,
+          "target": [
+            142,
+            208,
+            26
+          ],
+          "point": [
+            138,
+            210
+          ],
+          "score": 0.999999920336118,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 99,
+          "target": null,
+          "point": null,
+          "score": 0.026028093834992674,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 100,
+          "target": [
+            133,
+            36,
+            21
+          ],
+          "point": [
+            130,
+            38
+          ],
+          "score": 0.999999698216747,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 101,
+          "target": [
+            222,
+            44,
+            23
+          ],
+          "point": [
+            218,
+            46
+          ],
+          "score": 0.9999997868574181,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 102,
+          "target": [
+            230,
+            34,
+            26
+          ],
+          "point": [
+            226,
+            34
+          ],
+          "score": 0.9999999862755102,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 103,
+          "target": [
+            33,
+            37,
+            19
+          ],
+          "point": [
+            30,
+            38
+          ],
+          "score": 0.9999931534244518,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 104,
+          "target": [
+            229,
+            38,
+            24
+          ],
+          "point": [
+            226,
+            38
+          ],
+          "score": 0.9999990715138763,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 105,
+          "target": [
+            329,
+            125,
+            25
+          ],
+          "point": [
+            326,
+            126
+          ],
+          "score": 0.9999999569278893,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 106,
+          "target": [
+            40,
+            128,
+            27
+          ],
+          "point": [
+            38,
+            130
+          ],
+          "score": 0.9999975733977737,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 107,
+          "target": [
+            230,
+            209,
+            25
+          ],
+          "point": [
+            226,
+            210
+          ],
+          "score": 0.9999979259419729,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 108,
+          "target": [
+            233,
+            126,
+            21
+          ],
+          "point": [
+            230,
+            126
+          ],
+          "score": 0.9999989734096769,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 109,
+          "target": [
+            49,
+            131,
+            26
+          ],
+          "point": [
+            46,
+            130
+          ],
+          "score": 0.9999956153929264,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 110,
+          "target": [
+            236,
+            47,
+            23
+          ],
+          "point": [
+            234,
+            50
+          ],
+          "score": 0.9999995785432545,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 111,
+          "target": [
+            29,
+            127,
+            26
+          ],
+          "point": [
+            26,
+            126
+          ],
+          "score": 0.9999986037791918,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 112,
+          "target": [
+            40,
+            131,
+            25
+          ],
+          "point": [
+            38,
+            134
+          ],
+          "score": 0.9999998765036296,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 113,
+          "target": [
+            40,
+            44,
+            21
+          ],
+          "point": [
+            38,
+            46
+          ],
+          "score": 0.999999739703618,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 114,
+          "target": [
+            239,
+            134,
+            26
+          ],
+          "point": [
+            238,
+            134
+          ],
+          "score": 0.9999957097300384,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 115,
+          "target": [
+            227,
+            214,
+            18
+          ],
+          "point": [
+            222,
+            214
+          ],
+          "score": 0.9999994411289418,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 116,
+          "target": [
+            135,
+            30,
+            20
+          ],
+          "point": [
+            138,
+            30
+          ],
+          "score": 0.9999960721985801,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 117,
+          "target": [
+            222,
+            133,
+            26
+          ],
+          "point": [
+            218,
+            134
+          ],
+          "score": 0.9999999049088967,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 118,
+          "target": [
+            330,
+            30,
+            21
+          ],
+          "point": [
+            326,
+            30
+          ],
+          "score": 0.9999998788170532,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 119,
+          "target": [
+            33,
+            201,
+            22
+          ],
+          "point": [
+            30,
+            202
+          ],
+          "score": 0.9999980598648242,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 120,
+          "target": null,
+          "point": null,
+          "score": 0.04727329934520288,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        },
+        {
+          "index": 121,
+          "target": [
+            44,
+            47,
+            21
+          ],
+          "point": [
+            42,
+            50
+          ],
+          "score": 0.9999996313375661,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 122,
+          "target": [
+            233,
+            118,
+            26
+          ],
+          "point": [
+            230,
+            118
+          ],
+          "score": 0.9999923023709332,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 123,
+          "target": [
+            221,
+            127,
+            23
+          ],
+          "point": [
+            218,
+            126
+          ],
+          "score": 0.9999843579887381,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 124,
+          "target": [
+            142,
+            212,
+            27
+          ],
+          "point": [
+            138,
+            210
+          ],
+          "score": 0.9999952050429749,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 125,
+          "target": [
+            37,
+            118,
+            24
+          ],
+          "point": [
+            34,
+            118
+          ],
+          "score": 0.9999990850417813,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 126,
+          "target": [
+            237,
+            117,
+            25
+          ],
+          "point": [
+            234,
+            118
+          ],
+          "score": 0.9999992775902992,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": false
+        },
+        {
+          "index": 127,
+          "target": null,
+          "point": null,
+          "score": 0.009403666159295125,
+          "correct": true,
+          "baseline_point": null,
+          "baseline_correct": true
+        }
+      ]
+    }
+  },
+  "limitations": "Synthetic stationary target task; no game or temporal policy evidence.",
+  "onnxruntime": "1.31.0",
+  "numpy": "2.5.4",
+  "pillow": "12.3.0"
+}

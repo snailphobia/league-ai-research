@@ -60,4 +60,21 @@ python -m pip install -e ".[dev]"
 python -m pytest -m "not windows"
 ```
 
-The adapter uses ordinary Windows input facilities. Application acceptance and Windows desktop and privilege restrictions remain part of its documented capabilities. Game-specific integration and model inference are later work.
+## Learned visual policy
+
+The first learned policy is a small CNN trained locally on a synthetic target task.
+It consumes a 96 x 64 visual observation, selects a click or abstains, and runs on
+CPU through ONNX Runtime. The Windows playground verifies its predictions through
+actual application receipt and changed pixels, with separate capture, inference,
+input, and visible-feedback timings.
+
+```sh
+python -m pip install -e '.[policy]'
+python scripts/evaluate_policy.py --split test --output artifacts/private/test.json
+```
+
+See [the model, training protocol, evaluation, and native proof](docs/visual-policy.md).
+This is a synthetic control experiment; game-specific perception and policy
+training remain future work.
+
+The adapter uses ordinary Windows input facilities. Application acceptance and Windows desktop and privilege restrictions remain part of its documented capabilities.

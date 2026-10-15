@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "league-input"
-version = "0.2.0"
+version = "0.3.0"
 description = "Windows input, screen observations, and trajectory tools for visual agent research"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -13,14 +13,15 @@ dependencies = ["pydirectinput-rgx==2.1.3.1; sys_platform == 'win32'"]
 
 [project.optional-dependencies]
 capture = ["mss==10.2.0", "Pillow==12.3.0"]
-dev = ["pytest>=8.3", "ruff>=0.11", "mss==10.2.0", "Pillow==12.3.0"]
+policy = ["numpy>=2.2,<3", "onnxruntime>=1.23,<2", "Pillow==12.3.0"]
+dev = ["pytest>=8.3", "ruff>=0.11", "mss==10.2.0", "Pillow==12.3.0", "numpy>=2.2,<3", "onnxruntime>=1.23,<2"]
 
 [project.scripts]
 league-input = "league_input.cli:main"
 league-capture = "league_capture.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/league_input", "src/league_capture"]
+packages = ["src/league_input", "src/league_capture", "src/league_policy"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
