@@ -10,7 +10,7 @@ import json
 import math
 import time
 import urllib.request
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 
 STATES = {"playing", "dead", "shop", "loading", "disconnected", "spectator", "client", "unknown"}
 ACTIONS = {"wait", "move", "attack", "cast", "recall", "open_shop", "close_overlay", "click"}
@@ -116,22 +116,51 @@ def parse_decision(content):
     )
 
 
+def from_pixel_coordinates(decision, frame):
+    """Declared pixel-output contract -> canonical normalized SDK coordinates.
+
+    This is used only when pixels were requested in the prompt. Never reinterpret
+    the output of a normalized-coordinate trial after seeing its expected label.
+    """
+    if decision.target is None:
+        return decision
+    x, y = decision.target
+    if x >= frame.width or y >= frame.height:
+        raise ValueError("pixel target is outside the supplied image")
+    return replace(
+        decision,
+        target=((2 * x + 1) * 1000 // (2 * frame.width), (2 * y + 1) * 1000 // (2 * frame.height)),
+    )
+
+
 class ScreenshotPolicy:
-    def __init__(self, base_url, api_key, model, *, timeout=90):
+    def __init__(self, base_url, api_key, model, *, timeout=90, coordinate_system="normalized"):
+        if coordinate_system not in {"normalized", "pixels"}:
+            raise ValueError("unknown coordinate system")
         self.base_url = base_url.rstrip("/")
         self.api_key = api_key
         self.model = model
         self.timeout = timeout
+        self.coordinate_system = coordinate_system
 
     def predict(self, frame, *, task="decide", temperature=0.6):
         if task not in {"decide", "ground"}:
             raise ValueError("unknown task")
         image = frame.png()
         instruction = DECIDE if task == "decide" else GROUND
+        system = SYSTEM
+        if self.coordinate_system == "pixels":
+            system = SYSTEM.replace(
+                "Coordinates use integers 0..1000 across the ENTIRE supplied image: top-left\n"
+                "(0,0), bottom-right (1000,1000). Optional grid labels are coordinate aids only.",
+                "Coordinates are IMAGE PIXELS, NOT normalized coordinates. Top-left is (0,0).\n"
+                f"Valid x: 0..{frame.width - 1}; valid y: 0..{frame.height - 1}. "
+                "Use integer pixel coordinates in the supplied image.",
+            )
         payload = {
             "model": self.model,
             "messages": [
-                {"role": "system", "content": SYSTEM},
+                {"role": "system", "content": system},
                 {
                     "role": "user",
                     "content": [
@@ -168,7 +197,8 @@ class ScreenshotPolicy:
         trace = {
             "request_sha256": hashlib.sha256(body).hexdigest(),
             "input_png_sha256": hashlib.sha256(image).hexdigest(),
-            "prompt_sha256": hashlib.sha256((SYSTEM + instruction).encode()).hexdigest(),
+            "prompt_sha256": hashlib.sha256((system + instruction).encode()).hexdigest(),
+            "coordinate_system": self.coordinate_system,
             "model": self.model,
             "response": result,
             "task": task,
@@ -182,6 +212,9 @@ class ScreenshotPolicy:
             if choice["finish_reason"] != "stop":
                 raise ValueError("model did not finish its decision")
             decision = parse_decision(choice["message"]["content"])
+            trace["raw_decision"] = decision.metadata()
+            if self.coordinate_system == "pixels":
+                decision = from_pixel_coordinates(decision, frame)
             trace["decision"] = decision.metadata()
         except (ValueError, KeyError, TypeError, IndexError) as error:
             trace["parse_error"] = str(error)

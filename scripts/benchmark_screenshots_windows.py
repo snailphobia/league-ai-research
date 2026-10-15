@@ -110,6 +110,7 @@ def benchmark(args, progress=None):
     planned = len(scenes) * len(variants) * reps * len(manifest["tasks"])
     context = {
         "model": policy.model,
+        "coordinate_system": policy.coordinate_system,
         "manifest_sha256": hashlib.sha256(args.manifest.read_bytes()).hexdigest(),
         "platform": platform.platform(),
         "python": sys.version,

@@ -84,6 +84,14 @@ Keep web screenshots, raw desktop recordings, and model credentials private.
 The public repository publishes source metadata, code and aggregate results;
 raw images and a browsable recording report remain in the local experiment.
 
+```sh
+python scripts/download_screenshot_corpus.py --output /private/league-corpus
+```
+
+The downloader rejects changed sources and mismatching existing files. Encoded
+PNG hashes are pinned as well as source hashes; reproduce with the pinned Pillow
+environment rather than silently replacing a changed file.
+
 The client JSON contains `base_url`, `api_key`, and `model`. Give that file private
 permissions and keep it outside this repository. The API uses the documented
 [DeepSeek image input format](https://api-docs.deepseek.com/guides/vision/).
@@ -112,3 +120,21 @@ histogram. A deterministic or consistent response can still be consistently wron
 Failures and API errors remain in the denominator. This benchmark can identify
 weaknesses but cannot establish live gameplay success, win rate, skillshot timing,
 or the unique optimal action from a single frame.
+
+## Follow-up: explicit image-pixel coordinates
+
+The [v2 manifest](../benchmarks/league-static-v2-pixels.json) declares a follow-up
+grounding experiment motivated by source-only exploratory probes and early v1
+trials. It uses the same corpus, five repeats, and full/small views: **150 trials**.
+It explicitly requests image pixels rather than normalized coordinates. The
+client records the raw model decision, checks bounds against the supplied image,
+then applies a declared geometric conversion to the canonical input coordinates.
+It never reinterprets a normalized trial after seeing its label or corrects a
+point using ground truth. The API client config sets `coordinate_system` to
+`pixels`; the original default remains `normalized`.
+
+This is a post-observation interface ablation, not a new held-out test. Model
+weights, task policy, annotations, and temperature remain fixed. V1 results and
+failures are retained. Compare the 150 matched full/small grounding trials in
+each experiment; do not compare a 450-trial mixed-task total with a 150-trial
+grounding-only total.

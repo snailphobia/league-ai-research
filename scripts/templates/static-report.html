@@ -1,0 +1,60 @@
+<!doctype html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>League static screenshot reaction recordings</title>
+<style>
+body{font:15px system-ui;margin:24px;background:#101521;color:#edf2fc;max-width:1500px}
+a{color:#85c5ff} select,button{background:#263348;color:white;border:1px solid #53657e;padding:8px;margin:4px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{background:#192335;padding:14px;border-radius:9px}
+.image{position:relative} img{width:100%;display:block}.point{position:absolute;width:16px;height:16px;
+border:3px solid #ffca29;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}
+pre{white-space:pre-wrap;word-break:break-word;font:13px ui-monospace;color:#c8d8ee}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:7px;border-bottom:1px solid #35465d;text-align:left}
+.pass{color:#74e1a9}.fail{color:#ff989e}.muted{color:#a9bad0}h1{font-size:25px}
+@media(max-width:850px){.cards{grid-template-columns:1fr}}
+</style>
+<h1>League static screenshot reaction recordings</h1>
+<p class="muted">Actual model input and native receipt in a static Windows viewer. The yellow marker
+is a review overlay drawn from the prediction; it was not supplied to the model. Receipt confirms
+input delivery, not a League gameplay outcome. Labels are single-reviewer constraints.</p>
+<div id="summary" class="panel"></div><p>
+<select id="scene"></select><select id="variant"></select><select id="task"></select>
+<select id="outcome"><option value="all">All outcomes</option><option value="fail">Failures</option>
+<option value="pass">Passes</option></select><button id="prev">Previous</button><button id="next">Next</button>
+<span id="index"></span></p>
+<div class="cards"><div class="panel"><h3>Exact model input</h3><div class="image">
+<img id="before"><span class="point" id="point"></span></div><p id="inputnote"></p></div>
+<div class="panel"><h3>Native observation after submission</h3><img id="after">
+<p class="muted">The footer is excluded from model input and turns green on native key/button receipt.</p></div></div>
+<div class="cards" style="margin-top:16px"><div class="panel"><h3>Decision and assessment</h3>
+<pre id="decision"></pre></div><div class="panel"><h3>Actual commands and native events</h3>
+<pre id="events"></pre></div></div><p><a id="source" target="_blank" rel="noreferrer">Original screenshot source</a></p>
+<details><summary>Raw recorded model response and timing</summary><pre id="raw"></pre></details>
+<h2>Per-image variance and outcomes</h2><table><thead><tr><th>Scene</th><th>View</th><th>Task</th>
+<th>Correct</th><th>Actions</th><th>Entropy</th><th>Target RMS</th><th>API mean ms</th></tr></thead><tbody id="groups"></tbody></table>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const data=JSON.parse(document.getElementById('data').textContent), rows=data.rows, s=data.summary;
+const el=id=>document.getElementById(id), path=p=>p.replaceAll('\\','/');
+el('summary').textContent=`${s.trials} trials · ${s.valid_decisions} valid decisions · ${s.delivery_verified} native deliveries/abstentions verified · ${s.semantic_correct} constrained semantic passes · ${s.overconfident_errors} high-confidence errors. Mean API ${s.api_ms.mean.toFixed(1)} ms; p95 ${s.api_ms.p95.toFixed(1)} ms.`;
+for(const [id,field,label] of [['scene','scenario','All scenarios'],['variant','variant','All views'],['task','task','Both tasks']]){
+const select=el(id);for(const [value,text] of [['all',label],...[...new Set(rows.map(r=>r[field]))].map(v=>[v,v])]){
+const o=document.createElement('option');o.value=value;o.textContent=text;select.append(o);}}
+let index=0,filtered=rows;
+function filter(){filtered=rows.filter(r=>(el('scene').value==='all'||r.scenario===el('scene').value)&&
+(el('variant').value==='all'||r.variant===el('variant').value)&&(el('task').value==='all'||r.task===el('task').value)&&
+(el('outcome').value==='all'||r.grade.correct===(el('outcome').value==='pass')));index=0;show();}
+function show(){if(!filtered.length){el('index').textContent='No matching trials';return;}
+index=(index+filtered.length)%filtered.length;const r=filtered[index],d=r.model.decision;
+el('index').textContent=`${index+1} / ${filtered.length} — ${r.scenario} / ${r.variant} / ${r.task} / repeat ${r.repetition+1}`;
+el('before').src=path(r.model_input.image);el('after').src=path(r.after.image);
+el('inputnote').textContent=`${r.model_input.width}×${r.model_input.height}; capture ${r.before.capture_id}; API ${r.model.api_ms.toFixed(1)} ms; full observation-to-receipt ${r.end_to_end_ms.toFixed(1)} ms.`;
+el('point').style.display=d?.target?'block':'none';if(d?.target){el('point').style.left=(d.target[0]/10)+'%';el('point').style.top=(d.target[1]/10)+'%';}
+el('decision').textContent=JSON.stringify({decision:d??null,assessment:r.grade,delivered:r.delivery_verified,unchanged:r.image_unchanged_before_input},null,2);
+el('decision').className=r.grade.correct?'pass':'fail';el('events').textContent=JSON.stringify({commands:r.plan,native_events:r.native_events},null,2);
+el('raw').textContent=JSON.stringify(r.model,null,2);el('source').href=r.source_page??'#';}
+for(const id of ['scene','variant','task','outcome'])el(id).onchange=filter;
+el('prev').onclick=()=>{index--;show();};el('next').onclick=()=>{index++;show();};
+for(const g of s.groups){const tr=document.createElement('tr');for(const value of [g.scenario,g.variant,g.task,`${g.correct}/${g.trials}`,
+JSON.stringify(g.actions),g.action_entropy_bits.toFixed(2),g.coordinate_scatter?.rms_normalized.toFixed(1)??'—',g.api_ms?.mean.toFixed(1)??'—']){
+const td=document.createElement('td');td.textContent=value;tr.append(td);}el('groups').append(tr);}show();
+</script>

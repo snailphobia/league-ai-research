@@ -109,6 +109,7 @@ def summarize(rows):
                 "trials": len(samples),
                 "valid": len(decisions),
                 "correct": sum(r["grade"]["correct"] for r in samples),
+                "health_correct": sum(r["grade"].get("health_correct", False) for r in samples),
                 "delivery_verified": sum(r.get("delivery_verified", False) for r in samples),
                 "actions": dict(actions),
                 "action_entropy_bits": entropy,
@@ -123,6 +124,11 @@ def summarize(rows):
         "trials": len(rows),
         "semantic_correct": sum(r["grade"]["correct"] for r in rows),
         "valid_decisions": sum(bool(r["model"].get("decision")) for r in rows),
+        "state_correct": sum(
+            bool(r["model"].get("decision")) and "wrong_state" not in r["grade"]["failures"]
+            for r in rows
+        ),
+        "health_correct": sum(r["grade"].get("health_correct", False) for r in rows),
         "delivery_verified": sum(r.get("delivery_verified", False) for r in rows),
         "overconfident_errors": sum(r["grade"].get("overconfident_error", False) for r in rows),
         "api_ms": distribution([r["model"]["api_ms"] for r in rows if "api_ms" in r["model"]]),

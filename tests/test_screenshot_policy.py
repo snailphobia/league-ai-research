@@ -6,7 +6,7 @@ from PIL import Image
 
 from league_capture import Frame, Region
 from league_policy.screenshot_benchmark import grade, render, summarize
-from league_policy.screenshot_policy import input_plan, parse_decision
+from league_policy.screenshot_policy import from_pixel_coordinates, input_plan, parse_decision
 
 
 def decision(**changes):
@@ -84,3 +84,14 @@ def test_invalid_api_responses_are_failures_not_successful_abstentions():
     assert summary["valid_decisions"] == 0
     assert summary["delivery_verified"] == 0
     assert summary["deadline_250ms_misses"] == 1
+
+
+def test_pixel_contract_checks_actual_image_bounds_before_converting():
+    region = Region(-960, -100, 960, 540)
+    now = time.perf_counter_ns()
+    frame = Frame("same", "same", 0, region, 960, 540, bytes(960 * 540 * 3), now, now, (region,))
+    view = frame.resize(384, 216)
+    correct = from_pixel_coordinates(parse_decision(json.dumps(decision(target=[383, 215]))), view)
+    assert input_plan(correct, view) == [{"action": "click", "x": -2, "y": 438, "button": "left"}]
+    with pytest.raises(ValueError, match="outside"):
+        from_pixel_coordinates(parse_decision(json.dumps(decision(target=[500, 500]))), view)
