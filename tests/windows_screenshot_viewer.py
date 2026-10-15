@@ -113,7 +113,7 @@ class ScreenshotViewer:
                         return 1
                     if message == 0x84:
                         return 1
-                    if message in {0x201, 0x202, 0x204, 0x205}:
+                    if message in {0x201, 0x202, 0x203, 0x204, 0x205, 0x206}:
                         x = C.c_short(lparam & 0xFFFF).value + self.left
                         y = C.c_short((lparam >> 16) & 0xFFFF).value + self.top
                         self.events.append(
@@ -142,7 +142,7 @@ class ScreenshotViewer:
                         self.surface.paste(RECEIPT, (0, 540, self.width, self.height))
                         repaint()
                         return 0
-                    if message in {0x201, 0x204, 0x100}:
+                    if message in {0x201, 0x203, 0x204, 0x206, 0x100}:
                         return 0
                 except BaseException as error:
                     self.failure = error

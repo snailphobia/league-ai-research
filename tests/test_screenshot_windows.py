@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import time
+from pathlib import Path
 
 import pytest
 from PIL import Image
@@ -66,3 +67,34 @@ def test_static_viewer_witnesses_buttons_and_keys_without_changing_model_pixels(
                     assert any(e["message"] == 0x101 and e.get("vk") == vk for e in viewer.events)
     finally:
         viewer.close()
+
+
+def test_static_viewer_records_rapid_clicks_and_double_click_messages():
+    from windows_screenshot_viewer import ScreenshotViewer
+
+    viewer = ScreenshotViewer().start()
+    report = {}
+    try:
+        with InputAdapter() as adapter:
+            for button, down, up, double in [
+                ("left", 0x201, 0x202, 0x203),
+                ("right", 0x204, 0x205, 0x206),
+            ]:
+                viewer.present(Image.new("RGB", (960, 540), (11, 22, 33)))
+                adapter.click(512, 302, button=button, count=3, interval=0.01)
+                deadline = time.perf_counter() + 2
+                while len(viewer.events) < 6 and time.perf_counter() < deadline:
+                    time.sleep(0.01)
+                events = list(viewer.events)
+                report[button] = events
+                assert len(events) == 6
+                assert sum(e["message"] == up for e in events) == 3
+                assert sum(e["message"] in {down, double} for e in events) == 3
+                assert any(e["message"] == double for e in events)
+    finally:
+        viewer.close()
+        root = Path(os.environ.get("LEAGUE_POLICY_EVIDENCE", "artifacts/policy"))
+        root.mkdir(parents=True, exist_ok=True)
+        (root / "screenshot-viewer-doubleclick.json").write_text(
+            json.dumps(report, indent=2) + "\n"
+        )

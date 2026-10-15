@@ -21,6 +21,7 @@ input delivery, not a League gameplay outcome. Labels are single-reviewer constr
 <select id="outcome"><option value="all">All outcomes</option><option value="fail">Failures</option>
 <option value="pass">Passes</option></select><button id="prev">Previous</button><button id="next">Next</button>
 <span id="index"></span></p>
+<p><label><input type="checkbox" id="showroi">Show frozen player health-bar region (review overlay)</label></p>
 <div class="cards"><div class="panel"><h3>Exact model input</h3><div class="image">
 <img id="before"><span class="point" id="point"></span></div><p id="inputnote"></p></div>
 <div class="panel"><h3>Native observation after decision</h3><img id="after">
@@ -51,8 +52,12 @@ el('inputnote').textContent=`${r.model_input.width}×${r.model_input.height}; ca
 el('point').style.display=d?.target?'block':'none';if(d?.target){el('point').style.left=(d.target[0]/10)+'%';el('point').style.top=(d.target[1]/10)+'%';}
 el('decision').textContent=JSON.stringify({decision:d??null,assessment:r.grade,delivered:r.delivery_verified,unchanged:r.image_unchanged_before_input},null,2);
 el('decision').className=r.grade.correct?'pass':'fail';el('events').textContent=JSON.stringify({commands:r.plan,native_events:r.native_events},null,2);
-el('raw').textContent=JSON.stringify(r.model,null,2);el('source').href=r.source_page??'#';}
+el('raw').textContent=JSON.stringify(r.model,null,2);el('source').href=r.source_page??'#';
+let roi=el('roi');if(!roi){roi=document.createElement('div');roi.id='roi';roi.style.cssText='position:absolute;border:2px solid #66f6aa;pointer-events:none;box-sizing:border-box';el('before').parentElement.append(roi);}
+const box=data.annotations?.[r.scenario]?.health_box;roi.style.display=el('showroi').checked&&box?'block':'none';
+if(box){roi.style.left=(box[0]/10)+'%';roi.style.top=(box[1]/10)+'%';roi.style.width=((box[2]-box[0])/10)+'%';roi.style.height=((box[3]-box[1])/10)+'%';}}
 for(const id of ['scene','variant','task','outcome'])el(id).onchange=filter;
+el('showroi').onchange=show;
 el('prev').onclick=()=>{index--;show();};el('next').onclick=()=>{index++;show();};
 for(const g of s.groups){const tr=document.createElement('tr');for(const value of [g.scenario,g.variant,g.task,`${g.correct}/${g.trials}`,
 JSON.stringify(g.actions),g.action_entropy_bits.toFixed(2),g.coordinate_scatter?.rms_normalized.toFixed(1)??'—',g.api_ms?.mean.toFixed(1)??'—']){

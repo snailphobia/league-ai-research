@@ -3,11 +3,12 @@
 import argparse
 import hashlib
 import json
+import math
 from pathlib import Path
 
 from PIL import Image
 
-from league_policy.screenshot_benchmark import render, summarize
+from league_policy.screenshot_benchmark import distribution, render, summarize
 from league_policy.screenshot_policy import parse_decision
 
 
@@ -35,6 +36,7 @@ def audit(directory, rows, corpus=None):
     scenes = {s["id"]: s for s in manifest["scenes"]}
     capture_ids = set()
     guarded = 0
+    press_gaps = []
     for row in rows:
         assert row["scenario"] in ids
         key = (row["scenario"], row["variant"], row["task"], row["repetition"])
@@ -88,12 +90,17 @@ def audit(directory, rows, corpus=None):
             d = trace["decision"]
             events = row["native_events"]
             expected_count = 0
+            minimum_count = 0
             for command in row["plan"] if unchanged else []:
                 if command["action"] == "move_to":
                     continue
                 expected_count += 2
                 if command["action"] == "click":
                     messages = [0x201, 0x202] if command["button"] == "left" else [0x204, 0x205]
+                    minimum_count += 1
+                    # Release + coordinates + response is the frozen benchmark
+                    # criterion. Old viewer versions omitted double-click-down
+                    # messages; disclose gaps instead of inventing missing events.
                     assert all(
                         any(
                             e["kind"] == "mouse"
@@ -102,9 +109,15 @@ def audit(directory, rows, corpus=None):
                             and abs(e["y"] - command["y"]) <= 1
                             for e in events
                         )
-                        for message in messages
+                        for message in messages[1:]
                     )
+                    if not any(
+                        e["kind"] == "mouse" and e["message"] in {messages[0], messages[0] + 2}
+                        for e in events
+                    ):
+                        press_gaps.append(row["trial_id"])
                 else:
+                    minimum_count += 2
                     vk = 0x1B if command["key"] == "escape" else ord(command["key"].upper())
                     assert all(
                         any(
@@ -113,7 +126,7 @@ def audit(directory, rows, corpus=None):
                         )
                         for message in [0x100, 0x101]
                     )
-            assert len(events) == expected_count
+            assert minimum_count <= len(events) <= expected_count
             if d["target"] is not None:
                 image = row["model_input"]
                 native = image["region"]
@@ -154,12 +167,48 @@ def audit(directory, rows, corpus=None):
         "complete_planned_matrix": True,
         "source_renderer_verified": corpus is not None,
         "input_downsampling_and_static_viewport_verified": True,
-        "native_down_up_pairs_and_coordinates_verified": True,
+        "native_releases_keys_and_coordinates_verified": True,
+        "mouse_press_event_gaps": press_gaps,
+        "all_mouse_down_up_pairs_observed": not press_gaps,
         "changed_image_trials_safely_blocked": guarded,
     }
 
 
 HTML = (Path(__file__).parent / "templates/static-report.html").read_text(encoding="utf-8")
+
+
+def diagnostics(rows, manifest):
+    scenes = {s["id"]: s["annotation"] for s in manifest["scenes"]}
+    details = []
+    for row in rows:
+        d = row["model"].get("decision")
+        box = scenes[row["scenario"]].get("health_box")
+        if row["task"] != "ground" or not box or not d or d["target"] is None:
+            continue
+        x, y = d["target"]
+        dx = max(box[0] - x, 0, x - box[2]) * 960 / 1000
+        dy = max(box[1] - y, 0, y - box[3]) * 540 / 1000
+        details.append(
+            {
+                "trial_id": row["trial_id"],
+                "scenario": row["scenario"],
+                "variant": row["variant"],
+                "distance_to_roi_native_pixels": math.hypot(dx, dy),
+            }
+        )
+    return {
+        "interpretation": "Supplemental miss distance; frozen pass labels are unchanged.",
+        "grounding_distances": details,
+        "distance_to_roi_native_pixels": distribution(
+            [d["distance_to_roi_native_pixels"] for d in details]
+        ),
+        "by_variant": {
+            v: distribution(
+                [d["distance_to_roi_native_pixels"] for d in details if d["variant"] == v]
+            )
+            for v in sorted({d["variant"] for d in details})
+        },
+    }
 
 
 def main():
@@ -171,15 +220,19 @@ def main():
     rows = load_run(args.run)
     proof = audit(args.run, rows, args.corpus)
     summary = summarize(rows)
+    manifest = json.loads((args.run / "manifest.json").read_text())
+    diagnostic = diagnostics(rows, manifest)
     (args.run / "audit.json").write_text(json.dumps(proof, indent=2) + "\n")
     (args.run / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
-    payload = json.dumps({"summary": summary, "rows": rows}, ensure_ascii=False).replace(
-        "<", "\\u003c"
-    )
+    (args.run / "diagnostics.json").write_text(json.dumps(diagnostic, indent=2) + "\n")
+    annotations = {s["id"]: s["annotation"] for s in manifest["scenes"]}
+    payload = json.dumps(
+        {"summary": summary, "rows": rows, "annotations": annotations}, ensure_ascii=False
+    ).replace("<", "\\u003c")
     (args.run / "report.html").write_text(HTML.replace("__DATA__", payload), encoding="utf-8")
     if args.public:
         args.public.mkdir(parents=True, exist_ok=True)
-        for name in ["summary.json", "audit.json", "run.json"]:
+        for name in ["summary.json", "audit.json", "run.json", "diagnostics.json"]:
             (args.public / name).write_bytes((args.run / name).read_bytes())
         with (args.public / "trials.jsonl").open("w", encoding="utf-8") as out:
             for row in rows:
