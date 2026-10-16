@@ -86,7 +86,7 @@ def main():
         ylabel="Canonical normalized y",
         title="Same healthy lane: emitted target scatter",
     )
-    ax.legend(loc="upper left", fontsize=8)
+    ax.legend(loc="upper right", fontsize=8)
     axes[1].boxplot(
         [
             [r["model"]["api_ms"] / 1000 for r in rows if r["variant"] == variant]

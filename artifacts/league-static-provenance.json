@@ -96,7 +96,7 @@
     },
     {
       "path": "artifacts/league-static-figures/grounding-matrix.svg",
-      "sha256": "b2188b00933fb0450a01315736a53ae746b914886e258620e3f1d8053931245b",
+      "sha256": "0b6627d661a22f02a7d8c010709826c87cc1dc25fb8cbb8a8833037cfee8abd8",
       "bytes": 92518
     },
     {
@@ -106,13 +106,13 @@
     },
     {
       "path": "artifacts/league-static-figures/variance-and-latency.png",
-      "sha256": "acd9ca64645b1abbd08d399e29f6ff2a432717d49013c7857aa8f7741c6bb903",
-      "bytes": 118176
+      "sha256": "c23c3c694543c00613a0ca959b614dcebc43ee2fd566c5d4601f058c8a5a9c75",
+      "bytes": 118686
     },
     {
       "path": "artifacts/league-static-figures/variance-and-latency.svg",
-      "sha256": "4b74f569f557507b32566becbcd9750ec00f7848745af440d881fc5eeba2f0db",
-      "bytes": 70141
+      "sha256": "3514e36dddcc3f6ff101c407d57c910298677093a5f7154bff6b31987e3d3438",
+      "bytes": 70113
     },
     {
       "path": "artifacts/league-static-mechanics/screenshot-viewer-doubleclick.json",
