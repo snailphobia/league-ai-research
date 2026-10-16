@@ -51,8 +51,8 @@
     },
     {
       "path": "artifacts/league-static-v1/run.json",
-      "sha256": "5877cdbf0d03a979a7111f7f6660ba2c93640fc81f664dbd1339d4291775406d",
-      "bytes": 757
+      "sha256": "95704a7bfffd83058e1f5fc55229591414f1eae6fe54a17f15636204862d093d",
+      "bytes": 721
     },
     {
       "path": "artifacts/league-static-v1/summary.json",
@@ -76,8 +76,8 @@
     },
     {
       "path": "artifacts/league-static-v2-pixels/run.json",
-      "sha256": "b7389b32b32bf29567c32f0fa473d66498d56b8c09569d6eda41c4864cde7301",
-      "bytes": 778
+      "sha256": "ba36066df1168d58520254db2336c6a7f1b781d800936a06a614900aa89b891f",
+      "bytes": 742
     },
     {
       "path": "artifacts/league-static-v2-pixels/summary.json",
@@ -124,5 +124,6 @@
       "sha256": "08bf3207445318f3ac5a595934952dcec7c02d977c0e52ce47fd7daa8d70a9d0",
       "bytes": 11969
     }
-  ]
+  ],
+  "published_text_line_endings": "LF; private native source recordings retain their original bytes"
 }
