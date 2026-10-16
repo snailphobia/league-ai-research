@@ -1,0 +1,823 @@
+{
+  "interpretation": "Supplemental miss distance; frozen pass labels are unchanged.",
+  "grounding_distances": [
+    {
+      "trial_id": "8dc1c6d0f25a47a09f208cb92a8a8b92",
+      "scenario": "legacy_fight",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 291.7904809962107
+    },
+    {
+      "trial_id": "2dff26299a06492c844bf1d41035c0c2",
+      "scenario": "legacy_fight",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 244.52090708158272
+    },
+    {
+      "trial_id": "d836315966c343eebcd23690b7a8fe9b",
+      "scenario": "legacy_fight",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 287.647208920928
+    },
+    {
+      "trial_id": "364404b8703b498282286377fe3ed3ab",
+      "scenario": "legacy_fight",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 263.8697746995665
+    },
+    {
+      "trial_id": "87107d6528ef4faeaa29917f61e7180c",
+      "scenario": "legacy_fight",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 279.9460090803225
+    },
+    {
+      "trial_id": "a9326c1d91144ddcac35f8948f4eff40",
+      "scenario": "legacy_fight",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 266.88
+    },
+    {
+      "trial_id": "aac016d0f88b49f78f76d1b84e58ab61",
+      "scenario": "legacy_fight",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 505.7961708040107
+    },
+    {
+      "trial_id": "681357c074b54ad9804b70e6303de7b0",
+      "scenario": "legacy_fight",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 263.3590765475912
+    },
+    {
+      "trial_id": "b9cabc0632c84e7a9db6d57309ebf5b9",
+      "scenario": "legacy_fight",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 434.98177616999084
+    },
+    {
+      "trial_id": "b7617545489e4243862336eff1548140",
+      "scenario": "legacy_fight",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 432.66109832061403
+    },
+    {
+      "trial_id": "b1edea3011cd41adbfa5e55c3d217375",
+      "scenario": "legacy_fight",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 248.14480369332742
+    },
+    {
+      "trial_id": "80b4d2bf4df946c68a9097886aecc04f",
+      "scenario": "legacy_fight",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 293.40690175931445
+    },
+    {
+      "trial_id": "e7bd274fddea425fb50658b00b07772b",
+      "scenario": "legacy_fight",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 226.0647447082362
+    },
+    {
+      "trial_id": "e18b5ed67a684c78bcec17f94838f371",
+      "scenario": "legacy_fight",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 289.0408254901027
+    },
+    {
+      "trial_id": "4ec40ceb35434bd5ad1734cdb9d8e0be",
+      "scenario": "legacy_fight",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 274.7265294797719
+    },
+    {
+      "trial_id": "ec16828a2585424f8f27195d0007a557",
+      "scenario": "legacy_lane",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 224.1
+    },
+    {
+      "trial_id": "166cdedb62524fe68c9a197e3b9f6f82",
+      "scenario": "legacy_lane",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 228.42
+    },
+    {
+      "trial_id": "e64049e70011413e89fb3870d45a89a9",
+      "scenario": "legacy_lane",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 224.1
+    },
+    {
+      "trial_id": "5d0676798fd0498fb425705f5056d6ad",
+      "scenario": "legacy_lane",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 225.72
+    },
+    {
+      "trial_id": "5b608e33e3d44899aacef6289111d476",
+      "scenario": "legacy_lane",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 231.66
+    },
+    {
+      "trial_id": "3cb0ad5dcaab44549fe98dce81c2a514",
+      "scenario": "legacy_lane",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 431.98620394637607
+    },
+    {
+      "trial_id": "60558d49c3e54fc2be4cf89a6768c741",
+      "scenario": "legacy_lane",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 435.47790437632995
+    },
+    {
+      "trial_id": "15c9e9a887cb4831b59afab9f76c6d17",
+      "scenario": "legacy_lane",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 437.612347632011
+    },
+    {
+      "trial_id": "0ba835ae931a47d4aa2a5cba10b90564",
+      "scenario": "legacy_lane",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 434.1493199349735
+    },
+    {
+      "trial_id": "0719e45a39c44bb08b741fb0274194ef",
+      "scenario": "legacy_lane",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 442.279047208886
+    },
+    {
+      "trial_id": "b937be31e7a84e0394dc350d6b779ad7",
+      "scenario": "legacy_lane",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 225.18
+    },
+    {
+      "trial_id": "e6029664cf2a4279a1122c983e572a96",
+      "scenario": "legacy_lane",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 228.42
+    },
+    {
+      "trial_id": "ae0b384c89034da48aa9408ba5922161",
+      "scenario": "legacy_lane",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 224.5026583361542
+    },
+    {
+      "trial_id": "8df79500a8484b41858341724a0035eb",
+      "scenario": "legacy_lane",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 256.37561896561067
+    },
+    {
+      "trial_id": "d90a3089a9f7456eba3c3cc9ca66c90a",
+      "scenario": "legacy_lane",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 258.8991865572389
+    },
+    {
+      "trial_id": "d06610a0e87346cb980d172bf6520dd8",
+      "scenario": "legacy_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 371.09978172992777
+    },
+    {
+      "trial_id": "04da6a980b34406e88d8a922d2680cf6",
+      "scenario": "legacy_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 383.54561084700214
+    },
+    {
+      "trial_id": "fa88c359bb9f4bb2948931b62d7cfdda",
+      "scenario": "legacy_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 376.6957499096585
+    },
+    {
+      "trial_id": "b1dfd4323889431b8cd5f41e1e6cd05a",
+      "scenario": "legacy_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 383.8653560820513
+    },
+    {
+      "trial_id": "f50467950fa4467dac46ed5ad60c4599",
+      "scenario": "legacy_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 378.1297491602585
+    },
+    {
+      "trial_id": "4e6b5d428bf447c886b0a856b76afc9d",
+      "scenario": "legacy_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 447.6423398205313
+    },
+    {
+      "trial_id": "53f9ff6570f9499aa9aa5bcaa95e1df4",
+      "scenario": "legacy_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 451.136229536046
+    },
+    {
+      "trial_id": "3c7e857cdb154881892142e484fe4518",
+      "scenario": "legacy_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 130.30122792974745
+    },
+    {
+      "trial_id": "4f65ce85e5ef484685a287dec76c211f",
+      "scenario": "legacy_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 444.2083132945623
+    },
+    {
+      "trial_id": "d0c21fffdd6b4056af5ef92bbe51f536",
+      "scenario": "legacy_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 453.2707733794448
+    },
+    {
+      "trial_id": "26b9869d45314ab2977241e1ab4b5f55",
+      "scenario": "legacy_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 231.12
+    },
+    {
+      "trial_id": "45e8aef8ff9a49d19128a000a42081be",
+      "scenario": "legacy_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 232.2
+    },
+    {
+      "trial_id": "8465289acc124c91bb8976394a1188a3",
+      "scenario": "legacy_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 237.06
+    },
+    {
+      "trial_id": "8cd1f0bd9e204d46b90f73a2e7466d39",
+      "scenario": "legacy_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 239.76
+    },
+    {
+      "trial_id": "31e25c7b2e5a4305b68801790b909d6b",
+      "scenario": "legacy_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 232.74
+    },
+    {
+      "trial_id": "01f5c1053b6c41c5b5e976fb96614197",
+      "scenario": "legacy_reconnect",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 234.36
+    },
+    {
+      "trial_id": "2069c153fbf947e49dfc49b934256238",
+      "scenario": "legacy_reconnect",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 229.5
+    },
+    {
+      "trial_id": "80bc391de4c64f59bb7f2731a3b6528a",
+      "scenario": "legacy_reconnect",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 234.36
+    },
+    {
+      "trial_id": "c2dfc408469b47979709dea013cb99b4",
+      "scenario": "legacy_reconnect",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 235.98
+    },
+    {
+      "trial_id": "cbf55803ea404bcbb9ecf42dacb28099",
+      "scenario": "legacy_reconnect",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 238.14
+    },
+    {
+      "trial_id": "c969e5f1fe184cec9c02476e68c9ac24",
+      "scenario": "legacy_reconnect",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 231.12
+    },
+    {
+      "trial_id": "5c98cbddc8454b68b20842391c4f69dd",
+      "scenario": "legacy_reconnect",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 230.58
+    },
+    {
+      "trial_id": "f28e1982488e44d2a53aa301e9a7a0fb",
+      "scenario": "legacy_reconnect",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 238.68
+    },
+    {
+      "trial_id": "dd18c9a286ca4e298ba70e608ce72fae",
+      "scenario": "legacy_reconnect",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 232.2
+    },
+    {
+      "trial_id": "796699bd4fd941e4b74b2941e2f43ea2",
+      "scenario": "legacy_reconnect",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 230.58
+    },
+    {
+      "trial_id": "1a343cde657c4d4c893c9e5f7086c659",
+      "scenario": "legacy_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 305.0196059272256
+    },
+    {
+      "trial_id": "607587a4aea74f5fa10884513e304ee3",
+      "scenario": "legacy_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 228.96
+    },
+    {
+      "trial_id": "194db086b8644db186bcca07aceb3b2d",
+      "scenario": "legacy_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 237.6
+    },
+    {
+      "trial_id": "85cf508f5db54611b31d295632fa8950",
+      "scenario": "legacy_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 230.04
+    },
+    {
+      "trial_id": "83aa21442fbe47a9b4e8a254fa0bfd22",
+      "scenario": "legacy_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 232.74
+    },
+    {
+      "trial_id": "4b2d363f2c8f4175bf506d5efdd80b19",
+      "scenario": "legacy_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 452.4571356493342
+    },
+    {
+      "trial_id": "abb77535c8b242ab95771304f549cec6",
+      "scenario": "legacy_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 459.32928188827674
+    },
+    {
+      "trial_id": "a846377c0a974abc970cffca6865e01d",
+      "scenario": "legacy_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 450.52395496799056
+    },
+    {
+      "trial_id": "99534a41d15a450987018d3bd2639974",
+      "scenario": "legacy_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 449.2051900857781
+    },
+    {
+      "trial_id": "d0d94cee1a8745e8a05135dd0f3b4ea4",
+      "scenario": "legacy_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 449.8865176908506
+    },
+    {
+      "trial_id": "d31249224d2f4dbe8017b78818d72657",
+      "scenario": "legacy_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 308.3663794903718
+    },
+    {
+      "trial_id": "d846c1461a6c441aad705c2f155ebe24",
+      "scenario": "legacy_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 363.80883111876216
+    },
+    {
+      "trial_id": "020a5e6095014b43b5205a3e57d8c839",
+      "scenario": "legacy_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 281.0276064731008
+    },
+    {
+      "trial_id": "b55639238cf7471baf75245af040185f",
+      "scenario": "legacy_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 226.0364607756899
+    },
+    {
+      "trial_id": "83cab6e1476c49d389d9f0deb71215e0",
+      "scenario": "legacy_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 294.70790691801943
+    },
+    {
+      "trial_id": "bf674e962f1a4792a48485793063fa43",
+      "scenario": "player_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 73.24454382409655
+    },
+    {
+      "trial_id": "89e32f2bdaca4661a62296f6095d9866",
+      "scenario": "player_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 63.705535081341246
+    },
+    {
+      "trial_id": "45446b984def49afa74b77d89a2d7f61",
+      "scenario": "player_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 252.45672896557937
+    },
+    {
+      "trial_id": "5d1c9e2d94db4918a09cb39cf27856c9",
+      "scenario": "player_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 247.22453033629168
+    },
+    {
+      "trial_id": "66ddba641bf840e295be27fe083b6c2f",
+      "scenario": "player_death",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 250.25884919418934
+    },
+    {
+      "trial_id": "1594a2878b654f9abaa04bcf481c464d",
+      "scenario": "player_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 430.1516625563593
+    },
+    {
+      "trial_id": "8a78d764a7c244199ac4a4111edd848d",
+      "scenario": "player_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 442.915306125223
+    },
+    {
+      "trial_id": "9d87a817bbd840f694fd6f235b4298ee",
+      "scenario": "player_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 435.471121430572
+    },
+    {
+      "trial_id": "360ec10b6eba4684a77efa635074c1ed",
+      "scenario": "player_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 450.41741040950006
+    },
+    {
+      "trial_id": "90e24917c44d4b1794ad8c33025f2e21",
+      "scenario": "player_death",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 441.73482045227087
+    },
+    {
+      "trial_id": "7109f947244a43b2bba45674bb13356f",
+      "scenario": "player_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 49.20062194728843
+    },
+    {
+      "trial_id": "daf55396bf474c9a960e3529649ec763",
+      "scenario": "player_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 68.0950042220426
+    },
+    {
+      "trial_id": "f96ccaaddffa47c0bff5672db5a7a416",
+      "scenario": "player_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 61.94836559587347
+    },
+    {
+      "trial_id": "2e4f93b5cd7140d2a5b09404bd81d113",
+      "scenario": "player_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 55.74542492438281
+    },
+    {
+      "trial_id": "79874fd8668c4a39a7e4a642cab4215b",
+      "scenario": "player_death",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 64.20395314931939
+    },
+    {
+      "trial_id": "86af110d06a648e5859b8c9e7149e397",
+      "scenario": "modern_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 239.76
+    },
+    {
+      "trial_id": "365f380b57044eea8429d7766d912ccc",
+      "scenario": "modern_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 235.44
+    },
+    {
+      "trial_id": "889462c0d5264eb5aecdd7f532d23c6b",
+      "scenario": "modern_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 232.74
+    },
+    {
+      "trial_id": "318ab9521f334484898dc210883adc89",
+      "scenario": "modern_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 239.76
+    },
+    {
+      "trial_id": "61454bcb432a4e74907525e01aa2a3b1",
+      "scenario": "modern_shop",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 229.5
+    },
+    {
+      "trial_id": "86503f4686c84f3fa912c43b96414cfc",
+      "scenario": "modern_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 441.31712679206095
+    },
+    {
+      "trial_id": "c015e0b0c56541a7a90ed82f34577e88",
+      "scenario": "modern_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 423.439448327621
+    },
+    {
+      "trial_id": "2fb56d5aaf0148b28a0e4a57f8f93abe",
+      "scenario": "modern_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 441.576459970411
+    },
+    {
+      "trial_id": "d91ce65db50745428089601188948c11",
+      "scenario": "modern_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 433.9254590364571
+    },
+    {
+      "trial_id": "41c0cd7f383d4db5895e3a5c09c7d393",
+      "scenario": "modern_shop",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 436.02821927026696
+    },
+    {
+      "trial_id": "5e1f909fc3154adaa603f0f4076790ef",
+      "scenario": "modern_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 241.38
+    },
+    {
+      "trial_id": "edf61e702c404c678fd9cba0ab4ef23a",
+      "scenario": "modern_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 234.9
+    },
+    {
+      "trial_id": "a496c77269114a4aa10b21d4920c98e6",
+      "scenario": "modern_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 234.9
+    },
+    {
+      "trial_id": "38765f9a400d4f1c8a5bb5cc6e003077",
+      "scenario": "modern_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 237.06
+    },
+    {
+      "trial_id": "63fa7634fcd04274ba4151f441c1f841",
+      "scenario": "modern_shop",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 233.28
+    },
+    {
+      "trial_id": "6e4ab7a3dc0c4454992c7c1db4be233a",
+      "scenario": "modern_hazards",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 233.82
+    },
+    {
+      "trial_id": "2cc6ec727bd4450bb7963a7c51b9b832",
+      "scenario": "modern_hazards",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 233.82
+    },
+    {
+      "trial_id": "3f39ca5a013e438da45e0d5b73a25b0f",
+      "scenario": "modern_hazards",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 237.6
+    },
+    {
+      "trial_id": "20e0a842bb63480b9cd26d3b3aee8467",
+      "scenario": "modern_hazards",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 233.82
+    },
+    {
+      "trial_id": "1aad9ae013454b08a8caa50746947c93",
+      "scenario": "modern_hazards",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 235.44
+    },
+    {
+      "trial_id": "6985b46c951f46169505ccb75370dfa8",
+      "scenario": "modern_hazards",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 433.4902462570525
+    },
+    {
+      "trial_id": "7cd58f4c0207416eae040edfac193cfd",
+      "scenario": "modern_hazards",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 438.2056284439989
+    },
+    {
+      "trial_id": "c7792e4ae16648669a10903be1647f63",
+      "scenario": "modern_hazards",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 433.171278826286
+    },
+    {
+      "trial_id": "255e4ff2235d4070a72ef20a557c288e",
+      "scenario": "modern_hazards",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 437.0969320413952
+    },
+    {
+      "trial_id": "e4452b55518e42f796afb7f3b69933a9",
+      "scenario": "modern_hazards",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 435.5966446151761
+    },
+    {
+      "trial_id": "3325f8e978df4928beb22edca9687c7c",
+      "scenario": "modern_hazards",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 229.5
+    },
+    {
+      "trial_id": "a404bf31c2184e46bfa91e7eb335992e",
+      "scenario": "modern_hazards",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 233.82
+    },
+    {
+      "trial_id": "cca20b1034334a2b9519152782ed5076",
+      "scenario": "modern_hazards",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 10.8
+    },
+    {
+      "trial_id": "1436edd9fcde42f6b654df90447d3d72",
+      "scenario": "modern_hazards",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 15.66
+    },
+    {
+      "trial_id": "e4a24bdec50d46abb43d4ed96cf88719",
+      "scenario": "modern_hazards",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 234.36
+    },
+    {
+      "trial_id": "b1810995b9ff4846a48d5673c6a9eee3",
+      "scenario": "low_health",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 231.66
+    },
+    {
+      "trial_id": "1774567262754e9b83a1cad39f9a6da1",
+      "scenario": "low_health",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 231.66
+    },
+    {
+      "trial_id": "5fe2ea48e500444fbd806e9b249111a8",
+      "scenario": "low_health",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 232.2
+    },
+    {
+      "trial_id": "1eadcc6fed57489d96455fd7053cbc1a",
+      "scenario": "low_health",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 227.88
+    },
+    {
+      "trial_id": "a03599e1fb114c8aa84bd4a3915ca19a",
+      "scenario": "low_health",
+      "variant": "full",
+      "distance_to_roi_native_pixels": 232.74
+    },
+    {
+      "trial_id": "0c21ed5268114bb795f47219ed9fe6c8",
+      "scenario": "low_health",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 436.34020167754426
+    },
+    {
+      "trial_id": "503ba7704b0844c3aa9395e4f5474fc4",
+      "scenario": "low_health",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 421.6810628899524
+    },
+    {
+      "trial_id": "31cf9f27075642baa80fed83f935aecc",
+      "scenario": "low_health",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 434.0713383765392
+    },
+    {
+      "trial_id": "926459f48d834a0aa32d350650703943",
+      "scenario": "low_health",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 432.7134150913281
+    },
+    {
+      "trial_id": "d3b83fc189e6495b95318f45897b6267",
+      "scenario": "low_health",
+      "variant": "small",
+      "distance_to_roi_native_pixels": 434.60309478879697
+    },
+    {
+      "trial_id": "cdede023b291478da94edfbc8ca2e1e1",
+      "scenario": "low_health",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 228.42
+    },
+    {
+      "trial_id": "9c7129697baf4ba8aaa2f7182c1ff426",
+      "scenario": "low_health",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 230.58
+    },
+    {
+      "trial_id": "449a292669324f859f77adb164df58de",
+      "scenario": "low_health",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 234.9
+    },
+    {
+      "trial_id": "29ffa0d518b9428c88b46248a86a6f15",
+      "scenario": "low_health",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 15.66
+    },
+    {
+      "trial_id": "4cd78883ee9a4f31aadea43eef1a4204",
+      "scenario": "low_health",
+      "variant": "grid",
+      "distance_to_roi_native_pixels": 230.58
+    }
+  ],
+  "distance_to_roi_native_pixels": {
+    "n": 130,
+    "mean": 289.71825409233077,
+    "std": 114.89331587774804,
+    "p50": 239.76,
+    "p95": 450.41741040950006,
+    "min": 10.8,
+    "max": 505.7961708040107
+  },
+  "by_variant": {
+    "full": {
+      "n": 45,
+      "mean": 248.81200937413848,
+      "std": 60.63321986505102,
+      "p50": 234.36,
+      "p95": 378.1297491602585,
+      "min": 63.705535081341246,
+      "max": 383.8653560820513
+    },
+    "grid": {
+      "n": 45,
+      "mean": 210.66092941343572,
+      "std": 83.12358040091544,
+      "p50": 232.2,
+      "p95": 294.70790691801943,
+      "min": 10.8,
+      "max": 363.80883111876216
+    },
+    "small": {
+      "n": 40,
+      "mean": 424.67726966405394,
+      "std": 62.1662610318847,
+      "p50": 436.34020167754426,
+      "p95": 459.32928188827674,
+      "min": 130.30122792974745,
+      "max": 505.7961708040107
+    }
+  }
+}

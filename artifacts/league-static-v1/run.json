@@ -1,0 +1,36 @@
+{
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "manifest_sha256": "385d1c1ae94321dda9ea95f29b54caacbdc810d4033ecf207c5d914365504959",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "pillow": "12.3.0",
+  "mss": "10.2.0",
+  "viewport": [
+    960,
+    540
+  ],
+  "input_sizes": {
+    "full": [
+      960,
+      540
+    ],
+    "small": [
+      384,
+      216
+    ],
+    "grid": [
+      960,
+      540
+    ]
+  },
+  "repetitions": 5,
+  "variants": [
+    "full",
+    "small",
+    "grid"
+  ],
+  "concurrency": 2,
+  "planned_trials": 450,
+  "temperature": 0.6,
+  "clock": "perf_counter_ns on the Windows observer/action process"
+}

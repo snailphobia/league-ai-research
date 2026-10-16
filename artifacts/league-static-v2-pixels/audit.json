@@ -1,0 +1,14 @@
+{
+  "trials": 150,
+  "unique_cells": 150,
+  "png_hashes_and_geometry": true,
+  "model_input_binding": true,
+  "timestamp_causality": true,
+  "complete_planned_matrix": true,
+  "source_renderer_verified": true,
+  "input_downsampling_and_static_viewport_verified": true,
+  "native_releases_keys_and_coordinates_verified": true,
+  "mouse_press_event_gaps": [],
+  "all_mouse_down_up_pairs_observed": true,
+  "changed_image_trials_safely_blocked": 0
+}

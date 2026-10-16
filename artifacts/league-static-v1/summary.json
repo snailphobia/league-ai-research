@@ -1,0 +1,2601 @@
+{
+  "trials": 450,
+  "semantic_correct": 239,
+  "valid_decisions": 450,
+  "state_correct": 450,
+  "health_correct": 324,
+  "delivery_verified": 449,
+  "overconfident_errors": 131,
+  "api_ms": {
+    "n": 450,
+    "mean": 2479.334471311111,
+    "std": 821.7588600991606,
+    "p50": 2311.69942,
+    "p95": 4060.17824,
+    "min": 1225.00999,
+    "max": 6259.36131
+  },
+  "end_to_end_ms": {
+    "n": 450,
+    "mean": 2664.269100066667,
+    "std": 837.5407331278184,
+    "p50": 2505.85943,
+    "p95": 4373.82174,
+    "min": 1325.0953,
+    "max": 6474.15191
+  },
+  "deadline_250ms_misses": 450,
+  "failures": {
+    "health_bar_mislocalized": 130,
+    "action_constraint": 31,
+    "missing_grounding_click": 5,
+    "hallucinated_player_hud": 45,
+    "image_changed_before_input": 1,
+    "delivery_failed": 1
+  },
+  "groups": [
+    {
+      "scenario": "blank_control",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1398.732332,
+        "std": 64.03198770089475,
+        "p50": 1397.32385,
+        "p95": 1506.94127,
+        "min": 1313.27538,
+        "max": 1506.94127
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "blank_control",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1378.261988,
+        "std": 113.97238433038024,
+        "p50": 1410.04968,
+        "p95": 1530.83935,
+        "min": 1238.72023,
+        "max": 1530.83935
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "blank_control",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1444.432562,
+        "std": 105.3590700314693,
+        "p50": 1460.40967,
+        "p95": 1576.88277,
+        "min": 1254.9156,
+        "max": 1576.88277
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "blank_control",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1560.126152,
+        "std": 159.2005422525967,
+        "p50": 1647.71999,
+        "p95": 1726.99795,
+        "min": 1353.50235,
+        "max": 1726.99795
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "blank_control",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1393.049634,
+        "std": 76.51307622818402,
+        "p50": 1421.79895,
+        "p95": 1474.12602,
+        "min": 1285.15914,
+        "max": 1474.12602
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "blank_control",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1432.033972,
+        "std": 129.10068763453938,
+        "p50": 1358.24047,
+        "p95": 1639.76339,
+        "min": 1291.45157,
+        "max": 1639.76339
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "client_store",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2534.701594,
+        "std": 183.6320463240758,
+        "p50": 2590.17645,
+        "p95": 2788.7832,
+        "min": 2227.80952,
+        "max": 2788.7832
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "client_store",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1828.559066,
+        "std": 257.2473890789321,
+        "p50": 1747.24911,
+        "p95": 2291.18079,
+        "min": 1535.32748,
+        "max": 2291.18079
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "client_store",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2513.0588780000003,
+        "std": 274.89975990871926,
+        "p50": 2597.74841,
+        "p95": 2829.04698,
+        "min": 2068.26316,
+        "max": 2829.04698
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "client_store",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1890.897852,
+        "std": 82.50882024631247,
+        "p50": 1884.43187,
+        "p95": 1977.4001,
+        "min": 1750.38951,
+        "max": 1977.4001
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "client_store",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2167.528784,
+        "std": 171.8457464419651,
+        "p50": 2094.06485,
+        "p95": 2452.15978,
+        "min": 1951.05886,
+        "max": 2452.15978
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "client_store",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1665.767978,
+        "std": 127.08176810608238,
+        "p50": 1700.18102,
+        "p95": 1825.04503,
+        "min": 1507.22502,
+        "max": 1825.04503
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "cropped_lane",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "attack": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 437.6,
+        "y": 224.8,
+        "rms_normalized": 21.70714168194422
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2375.97148,
+        "std": 341.54920029631995,
+        "p50": 2400.88923,
+        "p95": 2832.06375,
+        "min": 1821.66045,
+        "max": 2832.06375
+      },
+      "failures": {
+        "action_constraint": 5
+      }
+    },
+    {
+      "scenario": "cropped_lane",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 4,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 315.6,
+        "y": 481.4,
+        "rms_normalized": 15.403895611175765
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2263.611194,
+        "std": 144.96006235936215,
+        "p50": 2343.03875,
+        "p95": 2402.05754,
+        "min": 2064.32297,
+        "max": 2402.05754
+      },
+      "failures": {
+        "hallucinated_player_hud": 5,
+        "image_changed_before_input": 1,
+        "delivery_failed": 1
+      }
+    },
+    {
+      "scenario": "cropped_lane",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 524,
+        "y": 518,
+        "rms_normalized": 209.4755355644186
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2303.584496,
+        "std": 110.6656618320488,
+        "p50": 2326.52752,
+        "p95": 2438.4168,
+        "min": 2103.4746,
+        "max": 2438.4168
+      },
+      "failures": {
+        "action_constraint": 5
+      }
+    },
+    {
+      "scenario": "cropped_lane",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 342.8,
+        "y": 852,
+        "rms_normalized": 14.204224723651762
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2115.2184079999997,
+        "std": 118.33890358263751,
+        "p50": 2151.57359,
+        "p95": 2229.81342,
+        "min": 1900.84694,
+        "max": 2229.81342
+      },
+      "failures": {
+        "hallucinated_player_hud": 5
+      }
+    },
+    {
+      "scenario": "cropped_lane",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 500,
+        "y": 660,
+        "rms_normalized": 48.98979485566356
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2124.545382,
+        "std": 52.73382602091572,
+        "p50": 2122.41803,
+        "p95": 2199.47903,
+        "min": 2052.88628,
+        "max": 2199.47903
+      },
+      "failures": {
+        "action_constraint": 5
+      }
+    },
+    {
+      "scenario": "cropped_lane",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 139.2,
+        "y": 195.2,
+        "rms_normalized": 28.766647354184325
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 1939.3327920000002,
+        "std": 109.45128513977957,
+        "p50": 1925.61997,
+        "p95": 2112.9436,
+        "min": 1789.14225,
+        "max": 2112.9436
+      },
+      "failures": {
+        "hallucinated_player_hud": 5
+      }
+    },
+    {
+      "scenario": "legacy_death",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1772.71959,
+        "std": 189.2835266407486,
+        "p50": 1731.07405,
+        "p95": 2027.40816,
+        "min": 1524.96259,
+        "max": 2027.40816
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_death",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 436.4,
+        "y": 514.6,
+        "rms_normalized": 126.84194889704274
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2062.416014,
+        "std": 189.19723656510772,
+        "p50": 2050.97989,
+        "p95": 2398.58524,
+        "min": 1874.90408,
+        "max": 2398.58524
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_death",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1860.654256,
+        "std": 140.28280162543237,
+        "p50": 1793.30196,
+        "p95": 2104.27521,
+        "min": 1727.56584,
+        "max": 2104.27521
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_death",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 122.6,
+        "y": 734.6,
+        "rms_normalized": 198.31711978545877
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2052.236448,
+        "std": 255.72564348355883,
+        "p50": 1936.42201,
+        "p95": 2542.68439,
+        "min": 1861.12926,
+        "max": 2542.68439
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_death",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1922.913442,
+        "std": 453.93620973936095,
+        "p50": 1813.3232,
+        "p95": 2753.15978,
+        "min": 1507.17847,
+        "max": 2753.15978
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_death",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 170.2,
+        "y": 200.6,
+        "rms_normalized": 8.461678320522472
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2118.137368,
+        "std": 206.776577744939,
+        "p50": 2183.86046,
+        "p95": 2406.62917,
+        "min": 1813.20095,
+        "max": 2406.62917
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_fight",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 634,
+        "y": 586,
+        "rms_normalized": 146.31472926537506
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 5938.265974,
+        "std": 365.1907263851336,
+        "p50": 6109.9712,
+        "p95": 6259.36131,
+        "min": 5307.7205,
+        "max": 6259.36131
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_fight",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 237.8,
+        "y": 490.8,
+        "rms_normalized": 51.69448713354259
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 4778.921144,
+        "std": 587.6215385997973,
+        "p50": 4513.50385,
+        "p95": 5915.49336,
+        "min": 4309.44394,
+        "max": 5915.49336
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_fight",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 528,
+        "y": 592,
+        "rms_normalized": 183.49931879982552
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 4145.291558,
+        "std": 401.1395457171795,
+        "p50": 4060.17824,
+        "p95": 4664.63565,
+        "min": 3618.14005,
+        "max": 4664.63565
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_fight",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 1,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 235.2,
+        "y": 512.8,
+        "rms_normalized": 64.47573186866512
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3158.785028,
+        "std": 113.94044821090097,
+        "p50": 3118.8423,
+        "p95": 3348.56501,
+        "min": 3040.16177,
+        "max": 3348.56501
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_fight",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 4,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 4,
+        "wait": 1
+      },
+      "action_entropy_bits": 0.7219280948873623,
+      "coordinate_scatter": {
+        "x": 530,
+        "y": 480,
+        "rms_normalized": 62.44997998398398
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 4577.8666299999995,
+        "std": 369.96839224753575,
+        "p50": 4502.311,
+        "p95": 5107.82202,
+        "min": 3993.48052,
+        "max": 5107.82202
+      },
+      "failures": {
+        "action_constraint": 1
+      }
+    },
+    {
+      "scenario": "legacy_fight",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 116.8,
+        "y": 491.4,
+        "rms_normalized": 361.84361262843925
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3642.831572,
+        "std": 286.53955781962435,
+        "p50": 3838.49251,
+        "p95": 3935.11836,
+        "min": 3264.15423,
+        "max": 3935.11836
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_lane",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 568,
+        "y": 390,
+        "rms_normalized": 64.62197768561404
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3135.8279899999998,
+        "std": 481.7685993058594,
+        "p50": 3023.62255,
+        "p95": 3838.66175,
+        "min": 2421.14335,
+        "max": 3838.66175
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_lane",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 454.8,
+        "y": 516,
+        "rms_normalized": 38.57667689161419
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2798.72406,
+        "std": 264.37438451626565,
+        "p50": 2813.94596,
+        "p95": 3237.92558,
+        "min": 2421.10801,
+        "max": 3237.92558
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_lane",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 622,
+        "y": 420,
+        "rms_normalized": 77.56287771866127
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3018.932292,
+        "std": 112.24018544940616,
+        "p50": 2993.34349,
+        "p95": 3228.19688,
+        "min": 2892.39611,
+        "max": 3228.19688
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_lane",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 337.6,
+        "y": 514.4,
+        "rms_normalized": 80.47658044425098
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2834.16996,
+        "std": 185.00404120421808,
+        "p50": 2734.00925,
+        "p95": 3106.16141,
+        "min": 2623.91127,
+        "max": 3106.16141
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_lane",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 530,
+        "y": 450,
+        "rms_normalized": 62.289646009589745
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3037.779806,
+        "std": 412.03445171004546,
+        "p50": 3008.25049,
+        "p95": 3784.67145,
+        "min": 2589.54592,
+        "max": 3784.67145
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_lane",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 179.4,
+        "y": 198.8,
+        "rms_normalized": 13.371611720357423
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2483.7413979999997,
+        "std": 615.5776001674242,
+        "p50": 2152.61023,
+        "p95": 3314.19469,
+        "min": 1720.39846,
+        "max": 3314.19469
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_loading",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2427.528194,
+        "std": 176.9118046072208,
+        "p50": 2408.3618,
+        "p95": 2721.30297,
+        "min": 2225.54514,
+        "max": 2721.30297
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_loading",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2035.980526,
+        "std": 390.82501100511377,
+        "p50": 1812.12216,
+        "p95": 2755.43979,
+        "min": 1684.07249,
+        "max": 2755.43979
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_loading",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2122.73918,
+        "std": 173.75132409864958,
+        "p50": 2058.52956,
+        "p95": 2457.20838,
+        "min": 1986.66919,
+        "max": 2457.20838
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_loading",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1944.719874,
+        "std": 138.31898410172144,
+        "p50": 2022.31865,
+        "p95": 2076.29418,
+        "min": 1772.24707,
+        "max": 2076.29418
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_loading",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2077.975912,
+        "std": 118.00150434272837,
+        "p50": 2091.05722,
+        "p95": 2243.98037,
+        "min": 1933.33186,
+        "max": 2243.98037
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_loading",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2663.533746,
+        "std": 664.317375927448,
+        "p50": 2460.10143,
+        "p95": 3530.88186,
+        "min": 1840.50991,
+        "max": 3530.88186
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_reconnect",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1951.893038,
+        "std": 322.610150099386,
+        "p50": 2009.54356,
+        "p95": 2455.19171,
+        "min": 1596.77168,
+        "max": 2455.19171
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_reconnect",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 487.4,
+        "y": 512.8,
+        "rms_normalized": 24.306377763870945
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2292.441052,
+        "std": 367.28160603950886,
+        "p50": 2190.42609,
+        "p95": 2824.31137,
+        "min": 1740.02942,
+        "max": 2824.31137
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_reconnect",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1822.628978,
+        "std": 148.50643158908903,
+        "p50": 1783.339,
+        "p95": 2019.19458,
+        "min": 1593.04863,
+        "max": 2019.19458
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_reconnect",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 477.6,
+        "y": 516.2,
+        "rms_normalized": 27.23967694375247
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2181.052082,
+        "std": 123.86189681493276,
+        "p50": 2142.08476,
+        "p95": 2353.3813,
+        "min": 1999.09012,
+        "max": 2353.3813
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_reconnect",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1393.807008,
+        "std": 103.72732251461896,
+        "p50": 1418.90925,
+        "p95": 1534.09589,
+        "min": 1225.00999,
+        "max": 1534.09589
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_reconnect",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1645.01924,
+        "std": 56.654785226195344,
+        "p50": 1628.77124,
+        "p95": 1719.10105,
+        "min": 1585.60307,
+        "max": 1719.10105
+      },
+      "failures": {
+        "missing_grounding_click": 5
+      }
+    },
+    {
+      "scenario": "legacy_shop",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "close_overlay": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1856.875036,
+        "std": 219.9087854190313,
+        "p50": 1918.06811,
+        "p95": 2185.1839,
+        "min": 1599.83257,
+        "max": 2185.1839
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_shop",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 87.2,
+        "y": 489.4,
+        "rms_normalized": 14.38054240979804
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2217.044566,
+        "std": 132.61679006415554,
+        "p50": 2271.43384,
+        "p95": 2318.66674,
+        "min": 1961.50078,
+        "max": 2318.66674
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_shop",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "close_overlay": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1957.163038,
+        "std": 125.03271784024389,
+        "p50": 1959.5767,
+        "p95": 2104.56797,
+        "min": 1752.16604,
+        "max": 2104.56797
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_shop",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 454,
+        "y": 514.6,
+        "rms_normalized": 43.59633012077966
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2057.997228,
+        "std": 47.73273602147755,
+        "p50": 2076.05307,
+        "p95": 2098.57198,
+        "min": 1966.17372,
+        "max": 2098.57198
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "legacy_shop",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 4,
+      "delivery_verified": 5,
+      "actions": {
+        "close_overlay": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 1724.764564,
+        "std": 141.29827821332296,
+        "p50": 1698.50616,
+        "p95": 1909.9549,
+        "min": 1497.55449,
+        "max": 1909.9549
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "legacy_shop",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 201.2,
+        "y": 355.2,
+        "rms_normalized": 323.38756933438236
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2108.253928,
+        "std": 549.8462054939852,
+        "p50": 1818.55475,
+        "p95": 3186.34673,
+        "min": 1718.04569,
+        "max": 3186.34673
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "low_health",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 514,
+        "y": 468,
+        "rms_normalized": 155.9487095169434
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3276.58332,
+        "std": 444.3568947228312,
+        "p50": 3170.11431,
+        "p95": 3901.69128,
+        "min": 2596.6523,
+        "max": 3901.69128
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "low_health",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 2,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 417.4,
+        "y": 515.8,
+        "rms_normalized": 13.725887949418793
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2274.609926,
+        "std": 199.76195020530704,
+        "p50": 2245.87708,
+        "p95": 2627.64752,
+        "min": 2018.17441,
+        "max": 2627.64752
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "low_health",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 4,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 394,
+        "y": 690,
+        "rms_normalized": 54.258639865002145
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2974.817224,
+        "std": 196.00842613499657,
+        "p50": 2870.66399,
+        "p95": 3309.85994,
+        "min": 2763.6175,
+        "max": 3309.85994
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "low_health",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 2,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 359.6,
+        "y": 595.8,
+        "rms_normalized": 159.94624096864547
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2463.830622,
+        "std": 215.87901920495446,
+        "p50": 2414.96379,
+        "p95": 2735.7263,
+        "min": 2215.10744,
+        "max": 2735.7263
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "low_health",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 560,
+        "y": 540,
+        "rms_normalized": 85.79044235810886
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2565.001718,
+        "std": 236.36487567356335,
+        "p50": 2508.40261,
+        "p95": 2837.20781,
+        "min": 2211.29338,
+        "max": 2837.20781
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "low_health",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 187.8,
+        "y": 198.6,
+        "rms_normalized": 17.595453958338215
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2156.785192,
+        "std": 259.7618176124604,
+        "p50": 2066.7279,
+        "p95": 2615.44712,
+        "min": 1850.92915,
+        "max": 2615.44712
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "modern_hazards",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 3,
+      "health_correct": 4,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 2,
+        "move": 3
+      },
+      "action_entropy_bits": 0.9709505944546686,
+      "coordinate_scatter": {
+        "x": 440,
+        "y": 546.6666666666666,
+        "rms_normalized": 134.49494001221345
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3472.34013,
+        "std": 228.95398519560527,
+        "p50": 3525.57074,
+        "p95": 3841.03523,
+        "min": 3182.793,
+        "max": 3841.03523
+      },
+      "failures": {
+        "action_constraint": 2
+      }
+    },
+    {
+      "scenario": "modern_hazards",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 409.6,
+        "y": 509,
+        "rms_normalized": 5.0039984012787215
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2606.751958,
+        "std": 244.03125627843082,
+        "p50": 2733.64307,
+        "p95": 2842.73516,
+        "min": 2275.92784,
+        "max": 2842.73516
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "modern_hazards",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 464,
+        "y": 536,
+        "rms_normalized": 202.40553352119602
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3118.5209019999998,
+        "std": 368.9640583142919,
+        "p50": 2971.25889,
+        "p95": 3673.95867,
+        "min": 2651.72729,
+        "max": 3673.95867
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "modern_hazards",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 394,
+        "y": 675.8,
+        "rms_normalized": 200.27920511126462
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2531.348622,
+        "std": 104.76067570765125,
+        "p50": 2535.32166,
+        "p95": 2704.04955,
+        "min": 2403.05644,
+        "max": 2704.04955
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "modern_hazards",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 1,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 320,
+        "y": 530,
+        "rms_normalized": 190.26297590440447
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2589.063298,
+        "std": 264.64191286479615,
+        "p50": 2477.14475,
+        "p95": 3085.0462,
+        "min": 2349.31213,
+        "max": 3085.0462
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "modern_hazards",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 4,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 179.4,
+        "y": 196.8,
+        "rms_normalized": 7.6681158050723255
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2526.701808,
+        "std": 484.21480530569687,
+        "p50": 2428.85481,
+        "p95": 3445.93284,
+        "min": 2083.81087,
+        "max": 3445.93284
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "modern_shop",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "close_overlay": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2239.8914600000003,
+        "std": 59.52678885805518,
+        "p50": 2224.5674,
+        "p95": 2354.78254,
+        "min": 2186.49213,
+        "max": 2354.78254
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "modern_shop",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 437,
+        "y": 511,
+        "rms_normalized": 25.67489045740994
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2943.492236,
+        "std": 239.92612864859268,
+        "p50": 3046.58081,
+        "p95": 3223.86981,
+        "min": 2645.39781,
+        "max": 3223.86981
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "modern_shop",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "close_overlay": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2366.349662,
+        "std": 165.05636692458978,
+        "p50": 2302.20922,
+        "p95": 2645.6475,
+        "min": 2199.41192,
+        "max": 2645.6475
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "modern_shop",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 432.4,
+        "y": 509.4,
+        "rms_normalized": 7.979974937304001
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2595.162756,
+        "std": 397.5635734249176,
+        "p50": 2353.82934,
+        "p95": 3171.44585,
+        "min": 2168.71362,
+        "max": 3171.44585
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "modern_shop",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "close_overlay": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2443.9873900000002,
+        "std": 692.5995480577647,
+        "p50": 2257.00874,
+        "p95": 3796.80967,
+        "min": 1886.30465,
+        "max": 3796.80967
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "modern_shop",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 204.6,
+        "y": 194,
+        "rms_normalized": 22.437468662930762
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2979.028842,
+        "std": 685.1557288869734,
+        "p50": 2597.71639,
+        "p95": 4323.07532,
+        "min": 2512.26413,
+        "max": 4323.07532
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "player_death",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2831.39446,
+        "std": 1069.9394347743498,
+        "p50": 2427.61776,
+        "p95": 4824.77403,
+        "min": 1724.36678,
+        "max": 4824.77403
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "player_death",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 289.8,
+        "y": 646,
+        "rms_normalized": 186.49868632245108
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3255.361676,
+        "std": 321.2710602874472,
+        "p50": 3027.44142,
+        "p95": 3714.73412,
+        "min": 2975.48895,
+        "max": 3714.73412
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "player_death",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2616.532364,
+        "std": 364.25648656339007,
+        "p50": 2786.53131,
+        "p95": 3110.83956,
+        "min": 2129.68088,
+        "max": 3110.83956
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "player_death",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 294.2,
+        "y": 902.2,
+        "rms_normalized": 28.752738999963114
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3292.035534,
+        "std": 835.8488194386023,
+        "p50": 2922.71825,
+        "p95": 4837.34595,
+        "min": 2462.79174,
+        "max": 4837.34595
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "player_death",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2143.232912,
+        "std": 138.22297361928963,
+        "p50": 2192.24932,
+        "p95": 2286.3256,
+        "min": 1945.10018,
+        "max": 2286.3256
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "player_death",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 164.6,
+        "y": 199,
+        "rms_normalized": 16.426807358704856
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2783.477098,
+        "std": 248.10905640437,
+        "p50": 2798.12099,
+        "p95": 3150.57779,
+        "min": 2404.27398,
+        "max": 3150.57779
+      },
+      "failures": {
+        "health_bar_mislocalized": 5
+      }
+    },
+    {
+      "scenario": "spectator_fight",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 3511.38477,
+        "std": 804.9682216085064,
+        "p50": 3616.93247,
+        "p95": 4457.57281,
+        "min": 2577.59378,
+        "max": 4457.57281
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "spectator_fight",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 81.2,
+        "y": 524,
+        "rms_normalized": 145.9430025729223
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 3433.3935260000003,
+        "std": 825.5802277071463,
+        "p50": 3561.47116,
+        "p95": 4747.50737,
+        "min": 2475.07466,
+        "max": 4747.50737
+      },
+      "failures": {
+        "hallucinated_player_hud": 5
+      }
+    },
+    {
+      "scenario": "spectator_fight",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2439.022358,
+        "std": 262.946262685658,
+        "p50": 2358.48178,
+        "p95": 2948.38737,
+        "min": 2185.46633,
+        "max": 2948.38737
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "spectator_fight",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 78.8,
+        "y": 791.8,
+        "rms_normalized": 20.33519117195607
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2576.5871700000002,
+        "std": 336.07577346036925,
+        "p50": 2382.92178,
+        "p95": 3049.78695,
+        "min": 2205.95366,
+        "max": 3049.78695
+      },
+      "failures": {
+        "hallucinated_player_hud": 5
+      }
+    },
+    {
+      "scenario": "spectator_fight",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 5,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": null,
+      "api_ms": {
+        "n": 5,
+        "mean": 2304.343312,
+        "std": 130.0168582392804,
+        "p50": 2406.66503,
+        "p95": 2409.75789,
+        "min": 2107.05112,
+        "max": 2409.75789
+      },
+      "failures": {}
+    },
+    {
+      "scenario": "spectator_fight",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 123.4,
+        "y": 332.8,
+        "rms_normalized": 275.4857528076543
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2224.377114,
+        "std": 135.3968353482847,
+        "p50": 2148.94785,
+        "p95": 2438.37791,
+        "min": 2067.32288,
+        "max": 2438.37791
+      },
+      "failures": {
+        "hallucinated_player_hud": 5
+      }
+    },
+    {
+      "scenario": "yuumi_demo",
+      "variant": "full",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 4,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 556,
+        "y": 488,
+        "rms_normalized": 145.3272169966796
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2929.441984,
+        "std": 193.44334454295344,
+        "p50": 2998.12552,
+        "p95": 3115.00763,
+        "min": 2588.40331,
+        "max": 3115.00763
+      },
+      "failures": {
+        "action_constraint": 5
+      }
+    },
+    {
+      "scenario": "yuumi_demo",
+      "variant": "full",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 480,
+        "y": 511,
+        "rms_normalized": 9.16515138991168
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2599.748744,
+        "std": 366.4777305453063,
+        "p50": 2408.96924,
+        "p95": 3183.84219,
+        "min": 2226.60518,
+        "max": 3183.84219
+      },
+      "failures": {
+        "hallucinated_player_hud": 5
+      }
+    },
+    {
+      "scenario": "yuumi_demo",
+      "variant": "grid",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 1,
+      "health_correct": 5,
+      "delivery_verified": 5,
+      "actions": {
+        "move": 4,
+        "wait": 1
+      },
+      "action_entropy_bits": 0.7219280948873623,
+      "coordinate_scatter": {
+        "x": 700,
+        "y": 537.5,
+        "rms_normalized": 155.62374497485916
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2771.356862,
+        "std": 422.4548446575368,
+        "p50": 2920.96821,
+        "p95": 3133.13958,
+        "min": 1986.93847,
+        "max": 3133.13958
+      },
+      "failures": {
+        "action_constraint": 4
+      }
+    },
+    {
+      "scenario": "yuumi_demo",
+      "variant": "grid",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 0,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 494,
+        "y": 984,
+        "rms_normalized": 16.06237840420901
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2294.730076,
+        "std": 263.5173865669639,
+        "p50": 2365.97015,
+        "p95": 2622.39687,
+        "min": 1939.98529,
+        "max": 2622.39687
+      },
+      "failures": {
+        "hallucinated_player_hud": 5
+      }
+    },
+    {
+      "scenario": "yuumi_demo",
+      "variant": "small",
+      "task": "decide",
+      "trials": 5,
+      "valid": 5,
+      "correct": 1,
+      "health_correct": 2,
+      "delivery_verified": 5,
+      "actions": {
+        "wait": 1,
+        "move": 4
+      },
+      "action_entropy_bits": 0.7219280948873623,
+      "coordinate_scatter": {
+        "x": 540,
+        "y": 615,
+        "rms_normalized": 66.89544080129826
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2634.13968,
+        "std": 159.9097350019947,
+        "p50": 2676.54821,
+        "p95": 2876.08378,
+        "min": 2443.21322,
+        "max": 2876.08378
+      },
+      "failures": {
+        "action_constraint": 4
+      }
+    },
+    {
+      "scenario": "yuumi_demo",
+      "variant": "small",
+      "task": "ground",
+      "trials": 5,
+      "valid": 5,
+      "correct": 0,
+      "health_correct": 1,
+      "delivery_verified": 5,
+      "actions": {
+        "click": 5
+      },
+      "action_entropy_bits": -0.0,
+      "coordinate_scatter": {
+        "x": 189.6,
+        "y": 200.4,
+        "rms_normalized": 4.98798556533597
+      },
+      "api_ms": {
+        "n": 5,
+        "mean": 2224.229448,
+        "std": 431.01811964502105,
+        "p50": 2241.47719,
+        "p95": 2946.19312,
+        "min": 1724.64372,
+        "max": 2946.19312
+      },
+      "failures": {
+        "hallucinated_player_hud": 5
+      }
+    }
+  ],
+  "limitations": [
+    "Static public screenshots; no live game or gameplay outcome validation.",
+    "Semantic labels are single-reviewer constraints, not expert-optimal action labels.",
+    "Repeated trials share source images and are not independent gameplay samples.",
+    "Coordinate scatter combines target actions; inspect action histograms too.",
+    "API timings include network, scheduling and generation on a shared endpoint."
+  ]
+}

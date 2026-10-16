@@ -1,0 +1,18 @@
+{
+  "trials": 450,
+  "unique_cells": 450,
+  "png_hashes_and_geometry": true,
+  "model_input_binding": true,
+  "timestamp_causality": true,
+  "complete_planned_matrix": true,
+  "source_renderer_verified": true,
+  "input_downsampling_and_static_viewport_verified": true,
+  "native_releases_keys_and_coordinates_verified": true,
+  "mouse_press_event_gaps": [
+    "83aa21442fbe47a9b4e8a254fa0bfd22",
+    "26bdd8c8028a4a25a54da5979b04d9ce",
+    "ff6399ba84e14da688e1c4c0d7236beb"
+  ],
+  "all_mouse_down_up_pairs_observed": false,
+  "changed_image_trials_safely_blocked": 1
+}

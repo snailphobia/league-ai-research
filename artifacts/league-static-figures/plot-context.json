@@ -1,0 +1,13 @@
+{
+  "matplotlib": "3.11.2",
+  "conditions": [
+    "N/full",
+    "N/small",
+    "N/grid",
+    "P/full",
+    "P/small"
+  ],
+  "normalized_manifest_sha256": "385d1c1ae94321dda9ea95f29b54caacbdc810d4033ecf207c5d914365504959",
+  "pixels_manifest_sha256": "b13f305f6ab78ed4c5b8663cb33af2df523d9cced35b759d54cf9589c3096ae0",
+  "note": "Convenience images; repeated trials are not independent gameplay samples. Follow-up is post-observation and timing is not isolated from shared load."
+}

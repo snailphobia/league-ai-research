@@ -1,11 +1,14 @@
 # League AI Research
 
-Research tooling for a visual agent that can cooperate with human players: Windows keyboard/mouse input, screen observations, and trajectory recording. The components remain independent of any game or model provider.
+Research tooling for a visual agent that can cooperate with human players:
+Windows keyboard/mouse input, screen observations, and trajectory recording.
+Input and capture remain independent of games and model providers; separate
+policy experiments include League-specific screenshot tasks.
 
 The Python API and JSON Lines CLI provide named keys, arbitrary chords, physical scan codes, virtual keys, Unicode text, pointer movement, all mouse buttons, dragging, and both wheel axes. Windows tests observe input received by independent native hooks and a real EDIT control rather than treating an API call as proof of delivery.
 
-The combined suite passes all **79 tests on Windows Server 2025**, including the
-new learned-policy feedback test. The preceding input/capture foundation passed
+The combined suite passes all **97 tests on Windows Server 2025**, including
+learned-policy feedback and native screenshot-viewer tests. The preceding input/capture foundation passed
 74 tests on both Windows 11 and Server 2025. Input coverage includes 137 distinct
 named keys, 92 modifier chords, a 14-key chord, all five mouse buttons, and
 multi-monitor coordinates. Capture tests verify pixels -> visual target -> adapter
@@ -66,6 +69,16 @@ For development:
 python -m pip install -e ".[dev]"
 python -m pytest -m "not windows"
 ```
+
+## League screenshot reactions
+
+The [recorded League screenshot study](docs/static-screenshot-results.md) contains
+600 live model trials on 14 public League screenshots and a blank control. It
+records actual capture -> DeepSeek V4.1 Flash -> SDK input -> native receipt,
+with repeated decisions, resolution changes, a coordinate-contract follow-up,
+and explicit failure/variance analysis. The execution path works; model precision
+and latency remain substantial weaknesses. See the [protocol and reproduction
+commands](docs/static-screenshot-benchmark.md) and the public per-trial records.
 
 ## Learned visual policy
 

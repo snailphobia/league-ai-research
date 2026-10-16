@@ -7,3 +7,12 @@ We carry over the idea of timestamped visual/action trajectories and a fast obse
 Our slower strategic model remains separate from that fast loop. A 20 Hz capture stream does not establish a 20 Hz policy: capture, image processing, inference, input submission, and visible application response must each be measured. The present native playground verifies capture and visual action effects with a simple pixel policy, without claiming a trained game policy.
 
 The [first learned policy experiment](visual-policy.md) compares a small CNN against the preceding exact-red vision rule on a labeled synthetic target task and held-out visual conditions. Native trials associate model predictions with captured observations, actual application-received clicks, and later visible responses. It uses direct supervised synthetic labels. Human demonstration collection, inverse-dynamics training, gameplay reward design, temporal policies, and League-specific skills remain separate work.
+
+The [real League screenshot study](static-screenshot-results.md) now records 600
+static-image VLM trials with actual Windows input receipt. Broad state recognition
+was strong on this convenience corpus, while health reading, HUD localization,
+coordinate units, and confidence were weak. The original API path averaged 2.48 s
+per response and missed every 250 ms reaction deadline. These measurements support
+keeping slower model decisions separate from a future fast perception/controller
+path. They do not establish a continuous gameplay policy or game-client input
+acceptance.

@@ -1,0 +1,128 @@
+{
+  "trials": 600,
+  "web_images": 14,
+  "negative_controls": 1,
+  "native_input_actions": 405,
+  "verified_waits": 194,
+  "changed_image_blocks": 1,
+  "model_names": {
+    "deepseek-ai/DeepSeek-V4.1-Flash": 600
+  },
+  "original_source_revision": "13cfa37fa3a2c90e03521680ae6c2d46d23f5485",
+  "continued_and_pixel_source_revision": "b8ed5aae60c268e66f5c0427f5867a980102a0c1",
+  "mechanics_regression_source_revision": "e7651ea",
+  "mechanics_ci": "https://github.com/snailphobia/league-ai-research/actions/runs/38826188141",
+  "automated_tests": 97,
+  "junit": [
+    {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "97",
+      "time": "21.445",
+      "timestamp": "2026-10-15T23:53:23.616784+00:00",
+      "hostname": "runnervm0xl3a"
+    }
+  ],
+  "original_record_preservation": {
+    "prior_trial_records": 391,
+    "all_prior_trial_files_unchanged": true,
+    "event_log_preserved_as_prefix": true,
+    "original_failure_retained": true,
+    "source_revision_original": "13cfa37fa3a2c90e03521680ae6c2d46d23f5485",
+    "source_revision_continuation": "b8ed5aae60c268e66f5c0427f5867a980102a0c1"
+  },
+  "files": [
+    {
+      "path": "artifacts/league-static-v1/audit.json",
+      "sha256": "f21c0d1def662b68c32f92f08600bab7579f95b56e751bdf8c66e7bb010fbbbb",
+      "bytes": 570
+    },
+    {
+      "path": "artifacts/league-static-v1/diagnostics.json",
+      "sha256": "ee537f7c7b6311df6aff90bf4cea6c2d57bddfd8ed0066d86186e181a997b44f",
+      "bytes": 24209
+    },
+    {
+      "path": "artifacts/league-static-v1/preservation-audit.json",
+      "sha256": "9188e898e7ea83a957ab0b58275349bdb8da593c4ecfd36317cb17fd629109ef",
+      "bytes": 306
+    },
+    {
+      "path": "artifacts/league-static-v1/run.json",
+      "sha256": "5877cdbf0d03a979a7111f7f6660ba2c93640fc81f664dbd1339d4291775406d",
+      "bytes": 757
+    },
+    {
+      "path": "artifacts/league-static-v1/summary.json",
+      "sha256": "e37abe29e1324d44fe4f63970162926fae648ee35263d2f0ae96b4a14f8aabfc",
+      "bytes": 58544
+    },
+    {
+      "path": "artifacts/league-static-v1/trials.jsonl",
+      "sha256": "625f672807aa013248a8bc825495aa760d13d2cf34e18f5cd5fa00a34db0d787",
+      "bytes": 539382
+    },
+    {
+      "path": "artifacts/league-static-v2-pixels/audit.json",
+      "sha256": "965d663fc75cc21ae3a48bfb5a2360d4d4e5ee3a99bf1dd93eb36ade9090f02c",
+      "bytes": 447
+    },
+    {
+      "path": "artifacts/league-static-v2-pixels/diagnostics.json",
+      "sha256": "217ad6664aa6fb0e9a5e5c41643b63cc5bfaca1af9b623512b60519d47566cca",
+      "bytes": 15709
+    },
+    {
+      "path": "artifacts/league-static-v2-pixels/run.json",
+      "sha256": "b7389b32b32bf29567c32f0fa473d66498d56b8c09569d6eda41c4864cde7301",
+      "bytes": 778
+    },
+    {
+      "path": "artifacts/league-static-v2-pixels/summary.json",
+      "sha256": "a1e24d89a857ef5ca2f0449da4622994158635bbc6b1b06d6551d5831d6d46aa",
+      "bytes": 21271
+    },
+    {
+      "path": "artifacts/league-static-v2-pixels/trials.jsonl",
+      "sha256": "08c07676ba9c2399d6cbd2d1296422bfd50b2666300c9c97a5ded03d00a60b2e",
+      "bytes": 183995
+    },
+    {
+      "path": "artifacts/league-static-figures/grounding-matrix.png",
+      "sha256": "a96d366c7c9e3932ac568dc0d88ecb5ddda5062c59d6cf96403d6b02b7bda05c",
+      "bytes": 212737
+    },
+    {
+      "path": "artifacts/league-static-figures/grounding-matrix.svg",
+      "sha256": "b2188b00933fb0450a01315736a53ae746b914886e258620e3f1d8053931245b",
+      "bytes": 92518
+    },
+    {
+      "path": "artifacts/league-static-figures/plot-context.json",
+      "sha256": "6dff519da452a4253a697b79f353920efa1226d00d2f20ade8566aeba2e45039",
+      "bytes": 481
+    },
+    {
+      "path": "artifacts/league-static-figures/variance-and-latency.png",
+      "sha256": "acd9ca64645b1abbd08d399e29f6ff2a432717d49013c7857aa8f7741c6bb903",
+      "bytes": 118176
+    },
+    {
+      "path": "artifacts/league-static-figures/variance-and-latency.svg",
+      "sha256": "4b74f569f557507b32566becbcd9750ec00f7848745af440d881fc5eeba2f0db",
+      "bytes": 70141
+    },
+    {
+      "path": "artifacts/league-static-mechanics/screenshot-viewer-doubleclick.json",
+      "sha256": "67271b920b785ef808d12b2388bf25352518e212cb4cbd4d5684550e6e3a631b",
+      "bytes": 1524
+    },
+    {
+      "path": "artifacts/league-static-mechanics/windows-junit.xml",
+      "sha256": "08bf3207445318f3ac5a595934952dcec7c02d977c0e52ce47fd7daa8d70a9d0",
+      "bytes": 11969
+    }
+  ]
+}

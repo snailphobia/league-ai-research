@@ -1,0 +1,90 @@
+{
+  "left": [
+    {
+      "kind": "mouse",
+      "message": 513,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388614352000
+    },
+    {
+      "kind": "mouse",
+      "message": 514,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388614594000
+    },
+    {
+      "kind": "mouse",
+      "message": 515,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388624992900
+    },
+    {
+      "kind": "mouse",
+      "message": 514,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388625195900
+    },
+    {
+      "kind": "mouse",
+      "message": 513,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388635813000
+    },
+    {
+      "kind": "mouse",
+      "message": 514,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388635988600
+    }
+  ],
+  "right": [
+    {
+      "kind": "mouse",
+      "message": 516,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388649733000
+    },
+    {
+      "kind": "mouse",
+      "message": 517,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388649894300
+    },
+    {
+      "kind": "mouse",
+      "message": 518,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388660918700
+    },
+    {
+      "kind": "mouse",
+      "message": 517,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388661159700
+    },
+    {
+      "kind": "mouse",
+      "message": 516,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388671720300
+    },
+    {
+      "kind": "mouse",
+      "message": 517,
+      "x": 512,
+      "y": 302,
+      "received_ns": 388671936300
+    }
+  ]
+}
