@@ -33,6 +33,11 @@ changes. Images, prompts, responses, action plans, native events, and timestamps
 are recorded. Scenario IDs, filenames, and annotations were excluded from model
 input. Raw web images and interactive recordings remain in the private local run;
 the repository contains source metadata, plots and all 600 compact trial records.
+The private recording bundle also retains the frozen canonical RGB corpus and
+original downloaded files. Later source rechecks found changed bytes at the hazard
+and client-store URLs; the hazard image's decoded pixels differed too. The hash
+guard correctly rejected fresh downloads. Reproduce from the frozen corpus rather than substituting current URL
+contents. The collected trials and original corpus were not changed.
 
 ## Decision and grounding results
 

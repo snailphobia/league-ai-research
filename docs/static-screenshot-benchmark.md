@@ -91,6 +91,10 @@ python scripts/download_screenshot_corpus.py --output /private/league-corpus
 The downloader rejects changed sources and mismatching existing files. Encoded
 PNG hashes are pinned as well as source hashes; reproduce with the pinned Pillow
 environment rather than silently replacing a changed file.
+For the collected study, use the private bundle's `corpus/` directory: later
+rechecks detected source-byte changes at some URLs. URLs provide provenance;
+they are not a durable replacement for the frozen dataset. The original
+downloaded files are also retained in the bundle's `originals/` directory.
 
 The client JSON contains `base_url`, `api_key`, and `model`. Give that file private
 permissions and keep it outside this repository. The API uses the documented
