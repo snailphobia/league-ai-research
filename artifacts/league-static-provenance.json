@@ -96,8 +96,8 @@
     },
     {
       "path": "artifacts/league-static-figures/grounding-matrix.svg",
-      "sha256": "0b6627d661a22f02a7d8c010709826c87cc1dc25fb8cbb8a8833037cfee8abd8",
-      "bytes": 92518
+      "sha256": "e2372c94aa35278159533d3f2527d64ecbe19efd917b3044e7b9d8bd25048071",
+      "bytes": 91717
     },
     {
       "path": "artifacts/league-static-figures/plot-context.json",
@@ -111,8 +111,8 @@
     },
     {
       "path": "artifacts/league-static-figures/variance-and-latency.svg",
-      "sha256": "3514e36dddcc3f6ff101c407d57c910298677093a5f7154bff6b31987e3d3438",
-      "bytes": 70113
+      "sha256": "dc0417a7d8ca856e0390118d4c74103369025474dfde059cc50a337d08676497",
+      "bytes": 69135
     },
     {
       "path": "artifacts/league-static-mechanics/screenshot-viewer-doubleclick.json",
